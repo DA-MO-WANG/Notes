@@ -8,3 +8,5 @@
 ​		难兄难弟：虚拟机
 
 ​		容器本质：资源隔离，减少过多依赖冲突
+​		Docker技术实现：
+​				三大技术：命名空间namespace、控制组control groups、联合文件系统 union file system
