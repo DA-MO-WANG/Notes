@@ -10,3 +10,6 @@
 ​		容器本质：资源隔离，减少过多依赖冲突
 ​		Docker技术实现：
 ​				三大技术：命名空间namespace、控制组control groups、联合文件系统 union file system
+​						namespace--》对虚拟资源切割划分，隔离的前提
+​						control groups--〉对以硬件资源隔离、资源分配-指定每个隔离环境对宿主机的占用率
+​						union file system--》直挂载更新记录，不影响真是文件系统
