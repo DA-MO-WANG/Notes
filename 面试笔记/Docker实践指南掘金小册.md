@@ -45,3 +45,5 @@ docker images   ——》查看本地所有镜像
 docker pull  镜像名 ——〉拉取指定镜像（不完全，就拉取最新版本）
 docker search  镜像名——》查看该镜像的所有版本
 Docker  inspect 镜像名——〉 查看镜像的详细信息
+docker  rmi  镜像名——》 删除指定镜像
+Docker info. ——〉查看dock er信息
