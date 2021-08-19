@@ -12,7 +12,15 @@
 ​						控制组 control groups：硬件资源分配
 ​						联合文件系统 UFS
 ​				四大组成对象：
-​						镜像images：只读的虚拟文件包，成层次的结构
-​						容器container：
-​						网络network：
-​						数据卷volume：
+​						镜像images：只读的虚拟文件包，成层次的结构，每次更新时只会增加，不会更改
+​						容器container：一种活的空间
+​						网络network：通过restapi来网络通讯进而信息交互
+​						数据卷volume：文件目录挂载
+​				产品组成：
+​						dock er engine = docker daemon + CLI. ,c/s架构
+
+###### 镜像images
+
+​		dock er镜像只允许自己打包，自己导出，自己下载。
+​		dock er每一个镜像信息，有全球唯一的64位ha sh码来标识
+​		镜像的命名逻辑：username + repository（软件名） + ta g（版本ga）
