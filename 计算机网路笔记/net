@@ -22,4 +22,7 @@
 ​		docker具体产品：
 ​				docker engine软件包：docker daemon 、docker CLI  ，c/s架构，daemon集成了各种docker核心功能，并对外提供restapi，cli负责界面
 ​		（感觉这种现象级产品，大部分都是自动化角度的优化，而这种级别的优化是建立在操作系统、网络、数据结构这样的基础上的）
+​		docker desktop原理：
+​				利用各自平台提供的虚拟化工具来营造linux环境。mac是hyperkit，
+​				主机文件挂载：我们只需要指定从容器到主机的挂载目录，至于中间的从容器到Linux环境，从Linux环境到主机，由内部实现。自动化了。
 
