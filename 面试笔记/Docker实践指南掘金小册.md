@@ -39,7 +39,11 @@
 
 ###### 配置镜像源
 
-​		
+​		配置docker-engine的json文件：增加一行 registry mirrors
+
+###### 容器网络配置
+
+​		容器网络从大面讲就是，从真实的网络环境中，独立出一套自有的网络设备
 
 ###### docker常用指令
 
@@ -48,4 +52,4 @@ docker pull  镜像名 ——〉拉取指定镜像（不完全，就拉取最新
 docker search  镜像名——》查看该镜像的所有版本
 Docker  inspect 镜像名——〉 查看镜像的详细信息
 docker  rmi  镜像名——》 删除指定镜像
-Docker info. ——〉查看dock er信息
+Docker info. ——〉查看docker信息
