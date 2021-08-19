@@ -55,7 +55,8 @@
 ​				maclan driver
 ​				none driver
 ​		容器互联：两个容器连接互动起来
-​				
+​				容器间的网络互通：
+​				暴露端口：在容器创建时 --expose  端口号		
 
 ###### docker常用指令
 
@@ -65,3 +66,4 @@ docker search  镜像名——》查看该镜像的所有版本
 Docker  inspect 镜像名——〉 查看镜像的详细信息
 docker  rmi  镜像名——》 删除指定镜像
 Docker info. ——〉查看docker信息
+Docker ps ——》查看dock er暴露的端口
