@@ -107,3 +107,5 @@ Docker info. ——〉查看docker信息</br>
 Docker ps ——》查看dock er暴露的端口</br>
 Docker network create  (-d 指定类型)——〉创建网络</br>
 Docker network ls ——》查看已经存在的网络</br>
+docker save  -o.  ./文件名.tar. ——〉镜像输出到外部
+docker  load  -i  外部文件名.tar  ——》文件导入容器内部
