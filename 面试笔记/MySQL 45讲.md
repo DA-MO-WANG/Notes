@@ -71,3 +71,9 @@
   ​						innodb_flush_log_at_trx_commit 设为1：每次事务redo log都持久化到磁盘
   ​				如何保证mysql异常重启后，binlog不丢失？
   ​						sync_binlog设为1:每次事务都持久化到磁盘	
+
+
+
+###### 事务隔离
+
+​		
