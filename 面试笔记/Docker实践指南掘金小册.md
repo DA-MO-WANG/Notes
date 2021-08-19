@@ -68,23 +68,27 @@
 
 ###### 数据存储、管理
 
-​			背景：容器是隔离的，docker中文件如何做到与外界数据进行交互？uni o nFS文件系统，支持不同文件系统挂载在同一目录结构
+​			背景：容器是隔离的，docker中文件如何做到与外界数据进行交互？uni o nFS文件系统，支持不同文件系统挂载在同一目录结构</br>
 ​			挂载方式：
-​					bind mount: 把宿主的目录和文件挂到容器系统中
-​					volume：同样，由docker管理
-​					t mpfs mount : 挂载内存到文件系统
+​					bind mount: 把宿主的目录和文件挂到容器系统中</br>
+​					volume：同样，由docker管理</br>
+​					t mpfs mount : 挂载内存到文件系统</br>
 
 ###### 镜像生成、迁移
 
-​		容器修改后，把沙盒环境持久化成一个镜像文件：
-​				指令：docker commit  原镜像名（类比git提交代码）
-​		为镜像命名：～  （-m 提交注释） 原镜像名 新镜像名
-​		把镜像输出到外部：
-​				docker save   -o  ./输出文件名.tar.  
-​		从外部导入镜像到容器：
-​				docker load  -i 外部文件名
+​		容器修改后，把沙盒环境持久化成一个镜像文件：</br>
+​				指令：docker commit  原镜像名（类比git提交代码）</br>
+​		为镜像命名：～  （-m 提交注释） 原镜像名 新镜像名</br>
+​		把镜像输出到外部：</br>
+​				docker save   -o  ./输出文件名.tar. </br>
+​				或者：docker export -o  ./ 输出文件名.tar.  新镜像命名</br>
+​		从外部导入镜像到容器：</br>
+​				docker load  -i 外部文件名</br>
+​				或者：docker import ./ 输出文件名.tar.  新镜像命名</br>
 
+###### 基于dockerfile 的镜像迁移
 
+​		
 
 
 
