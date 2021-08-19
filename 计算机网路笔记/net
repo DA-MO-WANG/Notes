@@ -25,4 +25,5 @@
 ​		docker desktop原理：
 ​				利用各自平台提供的虚拟化工具来营造linux环境。mac是hyperkit，
 ​				主机文件挂载：我们只需要指定从容器到主机的挂载目录，至于中间的从容器到Linux环境，从Linux环境到主机，由内部实现。自动化了。
+​				docker镜像必须由docker打包，导出，导入
 
