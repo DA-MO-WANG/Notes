@@ -24,4 +24,7 @@
 ​		dock er镜像只允许自己打包，自己导出，自己下载。
 ​		dock er每一个镜像信息，有全球唯一的64位hash码来标识
 ​		镜像的命名逻辑：username （谁发布的）+ repository（软件名） + tag（版本号）
-​		
+​		镜像的生命周期：
+​				核心状态：created-- running--- passed--- stopped---deleted![image-20210819132456539](../README.assets/image-20210819132456539.png)
+
+​			
