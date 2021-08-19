@@ -22,5 +22,6 @@
 ###### 镜像images
 
 ​		dock er镜像只允许自己打包，自己导出，自己下载。
-​		dock er每一个镜像信息，有全球唯一的64位ha sh码来标识
-​		镜像的命名逻辑：username （谁发布的）+ repository（软件名） + ta g（版本号）
+​		dock er每一个镜像信息，有全球唯一的64位hash码来标识
+​		镜像的命名逻辑：username （谁发布的）+ repository（软件名） + tag（版本号）
+​		
