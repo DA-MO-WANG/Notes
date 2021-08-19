@@ -27,4 +27,5 @@
 ​		镜像的生命周期：
 ​				核心状态：created-- running--- passed--- stopped---deleted![image-20210819132456539](../README.assets/image-20210819132456539.png)
 
-​			
+​				主进程与容器的关系：
+​						容器的兴衰和容器内pid编号为1的进程绑在一起的。所以推荐一个容器对应一个程序。
