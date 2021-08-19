@@ -86,9 +86,10 @@
 ​				docker load  -i 外部文件名</br>
 ​				或者：docker import ./ 输出文件名.tar.  新镜像命名</br>
 
-###### 基于dockerfile 的镜像迁移
+###### 基于镜像构建定义文件dockerfile 的镜像迁移
 
-​		
+​		docker file 简单体积小，所以在网络传输很快，所以方便容器迁移
+​		dockerfile 本质就是一个普通文本文件，但有一套自己独有的指令语法：指令+参数				
 
 
 
