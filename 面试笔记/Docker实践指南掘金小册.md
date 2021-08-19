@@ -54,6 +54,8 @@
 ​				overlay driver(多)：借助集群模块docker. swarm来搭建
 ​				maclan driver
 ​				none driver
+​		容器互联：两个容器连接互动起来
+​				
 
 ###### docker常用指令
 
