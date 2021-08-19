@@ -56,7 +56,8 @@
 ​				none driver
 ​		容器互联：两个容器连接互动起来
 ​				容器间的网络互通：
-​				暴露端口：在容器创建时 --expose  端口号		
+​				暴露端口：在容器创建时 --expose  端口号
+​				别名来连接		
 
 ###### docker常用指令
 
@@ -67,3 +68,5 @@ Docker  inspect 镜像名——〉 查看镜像的详细信息
 docker  rmi  镜像名——》 删除指定镜像
 Docker info. ——〉查看docker信息
 Docker ps ——》查看dock er暴露的端口
+Docker network create  (-d 指定类型)——〉创建网络
+Docker network ls ——》查看已经存在的网络
