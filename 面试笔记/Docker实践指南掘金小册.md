@@ -48,7 +48,12 @@
 ​				沙盒 sandbox：包含了端口套接字、IP路由表、防火墙这些
 ​				网络 network：虚拟子网
 ​				端点 endpoint：出入口
-​		
+​		五种网络驱动：
+​				bridge driver(多)：网桥实现网络通讯
+​				host driver
+​				overlay driver(多)：借助集群模块docker. swarm来搭建
+​				maclan driver
+​				none driver
 
 ###### docker常用指令
 
