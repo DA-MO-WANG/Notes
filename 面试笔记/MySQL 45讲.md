@@ -64,4 +64,8 @@
   ​						3.执行更新操作，写入到内存的行数据中
   ​						4.写入redolog , redo处于prepare状态
   ​						5.写入bin log，把bin log持久化
-  ​						6.调用引擎执行事务提交接口，把redo log改成commit状态		
+  ​						6.调用引擎执行事务提交接口，把redo log改成commit状态	
+  ​				两阶段提交机制：
+  ​						如果redo写在立即提交，很容易出现，各种数据不一致问题。比如先写redo ，在写bin之前挂了，那么redo生效的，数据库的值已经改了，但是当利用binlog恢复数据时，就会少一次更新。临时库与真实库不一致——》比如误操作恢复场景；备库操作时
+  ​				如何保证mysql异常重启后数据不丢失？
+  ​						innodb_flush_log_at_trx_commit shewe	
