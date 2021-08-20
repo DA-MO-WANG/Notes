@@ -27,6 +27,8 @@
 ​			还没git add ---->git restore filename  或者 ideal. rollback
 ​			git add了但还没git commit ---->git reset HEAD  filename 
 ​			git commit 但没git push ----> 回退版本
+​		5.工作区删除文件，版本库如何保持一致
+​			git rm filename
 
 ​								
 
