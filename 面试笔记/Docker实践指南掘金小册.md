@@ -138,7 +138,15 @@
 ​				service：配置核心部分，主要是容器的细节
 
 ​		启动与停止：
-​				
+
+![image-20210820150531119](../README.assets/image-20210820150553218.png)
+
+
+
+​					停止：sudo docker-compose  down : 停止所有容器，消除所有配置
+​		compose
+
+
 
 
 
