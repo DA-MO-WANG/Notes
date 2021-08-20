@@ -117,57 +117,73 @@
 
 ###### 如何使用docker hub中的镜像？
 
-​		只要有外网，那么不从0开发才是工作选择，用别人的镜像来做；内网环境下，还是得自己写dockerfile
-​		学会在dockerhub中，如何选择自己需要的镜像，如何识别tag;
-​		学会识别dockerhub中怎么看配置说明来初始化
-​		学会共享到dockerhub中自己的镜像
+​		只要有外网，那么不从0开发才是工作选择，用别人的镜像来做；内网环境下，还是得自己写dockerfile</br>
+​		学会在dockerhub中，如何选择自己需要的镜像，如何识别tag;</br>
+​		学会识别dockerhub中怎么看配置说明来初始化</br>
+​		学会共享到dockerhub中自己的镜像</br>
 
 
 
 ###### Docker compose 管理容器												
 
-​		docker compose用来解决，复杂的容器互联、网络配置等问题，讲容器运行的环境固化下来，有利于快速切换环境
-​		使用逻辑：
-​				1.编写容器所需镜像的dockerfile
-​				2.编写配置容器的docker-compose.yml
-​				3.使用docker-compose命令启动应用
+​		docker compose用来解决，复杂的容器互联、网络配置等问题，讲容器运行的环境固化下来，有利于快速切换环境</br>
+​		使用逻辑：</br>
+​				1.编写容器所需镜像的dockerfile</br>
+​				2.编写配置容器的docker-compose.yml</br>
+​				3.使用docker-compose命令启动应用</br>
 ​		
 
-​		docker-compose配置语法：
-​				version：这个yml的版本
-​				service：配置核心部分，主要是容器的细节
+​		docker-compose配置语法：</br>
+​				version：这个yml的版本</br>
+​				service：配置核心部分，主要是容器的细节</br>
 
-​		启动与停止：
+​		启动与停止：</br>
 
 ![image-20210820150531119](../README.assets/image-20210820150553218.png)
 
 
 
-​					停止：sudo docker-compose  down : 停止所有容器，消除所有配置
-​		compose版其他命令：
-​				查询日志信息---以前容器时针对单个容器：现在是针对服务名，直接找服务名
-​				服务的启动活着停止---直接把docker替换成 docker - compose
+​					停止：sudo docker-compose  down : 停止所有容器，消除所有配置</br>
+​		compose版其他命令：</br>
+​				查询日志信息---以前容器时针对单个容器：现在是针对服务名，直接找服务名</br>
+​				服务的启动活着停止---直接把docker替换成 docker - compose</br>
 
 ###### yml文件的配置写法
 
-​		指定镜像：有两种用法，一种是images，只能指定仓库中有的；一种是借助build，自己来生成
-​		指定启动：顺序：因为服务是有依赖的，而启动又不是严格从上到下，所以安排了一个属性 depends_on
-​		文件挂载：？
-​		使用数据卷：？
-​		网络配置：networks指定
-​		网络别名：？
-​		端口映射：ports来指定，小bug，为了不被识别成时间，用双引号包裹：“主机端口：容器端口”
+​		指定镜像：有两种用法，一种是images，只能指定仓库中有的；一种是借助build，自己来生成</br>
+​		指定启动：顺序：因为服务是有依赖的，而启动又不是严格从上到下，所以安排了一个属性 depends_on</br>
+​		文件挂载：？</br>
+​		使用数据卷：？</br>
+​		网络配置：networks指定</br>
+​		网络别名：？</br>
+​		端口映射：ports来指定，小bug，为了不被识别成时间，用双引号包裹：“主机端口：容器端口”</br>
 
-实战一个项目
-		1.设计项目的目录结构
-				bin---存放脚本
-				compose---存放docker-compose.yml文件
-				各种服务的目录
-				website---代码
+实战一个项目</br>
+		1.设计项目的目录结构</br>
+				bin---存放脚本</br>
+				compose---存放docker-compose.yml文件</br>
+				各种服务的目录</br>
+				website---代码</br>
 
-​		2.编写docker-compose.yml文件
-​		3.目录挂载：挂载配置；挂载输出目录；挂载已经编译好的程序
-​		4.辅助脚本
+​		2.编写docker-compose.yml文件</br>
+​		3.目录挂载：挂载配置；挂载输出目录；挂载已经编译好的程序</br>
+​		4.辅助脚本</br>
+
+###### 搭建协同开发环境
+
+
+
+
+
+###### 如何搭建java web 项目运行环境
+
+
+
+
+
+###### 如何使用服务发现
+
+
 
 
 
@@ -182,5 +198,5 @@ Docker info. ——〉查看docker信息</br>
 Docker ps ——》查看dock er暴露的端口</br>
 Docker network create  (-d 指定类型)——〉创建网络</br>
 Docker network ls ——》查看已经存在的网络</br>
-docker save  -o.  ./文件名.tar. ——〉镜像输出到外部
-docker  load  -i  外部文件名.tar  ——》文件导入容器内部
+docker save  -o.  ./文件名.tar. ——〉镜像输出到外部</br>
+docker  load  -i  外部文件名.tar  ——》文件导入容器内部</br>
