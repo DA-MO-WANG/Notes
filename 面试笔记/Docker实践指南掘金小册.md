@@ -120,9 +120,13 @@
 ​		只要有外网，那么不从0开发才是工作选择，用别人的镜像来做；内网环境下，还是得自己写dockerfile
 ​		学会在dockerhub中，如何选择自己需要的镜像，如何识别tag;
 ​		学会识别dockerhub中怎么看配置说明来初始化
-​		学会共享到dockerhub中自己的镜像												
+​		学会共享到dockerhub中自己的镜像
 
 
+
+###### Docker compose 管理容器												
+
+​		
 
 
 
