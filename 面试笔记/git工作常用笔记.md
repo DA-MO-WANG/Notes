@@ -23,6 +23,10 @@
 ​		3.后知后觉，觉得把文件改差了，要返回到开始改差的上一个刻重新开始
 ​				git log : 从最近的一次提交到最远的一次提交，开始从上往下罗列
 ​				git  reset  (--hard  指定版本号)：当前版本号用head代指，head^ 指head基础上上一个版本，几个^代表汪过去推几个版本--相对概念的版本号标记；也可以用绝对标记-commit ID
+​		4.在经历一大串修改后，突然发现改错了，但是还没推送到远端
+​			还没git add ---->git restore filename  或者 ideal. rollback
+​			git add了但还没git commit ---->git reset HEAD  filename 
+​			git commit 但没git push ----> 回退版本
 
 ​								
 
