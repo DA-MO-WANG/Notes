@@ -144,7 +144,8 @@
 
 
 ​					停止：sudo docker-compose  down : 停止所有容器，消除所有配置
-​		compose
+​		compose版其他命令：
+​				
 
 
 
