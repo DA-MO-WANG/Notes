@@ -126,13 +126,19 @@
 
 ###### Docker compose 管理容器												
 
-​		docker compose用来解决，复杂的容器互联、网络配置等问题，讲容器运行的环境固化下来
+​		docker compose用来解决，复杂的容器互联、网络配置等问题，讲容器运行的环境固化下来，有利于快速切换环境
 ​		使用逻辑：
 ​				1.编写容器所需镜像的dockerfile
 ​				2.编写配置容器的docker-compose.yml
 ​				3.使用docker-compose命令启动应用
+​		
 
+​		docker-compose配置语法：
+​				version：这个yml的版本
+​				service：配置核心部分，主要是容器的细节
 
+​		启动与停止：
+​				
 
 
 
