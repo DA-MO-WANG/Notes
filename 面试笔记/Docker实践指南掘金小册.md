@@ -145,7 +145,8 @@
 
 ​					停止：sudo docker-compose  down : 停止所有容器，消除所有配置
 ​		compose版其他命令：
-​				
+​				查询日志信息---以前容器时针对单个容器：现在是针对服务名，直接找服务名
+​				服务的启动活着停止---直接把docker替换成 docker - compose
 
 
 
