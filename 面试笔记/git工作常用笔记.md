@@ -91,7 +91,12 @@
 ​						怎么对一个分支打tag: 先切换到目标分支；git tag 版本号  对应的commitID(不写，默认是最新commitID)						git tag 来查看现存的版本列表
 ​						查看tag具体信息：git show 标签名
 ​						给标签加说明： -a 版本号 -m  说明
-​						删除 -d						
+​						删除 -d
+​						推送到远程：
+​								git  push  origin 本地版本
+​								git push origin -tags :所有版本
+​						远程删除：
+​														
 
 ​								
 
