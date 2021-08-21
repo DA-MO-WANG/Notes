@@ -82,21 +82,23 @@
 ​			        把合并也当作一种提交来处理：在合并是加 --no-ff参数</br>
 
 ​			10.多人协作场景</br>
-​						多个人拉取同一个dev分支，然后因为每个人不是同时提交，必然会出现第二个人提交时有冲突----》要求提交前，一定得先pull一下，让本地提交在dev上提交。这里就会涉及几个错误：
-​						no tracking ----->让本地和远程建立连接：git branch --set-upstream-to=origin/远程分支  本地分支
+​						多个人拉取同一个dev分支，然后因为每个人不是同时提交，必然会出现第二个人提交时有冲突----》要求提交前，一定得先pull一下，让本地提交在dev上提交。这里就会涉及几个错误：</br>
+​						no tracking ----->让本地和远程建立连接：git branch --set-upstream-to=origin/远程分支  本地分支</br>
 ​						解决冲突
-​			11.打版场景
-​						用tag标签，代替commit ID
+​			11.打版场景</br>
+​						用tag标签，代替commit ID</br>
 
-​						怎么对一个分支打tag: 先切换到目标分支；git tag 版本号  对应的commitID(不写，默认是最新commitID)						git tag 来查看现存的版本列表
-​						查看tag具体信息：git show 标签名
-​						给标签加说明： -a 版本号 -m  说明
-​						删除 -d
-​						推送到远程：
-​								git  push  origin 本地版本
-​								git push origin -tags :所有版本
-​						远程删除：
-​														
+​						怎么对一个分支打tag: 先切换到目标分支；git tag 版本号  对应的commitID(不写，默认是最新commitID)</br>						git tag 来查看现存的版本列表</br>
+​						查看tag具体信息：git show 标签名</br>
+​						给标签加说明： -a 版本号 -m  说明</br>
+​		
+​						推送到远程：</br>
+​								git  push  origin 本地版本</br>
+​								git push origin -tags :所有版本</br>
+​						远程删除：</br>
+
+​								git  tag -d 版本号</br>
+​								git push origin :refs/tags/版本号	</br>													
 
 ​								
 
