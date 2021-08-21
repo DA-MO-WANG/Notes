@@ -80,4 +80,10 @@
 ​				用git的命令工具：
 ​						先保存工作到一半的现场：git stash (作用于当前分支)
 ​						重新在一个分支上再开一个issue-101分支，修复提交
+​						如何恢复dev现场：先切换到dev分支，ran
+
+​	
+
 ​						若是dev分支上也存在：
+​								把修复的那个变化提交到dev上：(前提：先切换到dev分支-git branch确认一下)git cherry-pick bug修复的commit ID
+​						
