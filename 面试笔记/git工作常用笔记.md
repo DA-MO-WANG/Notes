@@ -106,7 +106,7 @@
 ​						先添加到暂存区---
 ​						提交到本地当前分支上---建立当前分支和远程分支的连接：git branch --set-upstream-to=origin/远程分支  本地分支-----
 ​						git push (省略了  origin  远程分支：本地分支)
-​						在远程平台操作：点branch---点new request---
+​						在远程平台操作：点branch---点new request，发起PR---等待有权限的人 merge 同意
 
 ​		3.在2基础上，其他人先一步更新了dev，我如何推送
 		4.		
