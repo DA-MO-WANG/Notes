@@ -78,7 +78,7 @@
 
 ​			10.多人协作场景</br>
 ​						多个人拉取同一个dev分支，然后因为每个人不是同时提交，必然会出现第二个人提交时有冲突----》要求提交前，一定得先pull一下，让本地提交在dev上提交。这里就会涉及几个错误：
-​						no tracking ----->让本地和远程建立连接：git branch --set-upstream-to=origin/dev dev
+​						no tracking ----->让本地和远程建立连接：git branch --set-upstream-to=origin/远程分支  本地分支
 ​						解决冲突
 
 ​								
@@ -99,4 +99,9 @@
 ​						若是dev分支上也存在：v
 ​								把修复的那个变化提交到dev上：(前提：先切换到dev分支-git branch确认一下)git cherry-pick bug修复的commit ID</br>
 
-​		 2.						
+​        2.从master分支开一个dev分支，然后从dev分支开发，然后提交，然后合并到master	
+
+
+
+		3.在2基础上，其他人先一步更新了dev，我如何推送
+		4.		
