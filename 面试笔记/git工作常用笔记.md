@@ -89,7 +89,7 @@
 ​						用tag标签，代替commit ID
 
 ​						怎么对一个分支打tag: 先切换到目标分支；git tag 版本号  对应的commitID(不写，默认是最新commitID)						git tag 来查看现存的版本列表
-​												
+​						查看tag具体信息：git show 标签名						
 
 ​								
 
