@@ -98,4 +98,5 @@
 
 ​						若是dev分支上也存在：v
 ​								把修复的那个变化提交到dev上：(前提：先切换到dev分支-git branch确认一下)git cherry-pick bug修复的commit ID</br>
-​						
+
+​		 2.						
