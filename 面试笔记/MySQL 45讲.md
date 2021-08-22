@@ -96,4 +96,6 @@
 ​					为什么不推荐使用长事务？
 ​							长事务意味着老事务视图，事务只要还没提交，所涉及到的回滚记录就得保留，这就需要占用大量空间。
 ​					如何正确启动事务，避免长事务？
-​							set autocommit = 0 ，这个关闭自动提交的指令容易导致长事务。												
+​							set autocommit = 0 ，这个关闭自动提交的指令容易导致长事务。因为你忘了主动执行commit或rollback就会导致意外长事务。
+​							建议使用 set. Auto commit =1 显式启动事务。这样就得来一套：bei gin/start. Transaction.  ------  commit
+​							对于频繁使用事务的业务，可以使用 commit work. and chain. 这样就省去了第二次的begin												
