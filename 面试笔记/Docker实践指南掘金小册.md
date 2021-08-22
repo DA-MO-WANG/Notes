@@ -198,7 +198,8 @@
 ​						配置端口 宿主机端口：容器端口：-p  3306:3306
 ​						配置密码 ：-e MYSQL_ROOT_PASSWORD=123456	
 ​	    启动容器内的应用：docker exec -it 应用名 bash
-​		登录mysql：mysql -h localhost -u root -p					
+​		登录mysql：mysql -h localhost -u root -p
+​		设置mysql远程连接：					
 
 ###### docker常用指令
 
