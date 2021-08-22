@@ -98,4 +98,7 @@
 ​					如何正确启动事务，避免长事务？
 ​							set autocommit = 0 ，这个关闭自动提交的指令容易导致长事务。因为你忘了主动执行commit或rollback就会导致意外长事务。
 ​							建议使用 set. Auto commit =1 显式启动事务。这样就得来一套：bei gin/start. Transaction.  ------  commit
-​							对于频繁使用事务的业务，可以使用 commit work. and chain. 这样就省去了第二次的begin												
+​							对于频繁使用事务的业务，可以使用 commit work. and chain. 这样就省去了第二次的begin
+​							如何查询长事务？
+​							在information_schema库里的innodb_trx表中查询：比如查询超过60s:
+​									select * from information_schema.innodb_trx where  TIME_TO_SEC(timediff(now(),trx_started))												
