@@ -191,15 +191,17 @@
 
 ###### 如何在mac上搭建本地开发环境- mysql？
 
-​		把镜像拉下来： docker pull mysql:latest
-​				ps:是否指定版本--->先去查看有什么版本
-​		生成启动容器：docker run  (-itd   配置参数) 容器名
-​				ps: 配置容器名： --name mysql
-​						配置端口 宿主机端口：容器端口：-p  3306:3306
-​						配置密码 ：-e MYSQL_ROOT_PASSWORD=123456	
-​	    启动容器内的应用：docker exec -it 应用名 bash
-​		登录mysql：mysql -h localhost -u root -p
-​		设置mysql远程连接：					
+		把镜像拉下来： docker pull mysql:latest
+				ps:是否指定版本--->先去查看有什么版本
+		生成启动容器：docker run  (-itd   配置参数) 容器名
+				ps: 配置容器名： --name mysql
+						配置端口 宿主机端口：容器端口：-p  3306:3306
+						配置密码 ：-e MYSQL_ROOT_PASSWORD=123456	
+	    启动容器内的应用：docker exec -it 应用名 bash
+		登录mysql：mysql -h localhost -u root -p
+		设置mysql远程连接：	1 use mysql;ALTER user 'root'@'%' IDENTIFIED WITH mysql_native_password BY '123456';FLUSH PRIVILEGES;
+		重启容器：docker restart CONTAINER ID
+​		
 
 ###### docker常用指令
 
