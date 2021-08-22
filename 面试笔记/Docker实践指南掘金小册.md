@@ -187,6 +187,12 @@
 
 
 
+###### 如何在mac上搭建本地开发环境- mysql？
+
+​		把镜像拉下来： docker pull mysql:latest
+​				ps:是否指定版本--->先去查看有什么版本
+​		生成启动容器：
+
 ###### docker常用指令
 
 docker images   ——》查看本地所有镜像</br>
