@@ -101,4 +101,8 @@
 ​							对于频繁使用事务的业务，可以使用 commit work. and chain. 这样就省去了第二次的begin
 ​							如何查询长事务？
 ​							在information_schema库里的innodb_trx表中查询：比如查询超过60s:
-​									select * from information_schema.innodb_trx where  TIME_TO_SEC(timediff(now(),trx_started))												
+​									select * from information_schema.innodb_trx where  TIME_TO_SEC(timediff(now(),trx_started)) > 60
+
+###### 索引												
+
+​		
