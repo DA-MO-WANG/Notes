@@ -196,7 +196,9 @@
 ​		生成启动容器：docker run  (-itd   配置参数) 容器名
 ​				ps: 配置容器名： --name mysql
 ​						配置端口 宿主机端口：容器端口：-p  3306:3306
-​						
+​						配置密码 ：-e MYSQL_ROOT_PASSWORD=123456	
+​	    启动容器内的应用：docker exec -it 应用名 bash
+​		登录mysql：mysql -h localhost -u root -p					
 
 ###### docker常用指令
 
