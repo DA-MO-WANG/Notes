@@ -161,4 +161,11 @@
 ​				1.确认是否使用了set。auto commit = 0
 ​						可以在测试环境，把mysql的general_log开起来，随便跑一个业务逻辑，通过general_log日志来确认。一般框架如果会设置这个值，也就会提供参数来控制行为，然后把它改为1；
 ​				2.找有没有不必要的只读事务。有些框架会习惯不管什么语句先用begin/commit框起来，这种只读事务可以去掉
-​				3.业务连接数据库的时候，根据对业务的预估，通过set max_execution_time命令，控制每个语句的执行最长时间，避免单个语句意外执行
+​				3.业务连接数据库的时候，根据对业务的预估，通过set max_execution_time命令，控制每个语句的执行最长时间，避免单个语句意外执行太长。
+​		
+
+​			数据库端：
+​					1.监控information_schema.innodb_trx表，设置长事务阈值，超过就报警/kill
+​					2.Percona的pt-kill 工具
+​					3.在业务功能测试阶段输出所有general_log，分析日志行为提前发现问题
+​					4.如果是mysql 5.6版本以前，把innodb_undo_tablespaces设置成2，即使出现大事务回滚段过大，清理以后也方便。
