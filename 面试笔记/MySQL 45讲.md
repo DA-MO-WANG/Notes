@@ -169,3 +169,4 @@
 ​					2.Percona的pt-kill 工具
 ​					3.在业务功能测试阶段输出所有general_log，分析日志行为提前发现问题
 ​					4.如果是mysql 5.6版本以前，把innodb_undo_tablespaces设置成2，即使出现大事务回滚段过大，清理以后也方便。
+
