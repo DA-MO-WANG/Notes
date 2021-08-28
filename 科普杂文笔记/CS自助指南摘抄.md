@@ -7,7 +7,10 @@
 ​		最大的领域的通识基础：
 ​				编程
 ​				理由：了解接触编程根子上的概念
-​				视频材料：Brian Harvey BerkeleyCS61A \mit
+​				视频系统材料：Brian Harvey BerkeleyCS61A \mit 6.?系列
+​				文字系统材料：计算机构造与解释
+
+​				
 
 ​		地基分支：
 ​				
