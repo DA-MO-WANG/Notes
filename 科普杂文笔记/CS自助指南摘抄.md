@@ -10,5 +10,5 @@
 ​				视频系统材料：Brian Harvey BerkeleyCS61A \mit 6.?系列
 ​				文字系统材料：计算机构造与解释
 
-​				![image-20210828133610628](../../Library/Application Support/typora-user-images/image-20210828133610628.png)
+​				![image-20210828133610628](../README.assets/image-20210828133610628.png)
 
