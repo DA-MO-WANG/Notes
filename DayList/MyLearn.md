@@ -379,4 +379,9 @@
 
 ###### 论长者之言
 
-​		<img src="/Users/richheart/Notes/README.assets/">
+​		<img src="/Users/richheart/Notes/README.assets/image-20210906121922169.png">
+
+
+
+
+
