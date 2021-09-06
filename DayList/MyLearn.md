@@ -379,10 +379,8 @@
 
 ###### 论长者之言
 
-​		<img src="/Users/richheart/Notes/README.assets/image-20210906121922169.png">
+说的很好，我有时候看不破自己的学历，自己的一些小成就，其实学历也好也不过是时间的东西。没什么牛逼不牛逼的。既不要拿来压别人，也不必拿别人的来压自己。		<img src="/Users/richheart/Notes/README.assets/image-20210906121922169.png">
 
+是的，我发现一个人成长真不是和在社会中成长一个速度。
 
-
-![image-20210906125216586](MyLearn.assets/image-20210906125216586.png)
-
-<img src="/Users/richheart/Notes/README.assets/image-20210906121922169.png">image-20210906125216586.png
+<img src="/Users/richheart/Notes/README.assets/image-20210906125216586.png">
