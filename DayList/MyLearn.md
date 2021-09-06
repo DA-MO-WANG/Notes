@@ -379,4 +379,4 @@
 
 ###### 论长者之言
 
-​		
+​		<img src="/Users/richheart/Notes/README.assets/">
