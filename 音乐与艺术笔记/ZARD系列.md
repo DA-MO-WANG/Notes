@@ -36,10 +36,10 @@
 
 ###### Good night sweetheart
 
-​		你说：我会忘了她的是
+​		你说：我会忘了她的事
 ​		光是你对我这么说  就够了
 ​		如果是那么温柔的谎言  那又何妨呢
-​		我不是很喜欢。现在的你
+​		我不是很喜欢  现在的你
 ​		因为  你总是在生气
 ​		希望你能更开朗的  笑着说喜欢你
 ​		总是配合着  你的脚步
@@ -63,4 +63,12 @@
 ​		黎明若近
 ​		新的一天 就会诞生
 ​		今天为了我 明天为了你
-​		
+​		睡着了一定能让寂寞全忘了吧
+​		对着梦中的你  good-night 
+​		good-night sweet heart 晚安
+​		将梦中的你紧紧抱住
+​		good-night sweet heart
+​		good-night till we meet tomorrow
+​		good-night sweet heart
+​		good-night till we meet tomorrow
+​		...		
