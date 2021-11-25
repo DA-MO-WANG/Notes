@@ -26,15 +26,16 @@ sudo yum install -y yum-utils
 yum install docker-ce docker-ce-cli containers.io
 ```
 
-安装指定版本：
+- 安装指定版本
 
 ```shell
 yum list docker-ce —showduplicates | sort -r
 sudo yum install docker-ce-(版本号：冒号和-之间的数字) docker-ce-cli-版本号 containers.io -y
 ```
 
-改变挂载目录
-	默认目录是 /var/lib/docker; 创建目标目录; 创建json文件, 注册阿里云账号，配置镜像加速器
+- 改变挂载目录
+
+  ​		默认目录是 /var/lib/docker; 创建目标目录; 创建json文件, 注册阿里云账号，配置镜像加速器
 
 ```shell
 mkdir -p /etc/docker
@@ -52,6 +53,25 @@ vi /etc/docker/daemon.json
 ```shell
 systemctl enable docker
 systemctl daemon-reload
-ss
+systemctl start docker
 ```
 
+- 查看docker相关信息
+
+  ```shell
+  docker info
+  ```
+
+- 拉取镜像
+
+  ```shell
+  docker pull 镜像名
+  ```
+
+- 运行容器
+
+  ```shell
+  docker run 镜像
+  ```
+
+  
