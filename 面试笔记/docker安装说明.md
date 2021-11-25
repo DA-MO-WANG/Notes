@@ -7,7 +7,7 @@
 3.如何利用yum下载？
 
 ​		 下载依赖包
-​				`sudo yum install -y yum-utils`
+​				```sudo yum install -y yum-utils
 
 ​		
 
