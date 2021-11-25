@@ -6,15 +6,25 @@
 
 3.如何利用yum下载？
 
-​		 下载依赖包
-​				```sudo yum install -y yum-utils
+- ​	下载依赖包				
 
-​		
+```shell
+sudo yum install -y yum-utils
+```
 
- 	1) `sudo yum install -y yum-utils`：下载依赖包
-      \2) 添加docker版本仓库：sudo yum-config-manager \
-      	—add-repo \
-      	https:// [download.docker.com/linux/centos/docker-ce.repo](http://download.docker.com/linux/centos/docker-ce.repo)
+- 添加docker版本仓库
+
+  ```shell
+  sudo yum-config-manager \
+  	—add-repo \
+   	https:// [download.docker.com/linux/centos/docker-ce.repo](http://download.docker.com/linux/centos/docker-ce.repo)
+  ```
+
+  
+
+sudo yum-config-manager \
+ 	—add-repo \
+ 	https:// [download.docker.com/linux/centos/docker-ce.repo](http://download.docker.com/linux/centos/docker-ce.repo)
 
 ​	3) 下载最新版本：yum install docker-ce docker-ce-cli [containers.io](http://containers.io)
  \4) 安装指定版本：
