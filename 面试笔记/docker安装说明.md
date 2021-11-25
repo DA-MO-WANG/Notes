@@ -16,24 +16,34 @@ sudo yum install -y yum-utils
 
   ```shell
   sudo yum-config-manager \
-  	—add-repo \
-   	https:// [download.docker.com/linux/centos/docker-ce.repo](http://download.docker.com/linux/centos/docker-ce.repo)
+  	--add-repo \
+   	https://download.docker.com/linux/centos/docker-ce.repo
   ```
 
-  
+- 下载最新版本
 
-sudo yum-config-manager \
- 	—add-repo \
- 	https:// [download.docker.com/linux/centos/docker-ce.repo](http://download.docker.com/linux/centos/docker-ce.repo)
+```shell
+yum install docker-ce docker-ce-cli containers.io
+```
 
-​	3) 下载最新版本：yum install docker-ce docker-ce-cli [containers.io](http://containers.io)
- \4) 安装指定版本：
- 	yum list docker-ce —showduplicates | sort -r：看一下版本列表
+- 安装指定版本：
 
-​		sudo yum install docker-ce-(版本号：冒号和-之间的数字) docker-ce-cli-版本号 [containers.io](http://containers.io) -y
+  ```shell
+  yum list docker-ce —showduplicates | sort -r
+  sudo yum install docker-ce-(版本号：冒号和-之间的数字) docker-ce-cli-版本号 containers.io -y
+  ```
 
-​	5) 改变挂载目录
- 	默认目录是 /var/lib/docker
+  - 改变挂载目录
+    	默认目录是 /var/lib/docker; 创建目标目录;
+
+    ```shell
+    mkdir -p /etc/docker
+    vi /etc/docker/daemon.json
+    ```
+
+    
+
+-  	默认目录是 /var/lib/docker
 
 ​		创建目标目录：mkdir -p /etc/docker
  	创建json文件：vi /etc/docker/daemon.json
