@@ -62,11 +62,17 @@ systemctl start docker
   docker info
   ```
 
-- 拉取镜像
+  - 拉取镜像
 
-  ```shell
-  docker pull 镜像名
-  ```
+    ```shell
+    docker pull 镜像名
+    ```
+
+    ​		镜像名的构造：3部分
+    ​				域名 ：端口号（不写默认是官方仓库）
+
+    ​				/仓库名 ：用户名/软件名（用户名/不写默认是library）
+    ​				:标签  ：			
 
 - 运行容器
 
