@@ -80,4 +80,10 @@ systemctl start docker
   docker run 镜像
   ```
 
+  整理镜像时，想删除不需要的镜像：
+
+  ```shell
+  docker rmi -f 镜像名
+  ```
+
   
