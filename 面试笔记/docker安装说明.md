@@ -119,3 +119,17 @@ docker运行的流程：
 		分配网络虚拟接口
 		分配IP地址
 		
+
+看一下容器运行列表
+
+```shell
+docker ps 
+```
+
+​			-a 已经退出的也显示
+删除容器
+
+```shell
+docker rm -f 容器ID
+```
+
