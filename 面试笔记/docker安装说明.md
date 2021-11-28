@@ -133,3 +133,9 @@ docker ps
 docker rm -f 容器ID
 ```
 
+让容器停下来
+
+```shell
+docker stop 容器唯一标识
+```
+
