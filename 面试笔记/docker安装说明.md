@@ -178,6 +178,8 @@ docker run --name 别名 -d （-p 物理机端口:容器端口）  应用程序
 
 ```shell
 docket run -tid (--link 被连接方容器名1) --name 连接主动方容器名2 镜像  top
+#进入容器内部
+docker exec -it 容器名 /bin/sh
 ```
 
 ​				一个网络
@@ -187,5 +189,17 @@ docket run -tid (--link 被连接方容器名1) --name 连接主动方容器名2
 docker network create -d bridge 网络别名
 #按照定义的网络来启动容器,进入交互终端
 docker run -it --rm --name 容器名 --network 网络名 镜像名 sh
+```
+
+###### 		Host模式
+
+​				新创建容器的网络与宿主机共享，ip与端口 --net=host
+
+###### 		Container模式		
+
+​		新创建的容器也是和别人共享网络配置，但不再是宿主机，而是已经存在的容器
+
+```
+--net=container:旧容器名
 ```
 
