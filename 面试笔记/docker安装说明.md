@@ -175,4 +175,17 @@ docker run --name 别名 -d （-p 物理机端口:容器端口）  应用程序
 
 ​		容器互联互通的情况：
 ​				单向的互通：--link
-​				
+
+```shell
+docket run -tid (--link 被连接方容器名1) --name 连接主动方容器名2 镜像  top
+```
+
+​				一个网络
+
+```shell
+#创建网络
+docker network create -d bridge 网络别名
+#按照定义的网络来启动容器,进入交互终端
+docker run -it --rm --name 容器名 --network 网络名 镜像名 sh
+```
+
