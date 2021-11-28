@@ -106,6 +106,8 @@ systemctl start docker
 
 
 
+//容器的增删查  暂时的启动与停止
+
 从镜像到容器
 
 ```shell
@@ -137,5 +139,11 @@ docker rm -f 容器ID
 
 ```shell
 docker stop 容器唯一标识
+```
+
+让停下来的容器再跑起来
+
+```
+docker start 容器id（容器id可在ps -a 中看到）
 ```
 
