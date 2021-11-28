@@ -147,5 +147,11 @@ docker stop 容器唯一标识
 docker start 容器id（容器id可在ps -a 中看到）
 ```
 
-如果是容器要与外网互动：端口映射
-		流量走向：brow
+如果是容器要与外网互动：端口映射 ==》 iptable dnat
+		流量走向：brower ->  物理端（端口） -> 容器端口 ->  容器应用程序
+	
+
+```
+docker run --name 别名 -d （-p 物理机端口:容器端口）  应用程序
+```
+
