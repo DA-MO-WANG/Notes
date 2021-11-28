@@ -86,4 +86,22 @@ systemctl start docker
   docker rmi -f 镜像名
   ```
 
+  给自己的镜像打标签：
+  
+  ```shell
+  docker tag 原镜像名  新镜像名
+  ```
+  
+  没网给自己的镜像打包
+  
+  ```shell
+  docker save 镜像名 > 路径/镜像.tar.gz
+  ```
+  
+  没网导入镜像
+  
+  ```shell
+  docker load < 路径/镜像.tar.gz
+  ```
+  
   
