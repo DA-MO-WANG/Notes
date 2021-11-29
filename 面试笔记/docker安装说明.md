@@ -236,7 +236,7 @@ docker volume prune
 ​		
 
 ```shell
-#启动容器时挂载主机目录
+#启动容器时挂载主机目录 或者 --mount
 docker run -it -v 宿主机绝对目录路径：容器绝对目录 镜像名 /bin/sh
 #对挂载权限有要求：默认读写改成只读——》在容器目录后加 :ro
 
