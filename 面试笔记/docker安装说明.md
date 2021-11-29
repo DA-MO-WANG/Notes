@@ -203,3 +203,23 @@ docker run -it --rm --name 容器名 --network 网络名 镜像名 sh
 --net=container:旧容器名
 ```
 
+##### 容器内的数据管理
+
+​		数据共享和持久化
+
+###### 		数据卷
+
+​				数据卷提供一个挂载点目录，这个目录与容器内部的文件目录映射起来
+​				外界通过这个目录可以改变容器内部的数据
+
+```
+#创建一个数据卷
+docker volume create 数据卷名
+#查看数据卷
+docker volume ls
+#查看指定数据卷内部信息
+docker volume inspect 数据卷名
+#在启动容器时应用数据卷
+docker run -d -p 8080:80 --name web -v shu
+```
+
