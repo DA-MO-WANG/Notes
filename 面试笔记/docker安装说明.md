@@ -235,10 +235,17 @@ docker volume prune
 
 ​		
 
-```
+```shell
 #启动容器时挂载主机目录
 docker run -it -v 宿主机绝对目录路径：容器绝对目录 镜像名 /bin/sh
 #对挂载权限有要求：默认读写改成只读——》在容器目录后加 :ro
+
+#出现操作权限问题-permission denied
+#关闭selinux 
+临时关闭-》setenforce 0
+永久关闭-》修改/etc/sysconfig/selinux 文件，改值selinux 为disabled
+
+特权方式来启动容器: --priviledged=true -》docker run -it --priviledged=true -v /test:/soft centos /bin/sh
 
 ```
 
