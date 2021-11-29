@@ -221,6 +221,8 @@ docker volume ls
 docker volume inspect 数据卷名
 #在启动容器时应用数据卷
 docker run -d -p 8080:80 --name web -v 数据卷名：容器内部目录  镜像名
+#删除不再使用的数据卷
+docker volume prune
 ```
 
 数据卷独立于容器，容器删除后并不会涉及数据卷，
