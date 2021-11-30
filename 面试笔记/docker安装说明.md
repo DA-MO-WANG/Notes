@@ -285,7 +285,7 @@ COPY
 
 ```
 
-```
+```shell
 #写完dockerfile后，构建镜像
 #-t指定镜像名
 docker build （-t 镜像名（软件名：版本号）） .
@@ -293,6 +293,6 @@ docker build （-t 镜像名（软件名：版本号）） .
 #实际build执行时，是在远程的docker daemon引擎中执行，而docker引擎是通过事先上传的上下文目录（这里就要求dockerfile最后放在一个空目录下，不要涉及很多不必要的东西，避免被无意上传），来操作镜像设计的文件的，严格的说，这里都是发生在远程服务器的事
 
 #当dockerfile不放在上下文目录中时
--f ../Dockerfile.Dev参数来指定
+-f ../Dockerfile.Dev参数来指定特定的dockerfile文件
 ```
 
