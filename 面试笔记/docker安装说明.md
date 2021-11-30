@@ -252,3 +252,24 @@ docker run -it -v 宿主机绝对目录路径：容器绝对目录 镜像名 /bi
 ##### 自己打包镜像
 
 ​		dockerfile文件和docker commit 命令的区别：前者每一次改动以命令的形势保存到文件里，方便管理追溯版本记录，后者则丢失不可回溯·
+
+​		
+
+```
+#创建一个目录，存放新镜像dockerfile
+mkdir -p 文件夹名 && cd 文件夹 && touch dockerfile文件名
+#dockerfile中常用指令
+
+#构建的第一步，在一个基础镜像上开始
+From 基础镜像名
+#
+
+
+
+
+
+
+
+
+```
+
