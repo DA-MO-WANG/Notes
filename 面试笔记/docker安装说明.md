@@ -298,13 +298,20 @@ docker build （-t 镜像名（软件名：版本号）） .
 
 ##### 推送
 
-```
+```shell
 #推送公有仓库
 先去注册docker-hub账号，本地登陆
 #先去给自己的镜像打标签
 docker tag 镜像名  hub账号名/镜像名
 #推送
 docker push hub账号名/镜像名
+```
 
+```
+#推送私有仓库
+#依赖docker的一个registry镜像来实现
+docker run -d -p 5000:5000 --name 仓库别名 registry：2
+#上传镜像到私有仓库
+#先去把镜像打包成完整的名字 
 ```
 
