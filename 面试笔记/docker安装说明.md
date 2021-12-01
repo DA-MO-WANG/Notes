@@ -307,11 +307,18 @@ docker tag 镜像名  hub账号名/镜像名
 docker push hub账号名/镜像名
 ```
 
-```
+```shell
 #推送私有仓库
 #依赖docker的一个registry镜像来实现
 docker run -d -p 5000:5000 --name 仓库别名 registry：2
 #上传镜像到私有仓库
-#先去把镜像打包成完整的名字 
+#先去把镜像打包成完整的名字： 两部分（域名:端口号)+仓库名(用户名/软件名（用户名/不写默认是library）:标签)	
+#查看私有仓库的镜像
+curl 域名:端口号/v2/_catalog
+
+#本网段其他主机也能推送到这个仓库，修改docker配置来改变这个限制
+编辑/etc/docker/daemon.json文件
+修改insecure-registries字段
+
 ```
 
