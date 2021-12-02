@@ -347,13 +347,15 @@ docker build 时添加参数 --no-cache=true
 #对多行参数排序
 ```
 
-```
+```shell
 #Dockerfile指令
-From Run
+From Run WORKDIR COPY ADD
 LABEL
 EXPOSE 指定端口
 ENV  指定环境变量
 USER
-
+CMD与ENTRYPOINT
+#没有ENTRYPOINT，按CMD
+#这两者都存在，cmd作为entrypoint的参数
 ```
 
