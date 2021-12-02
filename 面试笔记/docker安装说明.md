@@ -338,8 +338,22 @@ curl 域名:端口号/v2/_catalog
 docker build 时添加参数 --no-cache=true
 ```
 
-```
+```shell
 #多阶段构建理论，按照阶段的变化频率来安排指令顺序
+构建依赖工具>依赖>应用
+```
+
+```
+#对多行参数排序
+```
+
+```
+#Dockerfile指令
+From Run
+LABEL
+EXPOSE 指定端口
+ENV  指定环境变量
+USER
 
 ```
 
