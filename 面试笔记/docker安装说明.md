@@ -307,7 +307,7 @@ docker build （-t 镜像名（软件名：版本号）） .
 ```shell
 #推送公有仓库
 先去注册docker-hub账号，本地登陆
-#先去给自己的镜像打标签
+#按照docker-hub的规则标注镜像
 docker tag 镜像名  hub账号名/镜像名
 #推送
 docker push hub账号名/镜像名
