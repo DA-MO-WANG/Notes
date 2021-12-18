@@ -39,10 +39,6 @@
 还有第二点：real-world 只是与自己的投影有那么一丁点交集，但大部分还是与自己并列的存在，他在事实上，在时间线以前是永远无法被固定的，你的一切想法的性质永远是推测，而这与事实是两码事。
 ```
 
-
-
-
-
 ```shell
 #自我范畴的范围
 现象：别人说什么，我为什么要和自己过不去？
@@ -55,13 +51,12 @@
 扯远了...
 这个自己与别人，对应系统的中的自己因素，和非自己因素，这几个因素都是系统中并列的存在。而偏偏一个人的认知能认知到自己之外的东西。一种东西b从A中出现，b中有和A并列的B\C\D\E\F，这就是症结所在。他让意识错认为自己出了故障，因为意识不会自我否定自己。我们能人知道b，不代表b就是我们自身的范畴。自身的范畴定义就是范畴之外无法涉及的部分的另一面。
 
+因为说的话要是好使的话，为啥我说我能中100万，什么都没发生呢？:smile:
 别人的嘴不是我的嘴，别人的脑子也不是我的脑子，我怎么能控制别人说什么呢？===》别人输出什么不是我的责任
 别人是否讲合乎他自己逻辑的话，还是出于其他目的的话==》别人是否做无意义的事也不是我的责任
 痛苦就是用手掂起脚尖，往上飞；悖论
 ==》不要负自己责任之外的事（套娃逻辑，递归定义）
 ```
-
-
 
 ```shell
 #real-world 的逐层展开
@@ -72,60 +67,23 @@
 
 外在的表现，依赖一个人的健康状态，一个人的体力，体力不好，这个人容易疲惫，它的大脑总是处于昏昏胀胀的状态，试问他怎么进行逻辑推演？一个人的心力不好，这个人内心充满各种与当前事物无关的情绪或者想法，试问他只能射向其他地方。原始落后的观点，思考问题总是拾起芝麻扔豆子，一件事对，只能说明这个东西是一件事逻辑中的必需的一部分，但不代表能推出只有这个就能成事。这是容易犯的错误。俗话说的好，吃饱了，才有力气干活。无论是体力还是脑力，都一样。况且，这个世上体力与脑力是分不开的，很多活都是这两者的综合。
 
-```
-
-
-
-
-
-
-
-
-
 别太贪全，自己怎么想就去怎么做，别自己跟自己对着干，生活会告诉我该怎么样的。自己的生活，真能假手于他人吗？盲目神话别人吗？区分必要求助和自己出发的容易混淆的地方。
 
-
-
 不必自己非得比任何弱这个事实，才有前进的理由。没必要钻牛角尖。强迫自己认为自己很弱。求知若饥，虚心若愚不是这么用的，太信死一句话，只会带来笑话。
-
-
-
-”年少有为不自卑“？
-
-​		毒鸡汤言论，年轻人没钱不是很正常吗？哪个时代不都是这样？年轻人还没有拿得起出手的成绩也很正常。什么时候把积累财富想得那么容易？这种言论本身就是诱导浮躁心的。很正常的事，刻意被带成不正常，带成自责和内疚，进而被自卑。可怕的心理把戏。
-
-
-
-不好意思？所谓的不好意思是羞耻？没什么不好意思的。。。。
-
-遭遇无能为力的尴尬，或者说错话，或者没理会，不能理解，这些都很正常，没必要自己给自己羞耻的压力。丢人就丢人呗，自己不去在意也不算什么，也不耽误事。自己抓住不放，就是钻牛角尖了。
-
-能挣多少就去挣多少，挣不到多少，何必难为自己。
-羞耻是一种逃避，你可以改变行为，但没必要假设过去，羞耻就是一种假设过去的补偿尝试，承受就行了。
-
-
-
-20%的乐趣或许就满足要求了，更多的是看成果。做的很多事都是如此。没必要自我欺骗，我不信就是不信。有某种逻辑能说服我现有的逻辑。
-
-
-
-别人的评价不一定是事实，是客观，经验表明很多评价与事实相反，却与一时的感受相关。别人看不起你，真得不必在意，世上那么多人，谁有空看的起谁，看不起谁呢？这真得重要吗？你只能遭遇一两个人，而一两个人的看的起看不起真代表不了什么。
-
-```
-Tlc5cFVqVTJSM1UxWVRabE5YSkxhRFZ3ZVVvMVlWZDZOWEI1VERWWkswdzNOM2xOTlhCNVNqVndaVEkxV1VOYU5UWkhkVFZoTm1VMVRHbEJOVXhwY1RWTWNUWTFOR0Z6TlRVeVFUWmFjU3MxV1N0WU5EUkRRelZaSzNZMWNHbDJOVzlwVWpWd2RUQTFZaXRPTlZrcldEVk1hVTQxVEhGSE56ZDVUVFZaTmpjMVdrdE5OVXhwVGpaWlEwTTFXa05KTlRWeFJUVk1jVFkxTlZObU5YSlROelZhZVc4MVRHbEJOa3hYTXpRMFEwTTFURzFtTlhCbFp6VnZiVUUyVEVOVU5VeHhSemMzZVUwMWNIbEtOV0VyTlRaTVIyZzFUR2xPTlV4dFpqVk1hVUUxY1VNek5YSlROelUxTWtFMVdrTllOemQ1WmpWTU1sWTFXV0V4TlhFclZUWk1Wek0xYjJsU05rd3JXalUyWlU0MVRHbEJOVXhwY1RWTWNUWTFOWEZGTnpkNVRUVk1hVTQxV2tOSk5sbERRelUxY1VVMVRIRTJOWEpsTXpWYWVXODFUR2xCTmt4WE16VTFjVVUyV25Fck5Wa3JXRFZaY1hrMVdWTXZOVmtyZGpaSlR6azJUQ3RaTlV4cFRqVmhZVU0xYjJsU05EUkRRelZhVDBrMVdrOUpOemQ1UWtOMVV6ZHBkVmRyY1dWWFVHbFBaVGR0WlZNMmRYVmhTV3RsVnl0cFQyRmphV1Z0VTNObFpXRm9UMkZGYml0cGJtbGxVelpvZFNzNGFrOWhXWElyVjJKdlQxTTBkWFZoU1d0bFpXRm9UMkZCWjJWWE5uQjFWMUZzS3lzNGJpdHBMMjFQWVZseUsxZGliMDlUTkhWMVlVbHJaVk0wYW1WbGJuSXJZV1ZuWlU5QloyVlROR3BsVjJOeFQxTTFhblZwVjNGMWFURm9UMWRXY0dWbFlXaFBLemh1SzJGSmEyVmhlVzlsYlZOelpTczRhazlUTlc0clV6UnFaV0ZGZGl0cGFtaGxZV05wWlcxVGMyVXJPR3BQVXpsb2RXa3ZiV1ZUTkdwbFV6ZHZLMmxvY1U5VE9HMTFWMUJzSzJGa2JpdGxPRzExVDBGbmRXVjFiQ3RUTm1oMUt6aHFUMU0wYW1WaFJITXJVelpvZFNzNGFrOWhTV3RsWVdOeVQyRmtjR1ZUTjJkUFV6VnBUMkZuZEN0WGQzTmxZVmx5SzFNM1owOVROV2xQWVdkMEswOUJaMmM5UFRJPQ==
 ```
 
-###### 为什么说不要在意别人随意说出口的话？
+```shell
+#“年少有为不自卑”？
+毒鸡汤言论，年轻人没钱不是很正常吗？哪个时代不都是这样？年轻人还没有拿得起出手的成绩也很正常。什么时候把积累财富想得那么容易？这种言论本身就是诱导浮躁心的。很正常的事，刻意被带成不正常，带成自责和内疚，进而被自卑。可怕的心理把戏。
+```
 
-​		因为说的话要是好使的话，为啥我说我能中100万，什么都没发生呢？:smile:
-
-
-
-用统一框架来看周围，所有的事都可以用一个模型来概括：
-		世间的事（人的意识里当做事来看），就是一轮轮的苦（）
-		事情是否前进，对应的是苦的轮数（类比树的年轮）
-		所谓的乐观主义背后也是一种理智策略《===to be or not to be , this is not question	
+```shell
+#模型
+世间的事（人的意识里当做事来看），就是一轮轮的苦（）
+事情是否前进，对应的是苦的轮数（类比树的年轮）
+所谓的乐观主义背后也是一种理智策略《===to be or not to be , this is not question
 			
+```
 
 ```shell
 #对“追求的行动”的认识
