@@ -10,11 +10,19 @@
 
 ```
 
-```
+```shell
 #angular项目
 #项目目录结构
 		》e2e  #自动化集成测试目录
-		》node_modules  #
+		》node_modules  #npm依赖库
+		》src #源代码目录
+		
+				》app #工程源码
+				
+						》
+				》assets #资源目录
+				》environments #环境目录
+				
 
 先找前后端交互的部分：src/app/core/routing/xxx.ts
 
