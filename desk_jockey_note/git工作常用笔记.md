@@ -146,3 +146,12 @@
 
 
 
+
+
+```shell
+#工作中常用命令
+git log 文件a # 文件a所在目录下，a的git提交日志
+git shortlog -sn #查看所有人的commit数
+git branch -r #查看远程分支列表
+```
+
