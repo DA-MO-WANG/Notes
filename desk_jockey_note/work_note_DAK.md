@@ -12,6 +12,10 @@
 
 ```
 #angular项目
+#项目目录结构
+		》e2e  #自动化集成测试目录
+		》node_modules  #
+
 先找前后端交互的部分：src/app/core/routing/xxx.ts
 
 ```
