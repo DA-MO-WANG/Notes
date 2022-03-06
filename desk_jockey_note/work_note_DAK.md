@@ -20,12 +20,22 @@
 				》app #工程源码
 				
 						》自定义的项目目录
-								》页面、调接口的部分：service-quality-assurance-info.service.ts
+								》页面、调接口的部分：service-quality-assurance-info.service.ts														
 				》assets #资源目录
 				》environments #环境目录
-				
+																								
 
 先找前后端交互的部分：src/app/core/routing/xxx.ts
 
 ```
+
+
+
+
+
+
+
+
+
+
 
