@@ -42,12 +42,15 @@
 ```shell
 #在开始以前
 #受人欢迎的数学书
-在你扎进更正式化、更艰难的课程之前，你可能发现读下面这些书会有点帮助和有趣。这些书比起那些教科书，
+在你扎进更正式化、更艰难的课程之前，你可能发现读下面这些书会有点帮助和有趣，比起那些教科书。
 ```
 
-Before you dive into the more formal and difficult coursework, you might find it helpful or fun to read some books about mathematics and mathematicians that are a little more accessible than many of the textbooks you will find in the curriculum that follows. 
+```shell
+这是一份我最喜欢的受人欢迎的数学方面的书，按照难度排名如下：
 
-Here are a handful of my favorite popular mathematics books, ranked in order of difficulty:
+
+
+```
 
 - [*e: The Story of a Number* by Eli Maor](https://www.amazon.com/gp/product/0691168482/ref=as_li_tl?camp=1789&creative=9325&creativeASIN=0691168482&ie=UTF8&linkCode=as2&linkId=d7007592786cd84368390fe8b2dbfc92&tag=susanfowler-20) **(Level: Easy)**. A fun, accessible book that will get you excited about mathematics.
 - [*The Joy Of X: A Guided Tour of Math, from One to Infinity* by Steven H. Strogat](https://www.amazon.com/gp/product/0544105850/ref=as_li_tl?camp=1789&creative=9325&creativeASIN=0544105850&ie=UTF8&linkCode=as2&linkId=38407431b7756bd156ca8ed7a40e0582&tag=susanfowler-20)z **(Level: Easy)**. A lot of fun to read, but make sure you get the paperback or hardcover version for readability purposes. 
