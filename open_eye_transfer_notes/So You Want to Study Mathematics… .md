@@ -9,11 +9,13 @@
 回到2016年，我刚出稿了一份学习物理学的指导“所以说你想要学习物理学？”。这份东西最终变得格外受人欢迎，因此，我开始着手写一些其他的指南系列。比如说“所以说你想学习哲学？”，这份指南我在2021年出版，然后是随后的关于数学的指南，也就是我今天打算和你分享的东西。
 ```
 
+```shell
+我特别喜欢数学，我认为这是世界上所有的智力学科中，最纯粹，最美丽的学科。它是关于宇宙的语言，不仅是属于人类自身，还属于宇宙自己本身而言。难受的是，学习这东西有点困难（至少在美国教育系统中），这个事实很糟糕，阻碍着人们去体验纯粹的喜悦。
+```
 
 
-Back in 2016, I typed up a little guide to studying physics called “[So You Want to Learn Physics](https://www.susanrigetti.com/physics).” It ended up being pretty popular, so I started working on other guides, including a guide to studying philosophy (“[So You Want to Study Philosophy](https://www.susanrigetti.com/philosophy)”), which I published in 2021, and this long-awaited guide to studying mathematics, which I am sharing with you today. 
 
-I absolutely love mathematics. I think it is the purest and most beautiful of all the intellectual disciplines. It is *the* universal language, both of human beings and of the universe itself. Sadly, there is all sorts of baggage around learning it (at least in the US educational system) that is completely unnecessary and awful and prevents many people from experiencing the pure joy of mathematics. One of the lies I have heard so many people repeat is that everyone is either a “math person” or a "language person” — such a profoundly ignorant and damaging statement. Here is the truth: if you can understand the structure of literature, if you can understand the basic grammar of the English language or any other language, then you can understand the basics of the language of the universe. That doesn’t mean it’s easy — no, mathematics is an incredibly challenging discipline, and there is nothing easy or straightforward about it — but, honestly, I have yet to find a single topic, discipline, or intellectual pursuit that is easy or straightforward to learn at any advanced level. 
+One of the lies I have heard so many people repeat is that everyone is either a “math person” or a "language person” — such a profoundly ignorant and damaging statement. Here is the truth: if you can understand the structure of literature, if you can understand the basic grammar of the English language or any other language, then you can understand the basics of the language of the universe. That doesn’t mean it’s easy — no, mathematics is an incredibly challenging discipline, and there is nothing easy or straightforward about it — but, honestly, I have yet to find a single topic, discipline, or intellectual pursuit that is easy or straightforward to learn at any advanced level. 
 
 The secret to learning math is this: accept that it is a difficult subject and that understanding it is going to be hard, study it in small manageable pieces (like the curriculum I’ve put together here), be patient with yourself and with your study, and work diligently to understand it. I promise you that it is worth every moment, every effort, every precious bit of energy. 
 
