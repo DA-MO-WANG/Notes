@@ -27,10 +27,18 @@
 ```
 
 ```shell
-尽管我确实参加过一些数学方面的研究生水准的课程，也研究过一些研究生水准的数学上的主题（比如几何学和逻辑），但我还是没有足够的知识阅历来评判研究生水准的数学教科书是否让人感到舒服。因为一一种基本的原则：我不会推荐
+尽管我确实参加过一些数学方面的研究生水准的课程，也研究过一些研究生水准的数学上的主题（比如几何学和逻辑），但我还是没有足够的知识阅历来评判研究生水准的数学教科书是否让人感到舒服。因为一种基本的原则：我不会推荐任何一本我没有学过的东西，无论是教材还是课程。当然我一直在学习新东西，所以我后续会更新这份指南。
 ```
 
- and, as a matter of principle, I won’t recommend or include a textbook in one of my guides that I haven’t studied (whether in full or in part) either on my own or for a course. I’m always learning new things, so if/when that ever changes, I’ll update this guide. 
+```shell
+任何人都能做到理解数学。学习和讲授人类语言的快乐，宇宙对任何具有以下条件的人都是可以到达的。
+		1.对事物想要有一点更多的深度思考的渴望
+		2.
+```
+
+
+
+
 
 Anyone can understand mathematics. The joy of learning to speak the language of humanity and of the universe is accessible to anyone who has (1) the desire to think about things a little more deeply and (2) the curiosity and patience to discover what’s possible. 
 
