@@ -15,10 +15,14 @@
 
 ```shell
 我听到过很多极端无知的表述，其中有一条很多人不断重复，“世上只有两个人，一个是数学人；一个是语言人”。
-这里暗含一种事实：如果你理解论文的结构，如果你理解英语语言语法的结构，你就能理解宇宙语言模型。这么说并不是说这很容易——不！数学shi yi men
+这里暗含一种事实：如果你理解论文的结构，如果你理解英语语言语法的结构，你就能理解宇宙语言模型。这么说并不是说这很容易——不！数学是一门极具挑战的学科，这里没有容易、直接的东西，坦白的说，但凡一种技术追求到某种优先的水平，都不会是只有容易和直接的感受。
 ```
 
-Here is the truth: if you can understand the structure of literature, if you can understand the basic grammar of the English language or any other language, then you can understand the basics of the language of the universe. That doesn’t mean it’s easy — no, mathematics is an incredibly challenging discipline, and there is nothing easy or straightforward about it — but, honestly, I have yet to find a single topic, discipline, or intellectual pursuit that is easy or straightforward to learn at any advanced level. 
+```she
+学习数学的秘密是接纳这么一面事实，这是一个路途中会存在困难的主题，理解可能会很困难。
+```
+
+
 
 The secret to learning math is this: accept that it is a difficult subject and that understanding it is going to be hard, study it in small manageable pieces (like the curriculum I’ve put together here), be patient with yourself and with your study, and work diligently to understand it. I promise you that it is worth every moment, every effort, every precious bit of energy. 
 
