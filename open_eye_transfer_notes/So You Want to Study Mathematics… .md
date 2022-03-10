@@ -19,12 +19,14 @@
 ```
 
 ```she
-学习数学的秘密是接纳这么一面事实，这是一个路途中会存在困难的主题，理解可能会很困难。
+学习数学的秘密是接纳这么一面事实，这是一个路途中会存在困难的主题，理解可能会很困难。在一个容易操作的模块中学习它（比如我放在这的课程），要对你自己有耐心，对你的学习状态有耐心，勤奋地工作以达到理解它。我可以向你承诺，一切都是值得的，你的每一个时刻，每一份努力，每一滴能量，都是值得的。
+```
+
+```shell
+我在这的目标是提供一种路线，为那些对在较高水平来理解认知数学感兴趣的人。
 ```
 
 
-
-The secret to learning math is this: accept that it is a difficult subject and that understanding it is going to be hard, study it in small manageable pieces (like the curriculum I’ve put together here), be patient with yourself and with your study, and work diligently to understand it. I promise you that it is worth every moment, every effort, every precious bit of energy. 
 
 My goal here is to provide a roadmap for anyone interested in understanding mathematics at an advanced level. Anyone that follows and completes this curriculum will walk away with the knowledge equivalent to an undergraduate degree in mathematics.  This guide only covers an undergraduate mathematics curriculum, because, unlike the fields of physics and philosophy (both of which I have studied at the graduate level), that’s where my math knowledge ends. While I have taken a few graduate courses in mathematics and have studied a handful of topics in mathematics (including differential geometry and logic) at the graduate level, I don’t have enough experience or knowledge to feel comfortable evaluating graduate-level mathematics textbooks, and, as a matter of principle, I won’t recommend or include a textbook in one of my guides that I haven’t studied (whether in full or in part) either on my own or for a course. I’m always learning new things, so if/when that ever changes, I’ll update this guide. 
 
