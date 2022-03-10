@@ -35,19 +35,15 @@
 		1.对事物想要有一点更多的深度思考的渴望
 		2.发现某种可能东西的好奇心和耐心
 这些快乐对这些人都是公平的。
+
+祝（即将进行长期艰险旅行的人）一路平安！
 ```
 
-
-
-
-
-Anyone can understand mathematics. The joy of learning to speak the language of humanity and of the universe is accessible to anyone who has (1) the desire to think about things a little more deeply and (2) the curiosity and patience to discover what’s possible. 
-
-Godspeed!
-
-### **Before You Begin**
-
-#### **Popular Math Books**
+```shell
+#在开始以前
+#受人欢迎的数学书
+在你扎进更正式化、更艰难的课程之前，你可能发现读下面这些书会有点帮助和有趣。这些书比起那些教科书，
+```
 
 Before you dive into the more formal and difficult coursework, you might find it helpful or fun to read some books about mathematics and mathematicians that are a little more accessible than many of the textbooks you will find in the curriculum that follows. 
 
