@@ -23,12 +23,16 @@
 ```
 
 ```shell
-我在这的目标是提供一种路线，为那些对在较高水平来理解认知数学感兴趣的人。
+我在这的目标是提供一种路线，为那些对想在较高水平来理解认知数学，感兴趣的人。任何一个跟随和完成这些课程的人将具备与一个数学本科学位毕业生同等的知识水平。这份指导只涉及数学本科学位的课程，因为不像物理学、哲学，我确实在研究生阶段学习过，我自身的数学水平只停留在本科水平。
 ```
 
 
 
-My goal here is to provide a roadmap for anyone interested in understanding mathematics at an advanced level. Anyone that follows and completes this curriculum will walk away with the knowledge equivalent to an undergraduate degree in mathematics.  This guide only covers an undergraduate mathematics curriculum, because, unlike the fields of physics and philosophy (both of which I have studied at the graduate level), that’s where my math knowledge ends. While I have taken a few graduate courses in mathematics and have studied a handful of topics in mathematics (including differential geometry and logic) at the graduate level, I don’t have enough experience or knowledge to feel comfortable evaluating graduate-level mathematics textbooks, and, as a matter of principle, I won’t recommend or include a textbook in one of my guides that I haven’t studied (whether in full or in part) either on my own or for a course. I’m always learning new things, so if/when that ever changes, I’ll update this guide. 
+
+
+
+
+While I have taken a few graduate courses in mathematics and have studied a handful of topics in mathematics (including differential geometry and logic) at the graduate level, I don’t have enough experience or knowledge to feel comfortable evaluating graduate-level mathematics textbooks, and, as a matter of principle, I won’t recommend or include a textbook in one of my guides that I haven’t studied (whether in full or in part) either on my own or for a course. I’m always learning new things, so if/when that ever changes, I’ll update this guide. 
 
 Anyone can understand mathematics. The joy of learning to speak the language of humanity and of the universe is accessible to anyone who has (1) the desire to think about things a little more deeply and (2) the curiosity and patience to discover what’s possible. 
 
