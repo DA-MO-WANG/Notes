@@ -1,18 +1,15 @@
-#### Trans
+#### Translation
+
+```shell
+#所以说你想学习数学？
+20220306
+```
+
+```shell
+回到2016年，
+```
 
 
-
-
-
-
-
-
-
-## So You Want to Study Mathematics… 
-
-### **Introduction**
-
-*March 6th, 2022*
 
 Back in 2016, I typed up a little guide to studying physics called “[So You Want to Learn Physics](https://www.susanrigetti.com/physics).” It ended up being pretty popular, so I started working on other guides, including a guide to studying philosophy (“[So You Want to Study Philosophy](https://www.susanrigetti.com/philosophy)”), which I published in 2021, and this long-awaited guide to studying mathematics, which I am sharing with you today. 
 
