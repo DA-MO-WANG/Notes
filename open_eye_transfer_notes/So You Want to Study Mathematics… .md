@@ -13,9 +13,12 @@
 我特别喜欢数学，我认为这是世界上所有的智力学科中，最纯粹，最美丽的学科。它是关于宇宙的语言，不仅是属于人类自身，还属于宇宙自己本身而言。难受的是，学习这东西有点困难（至少在美国教育系统中），这个事实很糟糕，阻碍着人们去体验纯粹的喜悦。
 ```
 
+```shell
+我听到过很多极端无知的表述，其中有一条很多人不断重复，“世上只有两个人，一个是数学人；一个是语言人”。
+这里暗含一种事实：如果你理解论文的结构，如果你理解英语语言语法的结构，你就能理解宇宙语言模型。这么说并不是说这很容易——不！数学shi yi men
+```
 
-
-One of the lies I have heard so many people repeat is that everyone is either a “math person” or a "language person” — such a profoundly ignorant and damaging statement. Here is the truth: if you can understand the structure of literature, if you can understand the basic grammar of the English language or any other language, then you can understand the basics of the language of the universe. That doesn’t mean it’s easy — no, mathematics is an incredibly challenging discipline, and there is nothing easy or straightforward about it — but, honestly, I have yet to find a single topic, discipline, or intellectual pursuit that is easy or straightforward to learn at any advanced level. 
+Here is the truth: if you can understand the structure of literature, if you can understand the basic grammar of the English language or any other language, then you can understand the basics of the language of the universe. That doesn’t mean it’s easy — no, mathematics is an incredibly challenging discipline, and there is nothing easy or straightforward about it — but, honestly, I have yet to find a single topic, discipline, or intellectual pursuit that is easy or straightforward to learn at any advanced level. 
 
 The secret to learning math is this: accept that it is a difficult subject and that understanding it is going to be hard, study it in small manageable pieces (like the curriculum I’ve put together here), be patient with yourself and with your study, and work diligently to understand it. I promise you that it is worth every moment, every effort, every precious bit of energy. 
 
