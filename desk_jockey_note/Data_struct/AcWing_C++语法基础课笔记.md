@@ -2,7 +2,14 @@
 
 ##### 1.最简单的程序结构
 
+调用封装好的库文件 
 
+* 类似java的import; 
+* 类似python的 from socket import * 
+
+* 命名空间的设计:using namespace std; 
+  * 作用就是解决名字冲突的
+*  main入口
 
 ####2.对基础数据类型的认识
 
