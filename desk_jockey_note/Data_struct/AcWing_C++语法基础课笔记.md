@@ -16,7 +16,8 @@
   * string类型除外
 * 涉及回车、空格等特殊符号的读入输出
   * fgets(数组指针,容量,stdin)
-  * Get line
+  * fgets(cin,s)
+  * 
 
 #### 4.基础数据结构
 
