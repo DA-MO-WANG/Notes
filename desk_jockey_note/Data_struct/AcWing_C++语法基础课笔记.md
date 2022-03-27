@@ -15,10 +15,12 @@
   * cin cout / scanf(占位符，指针) /printf(占位符，指针)
   * string类型除外
 * 涉及回车、空格等特殊符号的读入输出
-  * fgets(数组指针,容量,stdin)
-  * fgets(cin,s)
-  * scanf('%s',str)
-* 
+  * 读入
+    * fgets(数组指针,容量,stdin)
+    * fgets(cin,s)
+    * scanf('%s',str)
+  * 一次输出多行
+    * puts(数组名/string)
 
 #### 4.基础数据结构
 
