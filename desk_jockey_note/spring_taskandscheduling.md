@@ -5,6 +5,8 @@
 
 Spring框架通过设计 TaskExecutor 和 TaskScheduler 两个接口，来对异步执行和任务调度做出了抽象。Spring 也突出介绍了支持这些接口的线程池或代理模式的实现。最后，这些常规抽象接口的应用做到了与各种具体开发环境的隔离。
 
+> Spring also features integration classes to support scheduling with the `Timer` (part of the JDK since 1.3) and the Quartz Scheduler ( [http://quartz-scheduler.org](http://quartz-scheduler.org/)). You can set up both of those schedulers by using a `FactoryBean` with optional references to `Timer` or `Trigger` instances, respectively. Furthermore, a convenience class for both the Quartz Scheduler and the `Timer` is available that lets you invoke a method of an existing target object (analogous to the normal `MethodInvokingFactoryBean` operation).
+
 
 
 ####7.1 对task执行过程taskExecutor的一种抽象-4
