@@ -13,7 +13,7 @@ Spring 也重点设计了一些整合类来支持调度，比如用Timer 、Quar
 
 > Executors are the JDK name for the concept of thread pools. The “executor” naming is due to the fact that there is no guarantee that the underlying implementation is actually a pool. An executor may be single-threaded or even synchronous. Spring’s abstraction hides implementation details between the Java SE and Java EE environments.
 
-
+Executors 是JDK中对应线程池的概念。这样命名“executor”是出于这样一种事实：我们并不能保证底层实现是一个池子。可能，executor 是一个单线程，甚至也可能是锁。Spring的抽象隐藏了实现细节，在SE和EE环境之间。
 
 ######7.1.1 task执行器类型-6
 
