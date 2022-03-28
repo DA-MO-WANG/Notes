@@ -47,9 +47,29 @@
 
 
 
+##### Concept Summary—》Chapter 2—〉HTTP-高频协议（重点）
 
+
+
+##### Concept Summary—》Chapter 2—〉mail相关的协议
+
+
+
+##### Concept Summary—》Chapter 2—〉DNS目录服务
 
 ​					
+
+##### Concept Summary—》Chapter 2—〉p2p文件分发
+
+
+
+##### Concept Summary—》Chapter 2—〉流视频
+
+
+
+##### Concept Summary—》Chapter 2—〉socket编程
+
+
 
 ​					
 
