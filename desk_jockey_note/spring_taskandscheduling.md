@@ -29,7 +29,9 @@ TaskExecutor 被创造出来，来给Spring其他组件一种抽象，针对在�
 
 Spring 自己就有很多预先实现的TaskExecutor。这么多可能性，自然你没必要去实现一个你自己的。Spring提供的各种类型如下：
 
+- > SyncTaskExecutor`: This implementation does not execute invocations asynchronously. Instead, each invocation takes place in the calling thread. It is primarily used in situations where multi-threading is not necessary, such as in simple test cases.
 
+SyncTaskExecutor: 
 
 ######7.1.2 案例：使用一个task执行期
 
