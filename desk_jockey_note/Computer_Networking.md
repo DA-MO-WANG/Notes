@@ -28,3 +28,8 @@
 
 ​		p2p架构：minimal reliance; self- scalability
 
+进程之间的通信：不同主机上的不同进程之间的通信
+
+​		讲了下的client 和 server的概念
+
+​		socket的概念
