@@ -39,7 +39,21 @@ SimpleAsyncTaskExector: 这种实现根本没有重用任何线程。换句话�
 
 - > `ConcurrentTaskExecutor`: This implementation is an adapter for a `java.util.concurrent.Executor` instance. There is an alternative (`ThreadPoolTaskExecutor`) that exposes the `Executor` configuration parameters as bean properties. There is rarely a need to use `ConcurrentTaskExecutor` directly. However, if the `ThreadPoolTaskExecutor` is not flexible enough for your needs, `ConcurrentTaskExecutor` is an alternative.
 
-  ConcurrentTaskExecutor:  这个实现是对concurrent包下的Executor实例的一个适配器。在bean 配置文件里，可以调节Executor参数来选择。很少见直接使用concurrentTaskExecutor的，如果ThreadPoolTaskExecutor 不能灵活适配你的需要，可以用ConcurrentTaskExecutor
+ConcurrentTaskExecutor:  这个实现是对concurrent包下的Executor实例的一个适配器。在bean 配置文件里，可以调节Executor参数来选择。很少见直接使用concurrentTaskExecutor的，如果ThreadPoolTaskExecutor 不能灵活适配你的需要，可以用ConcurrentTaskExecutor
+
+> `ThreadPoolTaskExecutor`: This implementation is most commonly used. It exposes bean properties for configuring a `java.util.concurrent.ThreadPoolExecutor` and wraps it in a `TaskExecutor`. If you need to adapt to a different kind of java.util.concurrent.Executor`, we recommend that you use a `ConcurrentTaskExecutor` instead.
+
+ThreadPoolTaskExecutor：这个实现是使用频率最高的，通过在bean 配置文件中，配置一个 ThreadPoolExecutor，然后把这个kuo j
+
+
+
+
+
+
+
+
+
+
 
 ######7.1.2 案例：使用一个task执行期
 
