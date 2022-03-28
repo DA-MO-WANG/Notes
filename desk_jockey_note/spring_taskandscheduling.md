@@ -63,7 +63,9 @@ Spring的TaskExecutor 被通过一个简单的JavaBeans实现。 下面的例子
 
 ####7.2 对任务调度过程taskscheduler的一种抽象
 
-Spring 3.0引入了TaskScheduler 和 调度任务的一系列方法
+Spring 3.0引入了TaskScheduler 和 调度任务的一系列方法，下面列出了接口中的一系列方法：
+
+最简单的方法名字叫schedule()
 
 ###### 7.2.2 触发器trigger的实现
 
