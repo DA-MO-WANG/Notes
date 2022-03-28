@@ -37,6 +37,10 @@ SyncTaskExecutor:  这种实现根本没必要异步执行调用。相反，每�
 
 SimpleAsyncTaskExector: 这种实现根本没有重用任何线程。换句话说，它每次调用，都开始一个新的线程。但是它却是存在一种并发瓶颈，当slot 没有被释放时，调用就会被锁住。
 
+- > `ConcurrentTaskExecutor`: This implementation is an adapter for a `java.util.concurrent.Executor` instance. There is an alternative (`ThreadPoolTaskExecutor`) that exposes the `Executor` configuration parameters as bean properties. There is rarely a need to use `ConcurrentTaskExecutor` directly. However, if the `ThreadPoolTaskExecutor` is not flexible enough for your needs, `ConcurrentTaskExecutor` is an alternative.
+
+  ConcurrentTaskExecutor: 
+
 ######7.1.2 案例：使用一个task执行期
 
 ####7.2 对任务调度过程taskscheduler的一种抽象
