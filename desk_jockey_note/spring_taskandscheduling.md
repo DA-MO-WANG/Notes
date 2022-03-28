@@ -35,6 +35,12 @@
 
 #### 7.5 使用Quartz 调度
 
+###### 7.5.1 使用JobDetailFactoryBean
+
+###### 7.5.2 使用MethodInvokingJobDetailFactoryBean
+
+######7.5.3 
+
 
 
 
