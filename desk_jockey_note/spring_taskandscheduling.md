@@ -49,9 +49,9 @@ ThreadPoolTaskExecutor：这个实现是使用频率最高的，通过在bean �
 
 WorkManagerTaskExecutor：计时器和工作管理器 API (CommonJ)
 
+> `DefaultManagedTaskExecutor`: This implementation uses a JNDI-obtained `ManagedExecutorService` in a JSR-236 compatible runtime environment (such as a Java EE 7+ application server), replacing a CommonJ WorkManager for that purpose.
 
-
-
+DefaultManagerTaskexecutor：这个实现使用JNDI方式的ManagedExecutorService ，在JSR-236
 
 
 
