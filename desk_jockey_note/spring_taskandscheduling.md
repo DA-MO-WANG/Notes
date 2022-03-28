@@ -53,8 +53,6 @@ WorkManagerTaskExecutor：计时器和工作管理器 API (CommonJ)
 
 DefaultManagerTaskexecutor：这个实现使用JNDI方式的ManagedExecutorService ，在JSR-236一致的运行时环境，替换 CommonJ WorkManager
 
-
-
 ######7.1.2 案例：使用一个task执行期
 
 ####7.2 对任务调度过程taskscheduler的一种抽象
