@@ -39,7 +39,9 @@
 
 ###### 7.5.2 使用MethodInvokingJobDetailFactoryBean
 
-######7.5.3 
+###### 7.5.3 通过使用Triggers 和 SchedulerFactoryBean 来布置任务
+
+
 
 
 
