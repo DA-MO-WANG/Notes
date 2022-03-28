@@ -7,7 +7,7 @@ Spring框架通过设计 TaskExecutor 和 TaskScheduler 两个接口，来对异
 
 > Spring also features integration classes to support scheduling with the `Timer` (part of the JDK since 1.3) and the Quartz Scheduler ( [http://quartz-scheduler.org](http://quartz-scheduler.org/)). You can set up both of those schedulers by using a `FactoryBean` with optional references to `Timer` or `Trigger` instances, respectively. Furthermore, a convenience class for both the Quartz Scheduler and the `Timer` is available that lets you invoke a method of an existing target object (analogous to the normal `MethodInvokingFactoryBean` operation).
 
-Spring 也重点设计了一些整合类来支持调度，比如用Timer 、Quartz Scheduler.  你可以通过使用Fa ctoryBean，传进可选择的引用-Quartz Scheduler 和 Timer 来创建这两个。
+Spring 也重点设计了一些整合类来支持调度，比如用Timer 、Quartz Scheduler.  你可以通过使用Fa ctoryBean，传进可选择的引用-Quartz Scheduler 和 Timer 来创建这两个。进一步看，一个方便的
 
 ####7.1 对task执行过程taskExecutor的一种抽象-4
 
