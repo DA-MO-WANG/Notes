@@ -15,6 +15,10 @@ Spring 也重点设计了一些整合类来支持调度，比如用Timer 、Quar
 
 Executors 是JDK中对应线程池的概念。这样命名“executor”是出于这样一种事实：我们并不能保证底层实现是一个池子。可能，executor 是一个单线程，甚至也可能是锁。Spring的抽象隐藏了实现细节，在SE和EE环境之间。
 
+> Spring’s `TaskExecutor` interface is identical to the `java.util.concurrent.Executor` interface. In fact, originally, its primary reason for existence was to abstract away the need for Java 5 when using thread pools. The interface has a single method (`execute(Runnable task)`) that accepts a task for execution based on the semantics and configuration of the thread pool.
+
+Spring的TaskExecutor 接口，
+
 ######7.1.1 task执行器类型-6
 
 ######7.1.2 案例：使用一个task执行期
