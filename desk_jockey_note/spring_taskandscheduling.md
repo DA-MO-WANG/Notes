@@ -57,7 +57,9 @@ DefaultManagerTaskexecutor：这个实现使用JNDI方式的ManagedExecutorServi
 
 Spring的TaskExecutor 被通过一个简单的JavaBeans实现。 下面的例子里，我们通过使用ThreadPoolTaskExecutor定义一个bean，来异步打印一系列信息。
 
+你自己根本没必要去从池里检索线程，然后执行，你要做的只是把一个要跑的任务放到队列里。然后Ta s kExecutor使用内部的规则来决定这个任务什么时候执行。
 
+为了配置TaskExecutor使用的规则，我们可以在配置文件里暴露这个。
 
 ####7.2 对任务调度过程taskscheduler的一种抽象
 
