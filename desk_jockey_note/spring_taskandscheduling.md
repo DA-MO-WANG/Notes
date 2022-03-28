@@ -55,6 +55,10 @@ DefaultManagerTaskexecutor：这个实现使用JNDI方式的ManagedExecutorServi
 
 ######7.1.2 案例：使用一个task执行期
 
+Spring的TaskExecutor 被通过一个简单的JavaBeans实现。 下面的例子里，我们通过使用ThreadPoolTaskExecutor定义一个bean，来异步打印一系列信息。
+
+
+
 ####7.2 对任务调度过程taskscheduler的一种抽象
 
 ###### 7.2.2 触发器trigger的实现
