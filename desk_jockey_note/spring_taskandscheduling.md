@@ -33,6 +33,10 @@ Spring 自己就有很多预先实现的TaskExecutor。这么多可能性，自�
 
 SyncTaskExecutor:  这种实现根本没必要异步执行调用。相反，每一个调用都发生在调用线程的时候。它主要用在多线程不必要的地方，比如单例测试。
 
+- > `SimpleAsyncTaskExecutor`: This implementation does not reuse any threads. Rather, it starts up a new thread for each invocation. However, it does support a concurrency limit that blocks any invocations that are over the limit until a slot has been freed up. If you are looking for true pooling, see `ThreadPoolTaskExecutor`, later in this list.
+
+SimpleAsyncTaskExector: 这种实现根本没有重用任何线程。换句话说，它每次调用，都开始一个新的线程。但是它却是存在一种并发瓶颈，当slot 没有被释放时，调用就会被锁住。
+
 ######7.1.2 案例：使用一个task执行期
 
 ####7.2 对任务调度过程taskscheduler的一种抽象
