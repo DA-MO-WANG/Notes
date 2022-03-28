@@ -17,7 +17,7 @@ Executors 是JDK中对应线程池的概念。这样命名“executor”是出�
 
 > Spring’s `TaskExecutor` interface is identical to the `java.util.concurrent.Executor` interface. In fact, originally, its primary reason for existence was to abstract away the need for Java 5 when using thread pools. The interface has a single method (`execute(Runnable task)`) that accepts a task for execution based on the semantics and configuration of the thread pool.
 
-Spring的TaskExecutor 接口，
+Spring的TaskExecutor 接口，是和concurrent包下的Executor接口是一样的。
 
 ######7.1.1 task执行器类型-6
 
