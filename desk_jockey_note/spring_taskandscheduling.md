@@ -43,7 +43,7 @@ ConcurrentTaskExecutor:  这个实现是对concurrent包下的Executor实例的�
 
 > `ThreadPoolTaskExecutor`: This implementation is most commonly used. It exposes bean properties for configuring a `java.util.concurrent.ThreadPoolExecutor` and wraps it in a `TaskExecutor`. If you need to adapt to a different kind of java.util.concurrent.Executor`, we recommend that you use a `ConcurrentTaskExecutor` instead.
 
-ThreadPoolTaskExecutor：这个实现是使用频率最高的，通过在bean 配置文件中，配置一个 ThreadPoolExecutor，然后把这个kuo j
+ThreadPoolTaskExecutor：这个实现是使用频率最高的，通过在bean 配置文件中，配置一个 ThreadPoolExecutor，然后在TaskExecutor里把这个括进去。如果你想要更多选择，ConcurrentTaskExecutor是一个选择。
 
 
 
