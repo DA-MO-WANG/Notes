@@ -24,4 +24,7 @@
 
 引申出常见的网络应用架构，有两个，分别介绍：
 
-​		c/s架构
+​		c/s架构：依赖一个数据中心
+
+​		p2p架构：minimal reliance; self- scalability
+
