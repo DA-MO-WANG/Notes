@@ -31,7 +31,7 @@ Spring 自己就有很多预先实现的TaskExecutor。这么多可能性，自�
 
 - > SyncTaskExecutor`: This implementation does not execute invocations asynchronously. Instead, each invocation takes place in the calling thread. It is primarily used in situations where multi-threading is not necessary, such as in simple test cases.
 
-SyncTaskExecutor: 
+SyncTaskExecutor:  这种实现根本没必要异步执行调用。相反，每一个调用都发生在调用线程的时候。它主要用在多线程不必要的地方，比如单例测试。
 
 ######7.1.2 案例：使用一个task执行期
 
