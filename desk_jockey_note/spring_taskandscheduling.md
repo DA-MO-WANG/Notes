@@ -21,7 +21,7 @@ Spring的TaskExecutor 接口，是和concurrent包下的Executor接口是一样�
 
 > The `TaskExecutor` was originally created to give other Spring components an abstraction for thread pooling where needed. Components such as the `ApplicationEventMulticaster`, JMS’s `AbstractMessageListenerContainer`, and Quartz integration all use the `TaskExecutor` abstraction to pool threads. However, if your beans need thread pooling behavior, you can also use this abstraction for your own needs.
 
-TaskExecutor 被创造出来，来给Spring其他组件一种抽象，针对在线程池必需的地方。比如像ApplicationEventMulticaster、JMS’s AbstractMessageListenerContainer、整合的Quartz 都需要
+TaskExecutor 被创造出来，来给Spring其他组件一种抽象，针对在线程池必需的地方。比如像ApplicationEventMulticaster、JMS’s AbstractMessageListenerContainer、整合的Quartz 都使用TaskExecutor 抽象来池化线程。当然，如果你的beans 需要池化的行为，你也可以基于你自己的需要使用这种抽象。
 
 ######7.1.1 task执行器类型-6
 
