@@ -47,7 +47,7 @@ ThreadPoolTaskExecutor：这个实现是使用频率最高的，通过在bean �
 
 > `WorkManagerTaskExecutor`: This implementation uses a CommonJ `WorkManager` as its backing service provider and is the central convenience class for setting up CommonJ-based thread pool integration on WebLogic or WebSphere within a Spring application context.
 
-WorkManagerTaskExecutor：这个实现使用一个workManager 作为它
+WorkManagerTaskExecutor：计时器和工作管理器 API (CommonJ)
 
 
 
