@@ -25,7 +25,7 @@ TaskExecutor 被创造出来，来给Spring其他组件一种抽象，针对在�
 
 ######7.1.1 task执行器类型-6
 
-
+> Spring includes a number of pre-built implementations of `TaskExecutor`. In all likelihood, you should never need to implement your own. The variants that Spring provides are as follows:
 
 
 
