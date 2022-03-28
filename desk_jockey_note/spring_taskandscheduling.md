@@ -45,9 +45,9 @@ ConcurrentTaskExecutor:  这个实现是对concurrent包下的Executor实例的�
 
 ThreadPoolTaskExecutor：这个实现是使用频率最高的，通过在bean 配置文件中，配置一个 ThreadPoolExecutor，然后在TaskExecutor里把这个括进去。如果你想要更多选择，ConcurrentTaskExecutor是一个选择。
 
+> `WorkManagerTaskExecutor`: This implementation uses a CommonJ `WorkManager` as its backing service provider and is the central convenience class for setting up CommonJ-based thread pool integration on WebLogic or WebSphere within a Spring application context.
 
-
-
+WorkManagerTaskExecutor：这个实现使用一个workManager 作为它
 
 
 
