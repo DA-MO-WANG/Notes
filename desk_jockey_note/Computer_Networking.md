@@ -63,8 +63,7 @@
        * 现状：HTTP1.0默认是长连接，而且HTTP2 允许请求和应答交错了，优化了请求和应答的机制
 
 2. 报文格式
-
-   
+3. Cookie: http本身无状态，但web 有需求去identify user
 
 ##### Concept Summary—》Chapter 2—〉mail相关的协议
 
