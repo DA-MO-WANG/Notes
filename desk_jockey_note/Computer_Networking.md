@@ -52,7 +52,7 @@
 * stateless
   * http本身不存储客户的任何信息，也就是客户来几次都当第一次看
 * 长连接or短连接：区分长连接还是短连接：看给每一对req/resp分配一个TCP还是所有req/resp放在一个TCP
-  * 
+  * 短连接：特点-一对req/res就办对一个TCP的initiates和close这样的重操作（通过配置tcp可以选择串行连接还是并行连接）
 
 ##### Concept Summary—》Chapter 2—〉mail相关的协议
 
