@@ -19,6 +19,16 @@
 #### Json解析
 
 * 方式1: 原生JDK
+
 * 方式2: fastJson
+
+  * ```java
+    //使用形式
+    
+    ```
+
+  * 
+
 * 方式3: Gson
+
 * 方式4: qmikjson
