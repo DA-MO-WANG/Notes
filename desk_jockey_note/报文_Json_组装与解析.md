@@ -13,3 +13,12 @@
 * array要素
   * 以[ 开始，以 ] 结束
   * value可以是字符串/object/array/number/bool/null
+
+
+
+#### Json解析
+
+* 方式1: 原生JDK
+* 方式2: fastJson
+* 方式3: Gson
+* 方式4: qmikjson
