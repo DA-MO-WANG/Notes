@@ -49,7 +49,10 @@
 
 ##### Concept Summary—》Chapter 2—〉HTTP-高频协议（重点）
 
-
+* stateless
+  * http本身不存储客户的任何信息，也就是客户来几次都当第一次看
+* 长连接or短连接：区分长连接还是短连接：看给每一对req/resp分配一个TCP还是所有req/resp放在一个TCP
+  * 
 
 ##### Concept Summary—》Chapter 2—〉mail相关的协议
 
