@@ -52,10 +52,19 @@
 
 ##### Concept Summary—》Chapter 2—〉HTTP-高频协议（重点）
 
-* stateless
-  * http本身不存储客户的任何信息，也就是客户来几次都当第一次看
-* 长连接or短连接：区分长连接还是短连接：看给每一对req/resp分配一个TCP还是所有req/resp放在一个TCP
-  * 短连接：特点-一对req/res就办对一个TCP的initiates和close这样的重操作（通过配置tcp可以选择串行连接还是并行连接）
+1. HTTP的特点
+
+   * stateless
+     * http本身不存储客户的任何信息，也就是客户来几次都当第一次看
+
+   * 长连接or短连接：区分长连接还是短连接：看给每一对req/resp分配一个TCP还是所有req/resp放在一个TCP
+     * 短连接：特点-一对req/res就办对一个TCP的initiates和close这样的重操作（通过配置tcp可以选择串行连接还是并行连接）
+       * shorcoming:时间角度-性能角度；空间角度：每一个TCP连接都要分配一个TCP buffer，TCP变量，服务端增加负担了，尤其是当高并发时
+       * 现状：HTTP1.0默认是长连接，而且HTTP2 允许请求和应答交错了，优化了请求和应答的机制
+
+2. 报文格式
+
+   
 
 ##### Concept Summary—》Chapter 2—〉mail相关的协议
 
