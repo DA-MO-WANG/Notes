@@ -39,8 +39,6 @@
     jsonmodel root = gson.fromJson(json,jsonmodel.class);
     ```
 
-  * 
-
-* 
+* 动手实现一个json解析器（等积累够，待定...）
 
   
