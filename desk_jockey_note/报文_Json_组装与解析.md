@@ -18,32 +18,29 @@
 
 #### Json解析
 
+* 常用工具
+
+  * 方式1: 原生JDK
+  * 方式2: fastJson
+  * 方式3: Gson
+
 * 使用模版
 
   * 准备好model—json数据结构映射对应的实体类
-  * 应用工具
 
-* 方式1: 原生JDK
-
-* 方式2: fastJson
+    * 节点名与成员变量名一一对应
+    * 
 
   * ```java
+    //调用工具类，完成json到实体类的数据映射
     //fastjson
     jsonmodel root = JSON.parseObject(json,jsonmodel.class);
-    
-    ```
-
-  * 
-
-* 方式3: Gson
-
-  * ```java
     //Gson
-     jsonmodel root = gson.fromJson(json,jsonmodel.class);
+    jsonmodel root = gson.fromJson(json,jsonmodel.class);
     ```
 
   * 
 
-* 方式4: qmikjson
+* 
 
   
