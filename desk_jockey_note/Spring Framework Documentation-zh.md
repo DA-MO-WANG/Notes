@@ -16,7 +16,7 @@ Spring本身是开源的，它本身拥有很多很活跃的社区，这些社�
 
 > The term "Spring" means different things in different contexts. It can be used to refer to the Spring Framework project itself, which is where it all started. Over time, other Spring projects have been built on top of the Spring Framework. Most often, when people say "Spring", they mean the entire family of projects. This reference documentation focuses on the foundation: the Spring Framework itself.
 
-
+术语Spring 在不同的上下文语境中意味着不同的东西。它可以用来引用Spring 框架体系本身，这也是最开始他被这么用的。随着时间，基于Spring框架体系构建的项目越来越多被构建。这时候人们开始说Spring，他们的意思是这些项目全部本身。这份参考文档聚焦在根本的地方—Spring框架本身。
 
 
 
