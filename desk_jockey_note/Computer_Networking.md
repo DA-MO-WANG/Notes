@@ -63,7 +63,9 @@
        * 现状：HTTP1.0默认是长连接，而且HTTP2 允许请求和应答交错了，优化了请求和应答的机制
 
 2. 报文格式
+
 3. Cookie: http本身无状态，但web 有需求去identify user
+
    * 用户第一次访问server, 
      * server会生成一个identifyID
      *  存到后端数据库
@@ -72,10 +74,22 @@
      * 读取到set-cookie，把这个值和host放到浏览器来管理的cookie文件里
      * 下次再次访问同一站点，就会在req中放入这个站点对应的标识userID
    * server收到req, 拿到req中的cookie，后续业务逻辑就会根据这这个id操作，包括一些相关表，围绕这个ID提供服务。
+
 4. web 缓存
-   * 减少平均响应时间
+
+   * 好的一面
+
+     * 减少平均响应时间
+
+       * https://www.zhihu.com/question/317549997
+
+       * 考虑缓存命中率，40%立即得到响应，剩下60%走ordinary server ，平均下来2秒降到1.2秒
+
+     * 减少整个链路的通信量，从而不用升级链路？
+
+   * 新的问题：缓存不一致的问题，混存之后发生了改变
+
      * 
-   * 减少整个链路的通信量，从而不用升级链路？
 
 ##### Concept Summary—》Chapter 2—〉mail相关的协议
 
