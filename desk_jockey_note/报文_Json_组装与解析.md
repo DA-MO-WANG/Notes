@@ -23,7 +23,8 @@
 * 方式2: fastJson
 
   * ```java
-    //使用形式
+    //fastjson
+    jsonmodel root = JSON.parseObject(json,jsonmodel.class);
     
     ```
 
@@ -31,4 +32,13 @@
 
 * 方式3: Gson
 
+  * ```java
+    //Gson
+    
+    ```
+
+  * 
+
 * 方式4: qmikjson
+
+  
