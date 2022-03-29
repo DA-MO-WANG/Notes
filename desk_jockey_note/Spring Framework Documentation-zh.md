@@ -12,7 +12,9 @@ Spring 支持很大范围的应用场景。在大规模企业级开发中，应�
 
 Spring本身是开源的，它本身拥有很多很活跃的社区，这些社区提供了以真实世界案例为基础的连续不断的反馈。这些有助于Spring 不断演化，持续很长一段时间。
 
+### What We Mean by "Spring"
 
+> The term "Spring" means different things in different contexts. It can be used to refer to the Spring Framework project itself, which is where it all started. Over time, other Spring projects have been built on top of the Spring Framework. Most often, when people say "Spring", they mean the entire family of projects. This reference documentation focuses on the foundation: the Spring Framework itself.
 
 
 
