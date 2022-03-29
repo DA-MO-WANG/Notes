@@ -24,7 +24,7 @@ Spring 框架体系按模块划分。应用可以按需要选择它需要哪一�
 
 ####History of Spring and the Spring Framework
 
-
+Spring 是在2003年，回应复杂的j2ee标准出现的。尽管有些人认为j2ee 与Spring是竞争关系，但事实上
 
 
 
