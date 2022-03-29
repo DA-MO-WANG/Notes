@@ -71,7 +71,7 @@
    * client 收到resp
      * 读取到set-cookie，把这个值和host放到浏览器来管理的cookie文件里
      * 下次再次访问同一站点，就会在req中放入这个站点对应的标识userID
-   * server收到req, 拿到req中的cookie，后续业务逻辑就会根据这这个id操作，包括一些相关表，围绕这个ID提供服务
+   * server收到req, 拿到req中的cookie，后续业务逻辑就会根据这这个id操作，包括一些相关表，围绕这个ID提供服务。
 
 ##### Concept Summary—》Chapter 2—〉mail相关的协议
 
