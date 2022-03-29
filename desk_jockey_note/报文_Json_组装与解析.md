@@ -18,6 +18,11 @@
 
 #### Json解析
 
+* 使用模版
+
+  * 准备好model—json数据结构映射对应的实体类
+  * 应用工具
+
 * 方式1: 原生JDK
 
 * 方式2: fastJson
@@ -34,7 +39,7 @@
 
   * ```java
     //Gson
-    
+     jsonmodel root = gson.fromJson(json,jsonmodel.class);
     ```
 
   * 
