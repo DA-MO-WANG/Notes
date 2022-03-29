@@ -9,4 +9,7 @@
   * 有序的值的分布，可以用array实现
 * object要素
   * 以{ 开始，以 } 结束
-  * 
+  * name 只能是字符串形式，value可以是字符串/object/array/number/bool/null
+* array要素
+  * 以[ 开始，以 ] 结束
+  * value可以是字符串/object/array/number/bool/null
