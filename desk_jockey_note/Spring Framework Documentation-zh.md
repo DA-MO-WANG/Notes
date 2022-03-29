@@ -20,7 +20,7 @@ Spring本身是开源的，它本身拥有很多很活跃的社区，这些社�
 
 > The Spring Framework is divided into modules. Applications can choose which modules they need. At the heart are the modules of the core container, including a configuration model and a dependency injection mechanism. Beyond that, the Spring Framework provides foundational support for different application architectures, including messaging, transactional data and persistence, and web. It also includes the Servlet-based Spring MVC web framework and, in parallel, the Spring WebFlux reactive web framework.
 
-Spring 框架体系按模块划分。应用可以按需要选择它需要哪一个模块。这些模块的中心角色是容器核心：
+Spring 框架体系按模块划分。应用可以按需要选择它需要哪一个模块。这些模块的中心角色是容器核心：配置模型、依赖注入机制。除此之外，Spring框架也提供了
 
 
 
