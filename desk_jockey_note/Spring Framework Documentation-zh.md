@@ -4,9 +4,9 @@
 
 Spring让创造Java企业级应用变得很简单。它提供了你要在企业级开发中需要的一切东西。它支持很多种语言，支持根据应用需要创造各种各样的架构。
 
+> Spring supports a wide range of application scenarios. In a large enterprise, applications often exist for a long time and have to run on a JDK and application server whose upgrade cycle is beyond developer control. Others may run as a single jar with the server embedded, possibly in a cloud environment. Yet others may be standalone applications (such as batch or integration workloads) that do not need a server.
 
-
-
+Spring 支持很大范围的应用场景。在大规模企业级开发中，应用通常会运行很长一段时间，但JDK版本升级或者应用服务器升级通常让事情超出开发者的控制。另外一种情况，是应用以一个jar的形式嵌入到服务器上来运行，也存在在云开发中运行。qi
 
 
 
