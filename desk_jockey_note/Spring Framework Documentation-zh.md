@@ -44,6 +44,12 @@ Spring继续革新、发展。在Spring框架之外，还有很多[其他项目]
 * 对API设计很谨慎，Spring团队花费了大量想法和时间来做API
 * 高标准代码质量，Spring框架很重视 javadoc的精确性、时效性，价值。它是很少能够宣称清洁代码的结构、没有循环依赖问题的项目之一。
 
+#### Feedback and Contributions
+
+####Getting Started
+
+
+
 
 
 ##7. Task Execution and Scheduling-2
