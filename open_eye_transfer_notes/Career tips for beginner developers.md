@@ -47,3 +47,5 @@ Rizel: [这里有各种语言的open source projects](https://github.com/topics)
 Rizel: 你可以通过加入正式的程序来寻找一段关系。比如[Girs in Tech](https://girlsintech.org/)\code Slack 频道\学校\训练营, [#100Devs](https://leonnoel.com/100devs/)也乐意去mentor你，还有twitter也可以约zoom。
 
 你和导师可以设置一系列阶段性目标，通常来说，我寻求头脑风暴的方式来解决问题，比如像职业成长、评估性能、面试。
+
+这里有一篇文章来指导[如何构建mentor关系](https://github.blog/2022-02-16-how-to-make-the-most-out-of-a-mentoring-relationship/)
