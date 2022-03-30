@@ -38,5 +38,5 @@ Rizel: [这里有各种语言的open source projects](https://github.com/topics)
 
 **在我的个人简历里我应该放一些什么**
 
-
+一个链接，指向你在各种托管平台的代码
 
