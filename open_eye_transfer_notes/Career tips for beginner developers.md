@@ -59,3 +59,7 @@ Rizel: 你可以通过加入正式的程序来寻找一段关系。比如[Girs i
 * [@hola_soy_milk](https://twitter.com/hola_soy_milk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)
 * [@teneikaask_you](https://twitter.com/teneikaask_you?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)
 * [@blackgirlbytes](https://twitter.com/blackgirlbytes?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)
+
+**我怎么寻找我的工作机会**
+
+Rizel: 不要管标题如何，尽可能去申请更多的机会。一些junior 角色不一定带着junior这个单词。警惕申请一些咩有mentor关系的
