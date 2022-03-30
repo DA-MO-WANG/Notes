@@ -34,5 +34,7 @@ Rizel: 我建议中首要的一条就是，_exploring open source 社区_,因为
 
 **我很感兴趣做开源项目，但是我不知道在哪里开始，在选择一个项目方面有没有某种技巧**
 
-Rizel: [这里有各种语言的open source projects](https://github.com/topics), 当你新入门开源项目时，你应该寻找一些issues,打着_good-first-issue_这类标签，这些任务通常不带有太多的先修负担。也存在很多[工具](https://www.firsttimersonly.com/)来统计标记项目里的good-first-issue。这些东西也有助于你学习理解基于git的工作流来给开源项目做贡献。这与你给你的项目或者你公司的项目贡献不太一样。Twitter上也存在一些账户叫[Good First Issue]()
+Rizel: [这里有各种语言的open source projects](https://github.com/topics), 当你新入门开源项目时，你应该寻找一些issues,打着_good-first-issue_这类标签，这些任务通常不带有太多的先修负担。也存在很多[工具](https://www.firsttimersonly.com/)来统计标记项目里的good-first-issue。这些东西也有助于你学习理解基于git的工作流来给开源项目做贡献。这与你给你的项目或者你公司的项目贡献不太一样。Twitter上也存在一些账户叫[Good First Issue](https://twitter.com/goodfirstissue)
+
+
 
