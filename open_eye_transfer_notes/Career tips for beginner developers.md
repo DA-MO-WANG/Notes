@@ -56,4 +56,6 @@ Rizel: 你可以通过加入正式的程序来寻找一段关系。比如[Girs i
 
 * [@ceeoreo_](https://twitter.com/ceeoreo_?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)
 * [@techgir1908](https://twitter.com/techgirl1908)
-* [@hola_soy_milk]()
+* [@hola_soy_milk](https://twitter.com/hola_soy_milk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)
+* [@teneikaask_you](https://twitter.com/teneikaask_you?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)
+* [@blackgirlbytes](https://twitter.com/blackgirlbytes?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)
