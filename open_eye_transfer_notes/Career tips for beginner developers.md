@@ -49,3 +49,5 @@ Rizel: 你可以通过加入正式的程序来寻找一段关系。比如[Girs i
 你和导师可以设置一系列阶段性目标，通常来说，我寻求头脑风暴的方式来解决问题，比如像职业成长、评估性能、面试。
 
 这里有一篇文章来指导[如何构建mentor关系](https://github.blog/2022-02-16-how-to-make-the-most-out-of-a-mentoring-relationship/)
+
+**我怎么利用社交媒体来简历
