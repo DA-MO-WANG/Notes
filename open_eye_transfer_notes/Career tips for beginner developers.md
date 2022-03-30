@@ -45,3 +45,5 @@ Rizel: [这里有各种语言的open source projects](https://github.com/topics)
 **我怎么寻找导师，我从这种类型的关系期待什么**
 
 Rizel: 你可以通过加入正式的程序来寻找一段关系。比如[Girs in Tech](https://girlsintech.org/)\code Slack 频道\学校\训练营, [#100Devs](https://leonnoel.com/100devs/)也乐意去mentor你，还有twitter也可以约zoom。
+
+你和导师可以设置
