@@ -30,6 +30,8 @@ Spring框架也支持依赖注入、常规注解。
 
 作为Spring 框架5.0，Spring需要Java EE 最低7 版本，它也整合了Java 8 上的新的API，这些让Spring 与更新版本的各种服务器协作起来更为合适。
 
+随着时间变化，JavaEE 的角色也在不断发展。在Java 和 Spring 的早期，应用被创建来部署在一个应用服务器上。今天，在Spring Boot的帮助下，应用用以 devops 和云的方式被创建出来。
+
 
 
 
