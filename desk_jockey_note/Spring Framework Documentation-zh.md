@@ -32,7 +32,7 @@ Spring框架也支持依赖注入、常规注解。
 
 随着时间变化，JavaEE 的角色也在不断发展。在Java 和 Spring 的早期，应用被创建来部署在一个应用服务器上。今天，在Spring Boot的帮助下，应用用以 devops 和云的方式被创建出来，Servlet容器被内置到框架中，基本不怎么变化。在5.0版本中，WebFlux 应用甚至不再直接使用Servlet API，也能跑在不是Servlet的容器里，比如Netty。
 
-Spring继续革新、发展。在Spring框架之外，还有很多其他项目，比如Spring Boot, Spring  Security, String Data, Spring Cloud, Spring Batch。 值得注意的是，每个项目都有
+Spring继续革新、发展。在Spring框架之外，还有很多其他项目，比如Spring Boot, Spring  Security, String Data, Spring Cloud, Spring Batch。 值得注意的是，每个项目都有自己的源代码仓库、问题链路追踪、发版。
 
 
 
