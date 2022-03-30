@@ -40,3 +40,8 @@ Rizel: [这里有各种语言的open source projects](https://github.com/topics)
 
 一个链接，指向你在各种托管平台的代码，让招聘人员和招聘经理看看你编码的证据，你编码的轨迹，能看到你的问题及解决问题的技巧。
 
+利用某种工具来构建你的简介，比如GitHub Pages、ReadME
+
+**我怎么寻找导师，我从这种类型的关系期待什么**
+
+Rizel: 
