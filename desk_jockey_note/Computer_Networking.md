@@ -89,7 +89,7 @@
 
    * 新的问题：缓存不一致的问题，混存之后发生了改变
 
-     * conditional Get请求：在报文里维护一个last modified字段和if - modified- since 字段，来去verify
+     * conditional Get请求：在报文里维护一个last modified字段和if - modified- since 字段，来去verify                                                                                                                                                                             j
 
 ##### Concept Summary—》Chapter 2—〉mail相关的协议
 
