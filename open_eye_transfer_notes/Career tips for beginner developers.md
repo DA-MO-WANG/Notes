@@ -34,4 +34,4 @@ Rizel: 我建议中首要的一条就是，_exploring open source 社区_,因为
 
 **我很感兴趣做开源项目，但是我不知道在哪里开始，在选择一个项目方面有没有某种技巧**
 
-Rizel: [这里有各种语言的open source projects](https://github.com/topics), 当你新入门开源项目时，你应该寻找一些issues,打着
+Rizel: [这里有各种语言的open source projects](https://github.com/topics), 当你新入门开源项目时，你应该寻找一些issues,打着_good-first-issue_这类标签，
