@@ -54,3 +54,6 @@ Rizel: 你可以通过加入正式的程序来寻找一段关系。比如[Girs i
 
 **哪些开发者值得追随，来帮助我保持灵感**
 
+* [@ceeoreo_](https://twitter.com/ceeoreo_?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)
+* [@techgir1908](https://twitter.com/techgirl1908)
+* [@hola_soy_milk]()
