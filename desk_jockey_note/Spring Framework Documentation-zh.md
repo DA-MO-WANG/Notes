@@ -34,6 +34,8 @@ Spring框架也支持依赖注入、常规注解。
 
 Spring继续革新、发展。在Spring框架之外，还有很多[其他项目](https://spring.io/projects)，比如Spring Boot, Spring  Security, String Data, Spring Cloud, Spring Batch。 值得注意的是，每个项目都有自己的源代码仓库、问题链路追踪、发版。
 
+#### Design Philosophy
+
 
 
 
