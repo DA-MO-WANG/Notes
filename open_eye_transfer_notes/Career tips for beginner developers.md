@@ -44,4 +44,4 @@ Rizel: [这里有各种语言的open source projects](https://github.com/topics)
 
 **我怎么寻找导师，我从这种类型的关系期待什么**
 
-Rizel: 你可以通过加入正式的程序来寻找一段关系。比如Girs in Tech
+Rizel: 你可以通过加入正式的程序来寻找一段关系。比如[Girs in Tech](https://girlsintech.org/)
