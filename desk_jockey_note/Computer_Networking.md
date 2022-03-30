@@ -89,7 +89,12 @@
 
    * 新的问题：缓存不一致的问题，混存之后发生了改变
 
-     * conditional Get请求：在报文里维护一个last modified字段和if - modified- since 字段，来去verify                                                                                                                                                                             j
+     * conditional Get请求：在报文里维护一个last modified字段和if - modified- since 字段，来去verify                                                                                                                                                                             
+
+5. Http/2
+
+   * http 1.1 遇到的问题：HOL-页面中前面的大对象，挡住了后面小对象的发送，从影响用户体验延迟--短板效应——》多个并行的TCP连接来解决，但是增大了带宽占用
+   * http2 遇到的问题
 
 ##### Concept Summary—》Chapter 2—〉mail相关的协议
 
