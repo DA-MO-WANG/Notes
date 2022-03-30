@@ -48,13 +48,31 @@ Spring继续革新、发展。在Spring框架之外，还有很多[其他项目]
 
 ####Getting Started
 
-## Core
+## 2 Core
 
-#### IoC Container
+#### 2.1 IoC Container
 
 
 
-#### Resources
+#### 2.2 Resources
+
+
+
+#### 2.3 校验、数据绑定、类型转换
+
+
+
+#### 2.4 Spring EL
+
+
+
+
+
+#### 2.5 <color > 基于Spring的面向切面编程<color/>
+
+
+
+
 
 
 
