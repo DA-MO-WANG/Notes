@@ -50,4 +50,5 @@ Rizel: 你可以通过加入正式的程序来寻找一段关系。比如[Girs i
 
 这里有一篇文章来指导[如何构建mentor关系](https://github.blog/2022-02-16-how-to-make-the-most-out-of-a-mentoring-relationship/)
 
-**我怎么利用社交媒体来简历
+**我怎么利用社交媒体来建立个人界标**
+
