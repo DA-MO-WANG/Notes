@@ -28,7 +28,7 @@ Spring 是在2003年，回应复杂的j2ee标准出现的。尽管有些人认�
 
 Spring框架也支持依赖注入、常规注解。
 
-作为Spring 框架5.0，Spring需要Java EE 最低7 版本，它也整合了Java 8 上的新的API，
+作为Spring 框架5.0，Spring需要Java EE 最低7 版本，它也整合了Java 8 上的新的API，这些让Spring 与更新版本的各种服务器协作起来更为合适。
 
 
 
