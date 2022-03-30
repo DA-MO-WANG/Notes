@@ -95,9 +95,13 @@
 
    * http 1.1 遇到的问题：HOL-页面中前面的大对象，挡住了后面小对象的发送，从影响用户体验延迟--短板效应——》多个并行的TCP连接来解决，但是增大了带宽占用
    * http2 解决的方式：
-     * framing机制：把各种message切成小帧，每个对象的帧轮流发送
+     * framing机制：把各种message切成小帧，每个对象的帧轮流发送，然后收到了再组合
      * 同一个client 多个请求：优先级配置，按照优先级发送帧
      * server push : 不用等他请求这些对象，通过分析html, 就知道哪些对象是必需的，然后一股脑发送到client
+
+6. http 3（草图）
+
+   * 底层是QUIC , 包括了很多http 2的特性， HTTP 3是建立在 quic 基础上的
 
 ##### Concept Summary—》Chapter 2—〉mail相关的协议
 
