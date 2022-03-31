@@ -158,9 +158,9 @@ segments 和 socket的故事：
 
 
 
-### 无连接的multiplex 和 demultiplex
+### 无连接的(UDP)multiplex 和 demultiplex
 
-
+每一个socket都得有一个端口号，只不过这个端口号可以自动分配；也可以手动绑定。通常UDP client自己的端口号，在socket创建时自动分配的；UDP server 手动绑定的。
 
 
 
