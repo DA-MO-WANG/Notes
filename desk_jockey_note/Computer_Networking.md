@@ -1,4 +1,4 @@
-#####Homework Problems and Questions—》Chapter 2—〉section 2.1
+Homework Problems and Questions—》Chapter 2—〉section 2.1
 
 1.微信-HTTP; QQ-OICQ; IE-HTTP; outlook-POP3
 
@@ -145,9 +145,14 @@
 
 类比：从每个人手里收集mail就叫multiplex; 把mail分到每个人手里就叫demultiplex
 
-How it is actually done in a host
+######How it is actually done in a host？
 
+segments 和 socket的故事：
 
+* 存在这么一个socket
+* segment上要有特定的字段设计，来实现特定发送的目的
+  * 源端口号/目的端口号
+  * 16位0-65535，0-1023公开协议使用的
 
 
 
