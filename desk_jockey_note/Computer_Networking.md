@@ -143,6 +143,8 @@
 
 每一个运输层segments上，设计了一系列字段来实现这个目的。在接收端主机上，运输层检查了这些字段来确定接收的socket，然后把这个segment路由到这个socket。把运输层segment发送到正确的socket的任务被叫demultiplex，类似从一团中拿到一小个放到对应的一小个中。从不同的socket中收集数据块，在每一个数据块上嵌入头部信息，来创造一个segment，然后把这个segment传送到网络层，这个工作就叫multiplex
 
+类比：从每个人手里收集mail就叫multiplex; 把mail分到每个人手里就叫demultiplex
+
 
 
 
