@@ -156,6 +156,14 @@ segments 和 socket的故事：
 
 
 
+
+
+### 无连接的multiplex 和 demultiplex
+
+
+
+
+
 ​					
 
 ​				  
