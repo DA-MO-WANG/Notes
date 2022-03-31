@@ -141,7 +141,7 @@
 
 一个进程拥有很多sockets，穿过这个门，来自网络中的数据来到了这个进程，同时也是穿过这个门来自进程的数据发到了网络中。因此，运输层并不是把数据直接发到进程，而是通过了一个中介-socket。但是在一段时间内，在接收主机上不止一个socket，每一个socket都有一个独一无二的标识符。这个标识符的类型依赖于是UDP socket还是TCP socket。
 
-每一个运输层segments上，设计了一系列字段来实现这个目的。在接收端主机上，运输层检查了这些字段来确定接收的socket，然后把这个segment路由到这个socket。把运输层segment发送到正确的socket的任务被叫demultiplex，类似从一团中拿到一小个放到对应的一小个中。
+每一个运输层segments上，设计了一系列字段来实现这个目的。在接收端主机上，运输层检查了这些字段来确定接收的socket，然后把这个segment路由到这个socket。把运输层segment发送到正确的socket的任务被叫demultiplex，类似从一团中拿到一小个放到对应的一小个中。从不同的socket中收集数据块，在每一个数据块上嵌入头部信息，来创造一个segment，然后把这个segment传送到网络层，这个工作就叫multiplex
 
 
 
