@@ -162,6 +162,16 @@ segments 和 socket的故事：
 
 每一个socket都得有一个端口号，只不过这个端口号可以自动分配；也可以手动绑定。通常UDP client自己的端口号，在socket创建时自动分配的；UDP server 手动绑定的。
 
+UDP socket 是二元组来标定的——(目的地ip,目的地端口号)
+
+
+
+### 面向连接的(TCP)multiplex 和 demultiplex
+
+tcp server 有一个**welcoming socket**,等待一个连接建立的请求
+
+连接建立的请求，通常只是一个tcp segments, 它不包含 application data
+
 
 
 ​					
