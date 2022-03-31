@@ -145,6 +145,8 @@
 
 类比：从每个人手里收集mail就叫multiplex; 把mail分到每个人手里就叫demultiplex
 
+How it is actually done in a host
+
 
 
 
