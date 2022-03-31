@@ -172,6 +172,8 @@ tcp server 有一个**welcoming socket**,等待一个连接建立的请求
 
 连接建立的请求，通常只是一个tcp segments, 它不包含 application data
 
+TCP socket 是四元组标定——(源端口号、源ip、目的地端口号、目的地ip) ; tcp segments 也包含这四个字段
+
 
 
 ​					
