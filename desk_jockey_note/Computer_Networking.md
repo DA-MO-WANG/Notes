@@ -174,7 +174,11 @@ tcp server 有一个**welcoming socket**,等待一个连接建立的请求
 
 TCP socket 是四元组标定——(源端口号、源ip、目的地端口号、目的地ip) ; tcp segments 也包含这四个字段
 
+##### web servers 和 TCP
 
+在结束讨论之前，还有一点话要说：web server 是如何使用端口号的？我们先假定有一台主机上运行着一个web server，比如说Apache 服务器，在80端口。当客户端比如浏览器，发送很多segments给服务器，所有segments都朝向80端口。
+
+（翻译不是目的，而是记录上一次看到的东西，然后下一次在这个基础上再做功，这样让大脑层次化递进）
 
 
 
