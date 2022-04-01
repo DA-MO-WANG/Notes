@@ -176,7 +176,9 @@ TCP socket 是四元组标定——(源端口号、源ip、目的地端口号、
 
 ##### web servers 和 TCP
 
-在结束讨论之前，还有一点话要说：web server 是如何使用端口号的？我们先假定有一台主机上运行着一个web server，比如说Apache 服务器，在80端口。当客户端比如浏览器，发送很多segments给服务器，所有segments都朝向80端口。
+在结束讨论之前，还有一点话要说：web server 是如何使用端口号的？我们先假定有一台主机上运行着一个web server，比如说Apache 服务器，在80端口。当客户端比如浏览器，发送很多segments给服务器，所有segments都朝向80端口。特别的是初始化连接建立的segment和携带HTTP请求信息的segment都将到达80端口。正如我们描述的那样，server能区分出来自不同客户端的segments。
+
+图3.5展示web server 为每一个连接都派生出一个新的进程。正如3.5所示，这些进程中的每一个都拥有自己的connection socket 用来接收Http request 和 发出Http response。
 
 （翻译不是目的，而是记录上一次看到的东西，然后下一次在这个基础上再做功，这样让大脑层次化递进）
 
