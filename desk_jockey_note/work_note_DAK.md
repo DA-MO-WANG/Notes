@@ -31,7 +31,19 @@
 
 
 
-
+```sql
+-- sql
+-- case when 函数有两种用法
+-- 用法1:
+case 字段
+	when 值1  then express1
+	when 值2  then express2
+else express3 end
+-- 用法2:
+case when 条件1 then express1
+		 when 条件2 then express2
+else express3 
+```
 
 
 
