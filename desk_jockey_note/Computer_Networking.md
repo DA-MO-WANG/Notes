@@ -190,9 +190,11 @@ TCP socket 是四元组标定——(源端口号、源ip、目的地端口号、
 
 ###### how it works, what is does
 
-为了更好地讨论UDP，假定你现在很有兴趣设计一个没有虚饰的，皮包骨头的运输层协议，你有什么想法吗？你可能首先考虑到使用一个空洞的运输层协议。尤其是在发送端，你可能想到去从应用进程里取得message, 然后直接把message 传到 network layer。在接收端，你可能想到直接从network layer里获取message，然后把message直接传到applicaition layer。
+为了更好地讨论UDP，假定你现在很有兴趣设计一个没有虚饰的，皮包骨头的运输层协议，你有什么想法吗？你可能首先考虑到使用一个空洞的运输层协议。尤其是在发送端，你可能想到去从应用进程里取得message, 然后直接把message 传到 network layer。在接收端，你可能想到直接从network layer里获取message，然后把message直接传到applicaition layer。但是在上一节中我们了解到我们不得不做一些额外的事情。至少，运输层得提供multiplex 和 demultiplex 服务，为了把数据从network layer 传到application layer中恰当的进程里。
 
-（有一个想法：根本就是一个过程为了便于理解，来拆分出七个或5个部分，）
+（我越来越喜欢翻译了！！！！:smile）
+
+（有一个想法：根本就是一个过程为了便于理解，来拆分出七个或5个部分，实际上是为了完成一个目的的一个大过程）
 
 （翻译不是目的，而是记录上一次看到的东西，然后下一次在这个基础上再做功，这样让大脑层次化递进）
 
