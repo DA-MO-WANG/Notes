@@ -180,7 +180,9 @@ TCP socket 是四元组标定——(源端口号、源ip、目的地端口号、
 
 图3.5展示web server 为每一个连接都派生出一个新的进程。正如3.5所示，这些进程中的每一个都拥有自己的connection socket 用来接收Http request 和 发出Http response。然而我们还要提到，在connection socket和进程之间不总是一一对应的。事实上，今天的高性能web server仅仅使用一个进程，当一个新的client connect到来时，就会创建出一个携带一个新的connection socket的新的线程。对于这样的服务器，在给定时间里，就会存在在同一个process上附带着很多connection socket。
 
-如果client 和server 使用 长连接HTTP，在长连接期间，
+如果client 和server 使用 长连接HTTP，在长连接期间，client 和 server 通过相同的server socker交换HTTP 报文，然而，如果client 和 server 使用短连接HTTP，那么伴随每一个请求/响应对，一个新的TCP连接被创建和销毁过程。这种频繁的创建和销毁会极大的影响一个繁忙的server。
+
+现在我们已经讨论了运输层的复用和分用服务，让我们换一下来讨论因特网运输层
 
 （翻译不是目的，而是记录上一次看到的东西，然后下一次在这个基础上再做功，这样让大脑层次化递进）
 
