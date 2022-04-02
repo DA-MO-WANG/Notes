@@ -207,7 +207,11 @@ TCP socket 是四元组标定——(源端口号、源ip、目的地端口号、
 
 #### UDP segment 结构
 
-application data 占据了 UDP segment中的data field。UDP header 部分只有4个字段，每一个占2个字节。source 和 dest port 用来实现把data 传送到相应的进程里；length 字段表示UDP header + data 部分的字节数量大小，因为会变化，所以要记录。checksum用来核查segment是否有错误。事实上，checksum
+application data 占据了 UDP segment中的data field。UDP header 部分只有4个字段，每一个占2个字节。source 和 dest port 用来实现把data 传送到相应的进程里；length 字段表示UDP header + data 部分的字节数量大小，因为会变化，所以要记录。checksum用来核查segment是否有错误。事实上，checksum也会在IP header里用到。
+
+##### UDP checksum
+
+这个字段提供了error侦查。bits是否改变了
 
 
 
