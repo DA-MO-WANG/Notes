@@ -196,7 +196,7 @@ TCP socket 是四元组标定——(源端口号、源ip、目的地端口号、
 
 为什么一些应用开发者会选择基于UDP而不是选择TCP，TCP不是能提供可靠的数据传输吗？
 
-* 
+* UDP就是简单的把application layer的data发送到UDP，UDP把数据打包到UDP segment中，然后把这个segment发送到网络层。另一方面，TCP有一个拥塞控制机制，会在源端到目的地的链路变得非常拥挤时，就挤掉一些TCP发送端。TCP会一直重发，直到收到目的地的ack。
 
 
 
