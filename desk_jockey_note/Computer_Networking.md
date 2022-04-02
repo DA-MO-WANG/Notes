@@ -198,7 +198,12 @@ TCP socket 是四元组标定——(源端口号、源ip、目的地端口号、
 
 * 没有congestion-control machanism的好处：UDP就是简单的把application layer的data发送到UDP，UDP把数据打包到UDP segment中，然后把这个segment发送到网络层。另一方面，TCP有一个拥塞控制机制，会在源端到目的地的链路变得非常拥挤时，就挤掉一些TCP发送端。TCP会一直重发，直到收到目的地的ack。但是很多应用接受不了延迟，能够忍受一些数据丢失。
 * 没有establish connection的好处：TCP像一个绅士，在发送之前有三次握手；UDP没有这些正式准备礼仪工作，就是简单粗暴扔数据。这样就没有连接建立的延迟
-* 不用保持connection state的好处：connection state 的maintain 是通过一些参数实现的，比如收发缓冲、拥塞控制参数、串序、ack number, tcp 需要维护这些parameters; UDP 是不需要
+* 不用保持connection state的好处：connection state 的maintain 是通过一些参数实现的，比如收发缓冲、拥塞控制参数、串序、ack number, tcp 需要维护这些parameters; UDP 是不需要追踪这些参数
+* header 部分small：TCP 头部20字节那么大；UDP头部只有8字节
+
+
+
+在讨论UDP segment结构之前，我们谈到即使使用UDP，一个应用也是能拥有可靠的数据传输。
 
 
 
