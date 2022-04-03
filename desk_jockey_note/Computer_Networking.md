@@ -213,6 +213,10 @@ application data 占据了 UDP segment中的data field。UDP header 部分只有
 
 这个字段提供了error侦查。bits是否改变了
 
+UDP的错误检查机制：checksum存储的是所有字段的位串和的反值，然后传输到接收端，就回把这些值加起来（包括checksum），会得到全1串，这样容易检测是否混进0去了
+
+系统设计的原则：在高水平提供它的成本相比，
+
 
 
 
