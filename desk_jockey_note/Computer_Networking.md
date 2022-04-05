@@ -239,6 +239,10 @@ UDP虽然提供了检测，但不意味着它会修复，它只会扔掉错误�
 
 rdt 1.0 ：在发送端，rdt-send从上层拿到数据，打包成packet，然后传到channel；接收端，rdt-recv从channel中拿到数据，然后通过deliever-data把数据交付给上层
 
+错误重发机制：ARQ协议
+
+
+
 ###### 考虑增加bit error的情况：rdt 2.0
 
 
