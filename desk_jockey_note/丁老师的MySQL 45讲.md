@@ -25,7 +25,7 @@
 
      ```sql
      #连接命令
-     mysql -u
+     mysql -h localhost -u root -p
      ```
 
      
