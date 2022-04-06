@@ -26,7 +26,7 @@
      ```sql
      #连接命令
      mysql -h localhost -u root -p
-     #经历tcp后，走连接认证逻辑
+     #经历tcp后，走连接认证逻辑，搜权限表，定下权限来
      ```
 
      
