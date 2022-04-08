@@ -18,3 +18,5 @@
 > The tools that you use, from databases to programming languages, are built on a foundation of academic research. “
 
 你使用的工具，从数据库到编程语言，都是建立在academic research 的基础上的。
+
+> 
