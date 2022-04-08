@@ -67,7 +67,7 @@
     * server层面的执行器操作的是redo log
     * 追加写，写满了就换一个新文件，也就意味着这个没有固定大小
   * 两阶段提交：redo log的prepare 和 commit状态
-    * 
+    * 引擎把更新操作记录在redo log，redo log 处于prepare状态—
 
 ​		mysql常识：</br>
 ​				具体的存储引擎不止一个，InnoDB(5.5后默认)、MyISAM、Memory-----建表时，用engine=？来指定
