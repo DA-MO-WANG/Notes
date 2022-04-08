@@ -73,7 +73,7 @@
     * bin log 体现的是逻辑层面的记录，记录的是语义逻辑
     * server层面的执行器操作的是redo log
     * 追加写，写满了就换一个新文件，也就意味着这个没有固定大小
-    * 
+    * sync_binlog设置1，每次事务binlog 也持久化磁盘
 
   * 两阶段提交：redo log的prepare 和 commit状态
 
