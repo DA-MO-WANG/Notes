@@ -66,12 +66,14 @@
     * 总是说这个是物理的，其实针对的是页，记录的是页层面的改动
     * redo log 是InnoDB独有的，换了其他引擎，就没有了，引擎层操作的是这个log
     * 循环写，这个由两个指针的设计就能看出来
+    * innodb_flush_log_at_trx_commit 参数设为1，每次事务都持久化磁盘
 
   * server层的bin log设计：
 
     * bin log 体现的是逻辑层面的记录，记录的是语义逻辑
     * server层面的执行器操作的是redo log
     * 追加写，写满了就换一个新文件，也就意味着这个没有固定大小
+    * 
 
   * 两阶段提交：redo log的prepare 和 commit状态
 
