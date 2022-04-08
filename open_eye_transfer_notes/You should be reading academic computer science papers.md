@@ -26,3 +26,7 @@
 > It's standing on the shoulders of giants
 
 站在巨人的肩膀上===抱大腿的高水平的表达
+
+
+
+paper 给出了很多解决方案的尝试；旧的paper给出了更加细节化，更佳容易接受，真实的发展轨迹
