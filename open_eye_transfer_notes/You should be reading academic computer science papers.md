@@ -25,4 +25,4 @@
 
 > It's standing on the shoulders of giants
 
-站在巨人的肩膀上。
+站在巨人的肩膀上===抱大腿的高水平的表达
