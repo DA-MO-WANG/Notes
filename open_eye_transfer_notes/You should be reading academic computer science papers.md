@@ -11,4 +11,4 @@
 
 > While the tutorials can help you write code right now, it’s the academic papers that can help you understand where programming came from and where it’s going. Every programming feature, from the null pointer (aka [the billion dollar mistake](https://qconlondon.com/london-2009/qconlondon.com/london-2009/speaker/Tony+Hoare.html)) to objects (via [Smalltalk](https://softwareengineering.stackexchange.com/questions/142327/what-did-they-call-object-oriented-programming-before-alan-kay-invented-the-term/142330#142330)) has been built on a foundation of research that stretches back to the 1960s (and earlier). Future innovations will be built on the research of today. 
 
-尽管
+尽管教程可以当下在写代码方面就能给你帮助，但是academic papers 能够帮助你理解programming 来自哪里，未来又有什么走向。
