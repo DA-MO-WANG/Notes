@@ -14,3 +14,7 @@
 尽管教程可以当下在写代码方面就能给你帮助，但是academic papers 能够帮助你理解programming 来自哪里，未来又有什么走向。每种语言特性，从空指针到对象，建立在90年代或更早以来的研究当中。类比，未来的新方法新路径自然就建立在今天的研究上。
 
 很多人其实没有接受过正规地计算机培训，像很多人文学科的好学生一样，他们一直在档案中找答案。牛顿说：“我总是对我所做的事情的历史资料感兴趣”。
+
+> The tools that you use, from databases to programming languages, are built on a foundation of academic research. “
+
+你使用的工具，从数据库到编程语言，都是建立在academic research 的基础上的。
