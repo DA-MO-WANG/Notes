@@ -22,3 +22,4 @@
 > Understanding the roots of the things you’re working on unlocks a lot of knowledge that you’re not going to get purely just by using every day because you don’t understand the paths that they didn’t go down
 
 理解你工作的事物的根源，可以解锁一系列你通过使用无法得到的一些知识。因为你根本就不会理解那些无法到达的路径。
+
