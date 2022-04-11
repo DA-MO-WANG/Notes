@@ -146,6 +146,7 @@
 
    * 排查长事务的命令
      ```sql
+     -- 在information_schema库下innodb_trx表中，找事务持续时间>60s的记录
      select * from information_schema.innodb_trx where TIME_TO_SEC(timediff(now(),trx_started))>60
      ```
 
