@@ -152,9 +152,9 @@
      select * from information_schema.innodb_trx where TIME_TO_SEC(timediff(now(),trx_started))>60
      ```
 
-     
+4. 如果你是负责人，如何处理长事务的情况，有没有什么方案？
 
-     
+​		能避免尽量避免，如果无法避免，就要保证日志空间足够，同时
 
 
 
