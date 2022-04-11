@@ -103,7 +103,7 @@
 
          * 四个隔离级别
            * 读未提交 read uncommitted
-             * 
+             * 两个事务混在一起，对数据的任何改变，对两个事务都是公开可见的
            * 读已提交 read committed
            * 可重复读 reapetable read
            * 串行化 serializable
