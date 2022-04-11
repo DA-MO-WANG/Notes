@@ -103,9 +103,10 @@
 
          * 四个隔离级别
            * 读未提交 read uncommitted
+             * 
            * 读已提交 read committed
            * 可重复读 reapetable read
-           * 
+           * 串行化 serializable
 
 
 
