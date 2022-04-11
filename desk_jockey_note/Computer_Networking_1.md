@@ -15,7 +15,7 @@
 
   * queue : 找到port后，就排队
 
-  * trasmittion：
+  * transmission：
 
   * 媒介：材质不同，速度不同，耗费的时间也不同
 
