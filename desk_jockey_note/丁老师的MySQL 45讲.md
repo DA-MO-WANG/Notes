@@ -143,6 +143,8 @@
 
 
 
+
+
 ​		mysql常识：</br>
 ​				具体的存储引擎不止一个，InnoDB(5.5后默认)、MyISAM、Memory-----建表时，用engine=？来指定
 
