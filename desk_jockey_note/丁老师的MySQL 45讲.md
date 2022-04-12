@@ -167,7 +167,7 @@
       -- 开启这个日志
       set global general_log = on;
       -- 查看这个日志
-      
+      -- general_log_file对应的就是日志存储地址
       ```
 
     * 
