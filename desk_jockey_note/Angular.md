@@ -14,4 +14,8 @@ ng new my-app
 
 3. 运行项目
 
-··
+```shell
+cd my-app
+ng serve --open #启动项目，自动打开浏览器访问
+```
+
