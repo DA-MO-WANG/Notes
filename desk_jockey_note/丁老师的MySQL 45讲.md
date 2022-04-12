@@ -178,8 +178,16 @@
 * 数据库端来看
 
   * 监控information_schema库下innodb_trx表，设置长事务阈值，超过就报警/或者kill
+
   * Percona的pt-kill这个工具不错，推荐使用
+
+    ```shell
+    #查杀会话
+    pt-kill 工具用来查杀性能恶劣的各种会话
+    ```
+
   * 业务功能测试阶段要求输出所有的general_log，分析日志行为提前发现问题
+
   * 5.6以上版本，，把innodb_undo_tablespaces设置成2，当大事务导致回滚段过大时，方便清理
 
 能避免尽量避免，如果无法避免，就要保证日志空间足够，支持动态空间 增长，同时监控innodb_trx这个表，触发底线时间就报警
