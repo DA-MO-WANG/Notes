@@ -19,3 +19,8 @@ cd my-app
 ng serve --open #启动项目，自动打开浏览器访问
 ```
 
+```shell
+#考虑国内网络环境，换成淘宝镜像
+ npm install -g cnpm --registry=https://registry.npm.taobao.org
+```
+
