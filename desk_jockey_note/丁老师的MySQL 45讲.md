@@ -157,7 +157,20 @@
 * 应用开发端来看
 
   * 确认是否使用了set autocommit=0
+
     * 打开mysql的general_log日志，跑一个业务逻辑，通过这个日志确认这个值，然后改成1
+
+    * ```sql
+      -- general_log如何打开
+      --先查看是否打开
+      show variables like '%log%';
+      -- 开启这个日志
+      set global general_log = on;
+      -- 查看这个日志
+      
+      ```
+
+    * 
 
   * 确认是否有没有没必要的只读事务
   * 预估业务本身耗费时间，设置set max_execution_time命令控制每个语句执行的最长时间，避免单个语句执行最长时间
