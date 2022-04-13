@@ -240,7 +240,10 @@
      select * from T where k between 3 and 5
      ```
 
-     
+     * 先看where查询条件，因为k字段是索引，所以先去k索引树上找
+       * between 3 在前，先找k=3的记录，找到叶子结点取得对应主键ID的值ID=3
+         * 然后根据ID=3，因为查询*，所以去主键ID索引树上查整行数据R3
+       * and 5 同理，
 
    
 
