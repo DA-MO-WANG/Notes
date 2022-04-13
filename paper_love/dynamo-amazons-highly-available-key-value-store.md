@@ -52,3 +52,9 @@ Amazon 运行着世界级别的电子交易平台。在高峰时段，这个平�
 
 
 
+> There are many services on Amazon’s platform that only need primary-key access to a data store. For many services, such as those that provide best seller lists, shopping carts, customer preferences, session management, sales rank, and product catalog, the common pattern of using a relational database would lead to inefficiencies and limit scale and availability. Dynamo provides a simple primary-key only interface to meet the requirements of these applications. 
+
+
+
+
+
