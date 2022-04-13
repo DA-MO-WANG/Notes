@@ -22,7 +22,7 @@ Amazon 运行着世界级别的电子交易平台。在高峰时段，这个平�
 
 > One of the lessons our organization has learned from operating Amazon’s platform is that the reliability and scalability of a system is dependent on how its application state is managed. Amazon uses a highly decentralized, loosely coupled, service oriented architecture consisting of hundreds of services. In this environment there is a particular need for storage technologies that are always available. For example, customers should be able to view and add items to their shopping cart even if disks are failing, network routes are flapping, or data centers are being destroyed by tornados. Therefore, the service responsible for managing shopping carts requires that it can always write to and read from its data store, and that its data needs to be available across multiple data centers. 
 
-
+我们从运作Amazon平台得到的教训之一，是一个系统的可靠性和可伸缩性取决于其应用状态是怎么被管理的。Amazon使用高度去中心化的、松散耦合的，面向服务的架构。这种体系架构由由上百个服务组成。在这种环境下，特别需要一种始终保证可用的存储技术。
 
 
 
