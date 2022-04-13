@@ -30,7 +30,7 @@ Amazon 运行着世界级别的电子交易平台。在高峰时段，这个平�
 
 > To meet the reliability and scaling needs, Amazon has developed a number of storage technologies, of which the Amazon Simple Storage Service (also available outside of Amazon and known as Amazon S3), is probably the best known. This paper presents the design and implementation of Dynamo, another highly available and scalable distributed data store built for Amazon’s platform. Dynamo is used to manage the state of services that have very high reliability requirements and need tight control over the tradeoffs between availability, consistency, cost-effectiveness and performance. Amazon’s platform has a very diverse set of applications with different storage requirements. A select set of applications requires a storage technology that is flexible enough to let application designers configure their data store appropriately based on these tradeoffs to achieve high availability and guaranteed performance in the most cost effective manner. 
 
-
+为了满足可靠性和伸缩性的需要，Amazon开发了很多存储技术。其中最著名可能是亚马逊简单存储服务，称为Amazon S3。本文介绍了Dynamo的设计和实现，这是另一种构建
 
 
 
