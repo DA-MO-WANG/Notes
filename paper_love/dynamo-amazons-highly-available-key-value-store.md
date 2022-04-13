@@ -26,7 +26,7 @@ Amazon 运行着世界级别的电子交易平台。在高峰时段，这个平�
 
 > Dealing with failures in an infrastructure comprised of millions of components is our standard mode of operation; there are always a small but significant number of server and network components that are failing at any given time. As such Amazon’s software systems need to be constructed in a manner that treats failure handling as the normal case without impacting availability or performance. 
 
-
+在一个由百万组件组成的基础设施中处理故障，是我们日常的运作模式。因此，
 
 
 
