@@ -36,7 +36,7 @@ Amazon 运行着世界级别的电子交易平台。在高峰时段，这个平�
 
 在Amazon平台上存在很多服务，这些服务只需要对数据库的primary-key访问。对于像提供畅销书列表、购物车、用户偏好、会话管理、销售排名、产品目录的服务，使用关系型数据库的常见模式，将会导致低效、规模和可用性受限。Dynamo提供了一种简化的只传入primary-key的接口来满足应用程序的需要。
 
-> Dynamo uses a synthesis of well known techniques to achieve scalability and availability: Data is partitioned and replicated using consistent hashing [10], and consistency is facilitated by object versioning [12]. The consistency among replicas during updates is maintained by a quorum-like technique and a decentralized replica synchronization protocol. 
+> Dynamo uses a synthesis of well known techniques to achieve scalability and availability: Data is partitioned and replicated using consistent hashing [10], and consistency is facilitated by object versioning [12]. The consistency among replicas during updates is maintained by a quorum-like technique and a decentralized replica synchronization protocol. Dynamo employs a gossip based distributed failure detection and membership protocol. Dynamo is a completely decentralized system with minimal need for manual administration. Storage nodes can be added and removed from Dynamo without requiring any manual partitioning or redistribution. 
 
 
 
