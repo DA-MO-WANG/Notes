@@ -34,9 +34,7 @@ Amazon 运行着世界级别的电子交易平台。在高峰时段，这个平�
 
 > There are many services on Amazon’s platform that only need primary-key access to a data store. For many services, such as those that provide best seller lists, shopping carts, customer preferences, session management, sales rank, and product catalog, the common pattern of using a relational database would lead to inefficiencies and limit scale and availability. Dynamo provides a simple primary-key only interface to meet the requirements of these applications. 
 
-在Amazon平台上
-
-
+在Amazon平台上存在很多服务，这些服务只需要对数据库的primary-key访问。对于像提供畅销书列表、购物车、用户偏好、会话管理、销售排名、产品目录的服务，使用关系型数据库的常见模式，将会导致低效、规模和可用性受限。Dynamo提供了一种简化的只传入primary-key的接口来满足应用程序的需要。
 
 > Dynamo uses a synthesis of well known techniques to achieve scalability and availability: Data is partitioned and replicated using consistent hashing [10], and consistency is facilitated by object versioning [12]. The consistency among replicas during updates is maintained by a quorum-like technique and a decentralized replica synchronization protocol. 
 
