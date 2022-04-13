@@ -22,7 +22,12 @@
   * 层与层之间有一个接面interface：下一层为上一层提供的服务
     * 上一层给下一次传输的数据，都叫data; 这里有一个加包过程，就是这个data是主键变大的，每一层基于他自身向上提供的服务，为了支持这些服务，需要加一些字段
       * transport 加了端口号 segament
-      * 
+      * network  加了source destination 的ip地址  datagram
+      * link 加了source destination mac网卡地址  frame; 专注于传输节点之间，比如router\switch，每换一个节点，一对mac地址会变化；更新为下一个地址，这里与network的ip不同，ip在传输链路中是不变的
+
+
+
+#第二章开始
 
 
 
