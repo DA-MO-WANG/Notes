@@ -237,7 +237,7 @@
      
      insert into T values(100,1, 'aa'),(200,2,'bb'),(300,3,'cc'),(500,5,'ee'),(600,6,'ff'),(700,7,'gg');
      -- 查询语句
-     
+     select * from T where k between 3 and 5
      ```
 
      
