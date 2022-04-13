@@ -20,18 +20,6 @@
 
 Amazon 运行着世界级别的电子交易平台。在高峰时段，这个平台服务着上亿顾客，通过成千上万台世界各地的数据中心的服务器。就性能、可用性、效率性而言，Amazon平台有一个严格使用指标。为了支持平台不断增长的需要，还要求具有可伸缩性。可用性是最重要的一个指标，因为即使再微小的宕机也会造成很严重的经济损失和用户口碑流失。其次，为了应对不断增长的需要，平台还需要高可伸缩性。
 
-> Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. To copy otherwise, or republish, to post on servers or to redistribute to lists, requires prior specific permission and/or a fee. 
-
-
-
-
-
-
-
-
-
-
-
 > One of the lessons our organization has learned from operating Amazon’s platform is that the reliability and scalability of a system is dependent on how its application state is managed. Amazon uses a highly decentralized, loosely coupled, service oriented architecture consisting of hundreds of services. In this environment there is a particular need for storage technologies that are always available. For example, customers should be able to view and add items to their shopping cart even if disks are failing, network routes are flapping, or data centers are being destroyed by tornados. Therefore, the service responsible for managing shopping carts requires that it can always write to and read from its data store, and that its data needs to be available across multiple data centers. 
 
 
