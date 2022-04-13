@@ -26,9 +26,7 @@ Amazon 运行着世界级别的电子交易平台。在高峰时段，这个平�
 
 > Dealing with failures in an infrastructure comprised of millions of components is our standard mode of operation; there are always a small but significant number of server and network components that are failing at any given time. As such Amazon’s software systems need to be constructed in a manner that treats failure handling as the normal case without impacting availability or performance. 
 
-在一个由百万组件组成的基础设施中处理故障，是我们日常的运作模式。因此，
-
-
+在一个由百万组件组成的基础设施中处理故障，是我们日常的运作模式。在任意给定时间内，总是出现少量但又可观的服务器和网络组件故障，Amazon的软件系统需要被构建成这样的方式，在这种方式中把故障处理视作正常的情况，而不用影响可用性或者性能。（容错性的概念）
 
 > To meet the reliability and scaling needs, Amazon has developed a number of storage technologies, of which the Amazon Simple Storage Service (also available outside of Amazon and known as Amazon S3), is probably the best known. This paper presents the design and implementation of Dynamo, another highly available and scalable distributed data store built for Amazon’s platform. Dynamo is used to manage the state of services that have very high reliability requirements and need tight control over the tradeoffs between availability, consistency, cost-effectiveness and performance. Amazon’s platform has a very diverse set of applications with different storage requirements. A select set of applications requires a storage technology that is flexible enough to let application designers configure their data store appropriately based on these tradeoffs to achieve high availability and guaranteed performance in the most cost effective manner. 
 
