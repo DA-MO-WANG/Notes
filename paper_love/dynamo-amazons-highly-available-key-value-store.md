@@ -58,3 +58,7 @@ Amazon 运行着世界级别的电子交易平台。在高峰时段，这个平�
 
 
 
+> Dynamo uses a synthesis of well known techniques to achieve scalability and availability: Data is partitioned and replicated using consistent hashing [10], and consistency is facilitated by object versioning [12]. The consistency among replicas during updates is maintained by a quorum-like technique and a decentralized replica synchronization protocol. 
+
+
+
