@@ -16,3 +16,6 @@
 
 ### 1. 介绍
 
+> Amazon runs a world-wide e-commerce platform that serves tens of millions customers at peak times using tens of thousands of servers located in many data centers around the world. There are strict operational requirements on Amazon’s platform in terms of performance, reliability and efficiency, and to support continuous growth the platform needs to be highly scalable. Reliability is one of the most important requirements because even the slightest outage has significant financial consequences and impacts customer trust. In addition, to support continuous growth, the platform needs to be highly scalable.
+
+Amazon 运行着世界级别的电子交易平台。在高峰时段，这个平台服务着上亿顾客，通过成千上万台世界各地的数据中心的服务器。就性能、可用性、效率性而言，Amazon平台有一个严格使用指标。为了支持平台不断增长的需要
