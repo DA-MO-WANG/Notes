@@ -261,6 +261,14 @@
 
 4. 生产问题：
 
+   ```sql
+   -- 这样重建索引对不对
+   alter table T drop primary key;
+   alter table T add primary key(id);
+   ```
+
+   
+
 
 
 
