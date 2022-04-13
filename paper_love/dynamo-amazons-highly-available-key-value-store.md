@@ -40,3 +40,17 @@ Amazon 运行着世界级别的电子交易平台。在高峰时段，这个平�
 
 
 
+
+
+> In the past year, Dynamo has been the underlying storage technology for a number of the core services in Amazon’s ecommerce platform. It was able to scale to extreme peak loads efficiently without any downtime during the busy holiday shopping season. For example, the service that maintains shopping cart (Shopping Cart Service) served tens of millions requests that resulted in well over 3 million checkouts in a single day and the service that manages session state handled hundreds of thousands of concurrently active sessions. 
+
+
+
+
+
+
+
+> The main contribution of this work for the research community is the evaluation of how different techniques can be combined to provide a single highly-available system. It demonstrates that an eventually-consistent storage system can be used in production with demanding applications. It also provides insight into the tuning of these techniques to meet the requirements of production systems with very strict performance demands. 
+
+
+
