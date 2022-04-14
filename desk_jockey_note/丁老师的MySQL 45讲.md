@@ -305,6 +305,16 @@ alter table T engine=InnoDB
 
    * 表级锁
 
+     ```sql
+     -- 给表1加读锁，给表2加写锁
+     lock  tables 表1 read , 表2 write
+     -- 主动释放表1的锁
+     unlock tables 表1
+     -- 自动释放：客户端断开
+     ```
+
+     
+
 
 
 评论很多都看不懂，现在顶多看懂一些作者讲的一些东西的一点，下次再说吧，一点一点来
