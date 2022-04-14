@@ -341,7 +341,7 @@ GRANT ALL ON *.* TO '用户名'@'%';
 ALTER TABLE tbl_name WAIT N add column ... 
 ```
 
-
+3. 
 
 
 
