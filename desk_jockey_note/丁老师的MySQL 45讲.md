@@ -278,7 +278,20 @@ alter table T engine=InnoDB
 
 #### 第七课
 
+1. mysql里面的锁，根据加锁的范围，有三类：全局锁、表级锁、行锁
 
+   * 全局锁
+
+     * 对整个数据库加锁，比如加全局读锁
+
+     ```sql
+     -- FTWRL
+     Flush tables with read lock
+     ```
+
+     常用的场景：全库逻辑备份
+
+     
 
 
 
