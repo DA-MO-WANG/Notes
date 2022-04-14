@@ -359,6 +359,12 @@ CMD与ENTRYPOINT
 #这两者都存在，cmd作为entrypoint的参数
 ```
 
+```sql
+#如何在docker中模拟window中两个用户登陆同一个数据库实例
+#在同一个容器id内，开启两个终端
+mysql -h localhost -u 用户名2 -p
+```
+
 
 
 
