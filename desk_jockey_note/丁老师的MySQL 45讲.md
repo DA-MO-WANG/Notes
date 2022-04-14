@@ -324,7 +324,9 @@ alter table T engine=InnoDB
 
 ```sql
 #验证命令
-
+#创建新用户
+create user '用户名'@'%' IDENTIFIED BY '密码';
+GRANT ALL ON *.* TO '用户名'@'%';
 ```
 
 
