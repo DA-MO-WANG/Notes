@@ -335,7 +335,9 @@ GRANT ALL ON *.* TO '用户名'@'%';
      * 是否是热点表，因为热点下，查询很频繁，所以kill不现实，此时可以为了不影响后面的查询请求，可以在ddl中添加获取mdl锁的等待时间
 
 ```sql
-#需要先配置
+#需要先配置sql_yacc.yy语法文件
+#在各ddl语法树根类中添加是否支持nowait标记字段
+#https://www.jianshu.com/p/852d60f767a8
 ALTER TABLE tbl_name WAIT N add column ... 
 ```
 
