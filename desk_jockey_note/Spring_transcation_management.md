@@ -53,5 +53,5 @@ public @interface OrderTx {}//定义了自定义注解的名字
 
 
 
-
+###1.4.7 事务的传播模式
 
