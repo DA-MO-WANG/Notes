@@ -9,3 +9,5 @@
 标准库中的注解，javax.transaction.Transactional 也可以被支持作为一种对Spring自己的注解的替代。
 
 > The ease-of-use afforded by the use of the `@Transactional` annotation is best illustrated with an example, which is explained in the text that follows. Consider the following class definition:
+
+@Transactional 注解的简单使用在下面的例子中被更好地说明。
