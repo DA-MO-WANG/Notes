@@ -27,7 +27,7 @@
 * value 指定使用的事务管理器；也可用transactionManager
 * label ?
 * 传播模式propagation
-* isolation隔离level
+* isolation隔离level : 只用在特定的传播模式下-REQUIRED\REQUIRES_NEW
 * 事务类型
 * 超时时间timeout
 * 触发回滚的异常
