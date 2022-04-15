@@ -50,59 +50,35 @@ Spring继续革新、发展。在Spring框架之外，还有很多[其他项目]
 
 ####Getting Started
 
-## 2 Core
+##2. Core
 
-#### 2.1 <font color= #FF0000>IoC Container</font>
+###2.1 <font color= #FF0000>IoC Container</font>
 
+###
 
-
-#### 2.2 Resources
-
-
-
-#### 2.3 校验、数据绑定、类型转换
+###2.6 Data Binding
 
 
 
-#### 2.4 Spring EL
+###2.9 <font color= #FF0000 > AOP</font>
+
+##3. Testing
 
 
 
-
-
-#### 2.5 <font color= #FF0000 > 基于Spring的面向切面编程</font>
-
-
-
-#### 2.6 Spring AOP APIs
+##4. Data Access
 
 
 
 
 
-#### 2.7 Null- 安全性考虑
-
-
-
-#### 2.8 数据缓存和解码器
+##5. Web Servlet
 
 
 
 
 
-#### 2.9 附录
-
-
-
-
-
-
-
-
-
-
-
-
+##6. Web Reactive
 
 
 
