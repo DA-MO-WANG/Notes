@@ -367,7 +367,13 @@ ALTER TABLE tbl_name WAIT N add column ...
              innodb_lock_wait_timeout
              ```
 
-​					                  
+           * 死锁检测策略
+
+             ```sql
+             innodb_deadlock_detect=on
+             ```
+
+             
 
 
 
