@@ -365,6 +365,7 @@ ALTER TABLE tbl_name WAIT N add column ...
 
              ```sql
              innodb_lock_wait_timeout
+             #超时时间设置多了，等待时间无法接受；超时时间设置太小，容易误伤
              ```
 
            * 死锁检测策略
