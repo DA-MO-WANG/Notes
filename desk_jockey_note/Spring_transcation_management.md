@@ -32,9 +32,7 @@
 * readonly: 读写互斥，只用在特定的传播模式下-REQUIRED\REQUIRES_NEW
 * rollbackFor / rollbackForClassName：引起回滚的异常类型
 * noRollbackFor / noRollbackForClassName：设置什么样的异常类不会引发回滚
-* 事务类型
-* 超时时间timeout
-* 触发回滚的异常
+* 
 
 
 
