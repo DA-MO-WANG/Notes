@@ -15,3 +15,10 @@
 > Used at the class level as above, the annotation indicates a default for all methods of the declaring class (as well as its subclasses). Alternatively, each method can be annotated individually. See [Method visibility and `@Transactional`](https://docs.spring.io/spring-framework/docs/current/reference/html/data-access.html#transaction-declarative-annotations-method-visibility) for further details on which methods Spring considers transactional. Note that a class-level annotation does not apply to ancestor classes up the class hierarchy; in such a scenario, inherited methods need to be locally redeclared in order to participate in a subclass-level annotation.
 
 在Class层次上使用注解，表明了对这个class上所有的方法都应用了注解。当然，也可以单独在每个方法上加注解。当然，父类的事务注解，不意味在子类起作用。
+
+> When a POJO class such as the one above is defined as a bean in a Spring context, you can make the bean instance transactional through an `@EnableTransactionManagement` annotation in a `@Configuration` class. See the [javadoc](https://docs.spring.io/spring-framework/docs/5.3.19/javadoc-api/org/springframework/transaction/annotation/EnableTransactionManagement.html) for full details.
+
+
+
+
+
