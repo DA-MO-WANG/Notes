@@ -1,4 +1,6 @@
-##Spring Framework Overview
+#Spring Framework Document
+
+##1. Overview
 
 > Spring makes it easy to create Java enterprise applications. It provides everything you need to embrace the Java language in an enterprise environment, with support for Groovy and Kotlin as alternative languages on the JVM, and with the flexibility to create many kinds of architectures depending on an application’s needs. As of Spring Framework 5.0, Spring requires JDK 8+ (Java SE 8+) and provides out-of-the-box support for JDK 9 already.
 
@@ -34,7 +36,7 @@ Spring框架也支持依赖注入、常规注解。
 
 Spring继续革新、发展。在Spring框架之外，还有很多[其他项目](https://spring.io/projects)，比如Spring Boot, Spring  Security, String Data, Spring Cloud, Spring Batch。 值得注意的是，每个项目都有自己的源代码仓库、问题链路追踪、发版。
 
-#### Design Philosophy
+##1.3 Design Philosophy
 
 在你了解一门框架的时候，重要的是不仅要知道它能做什么，还要知道它遵循的原则。下面就是Spring框架的遵循的原则：
 
