@@ -57,4 +57,9 @@ public @interface OrderTx {}//定义了自定义注解的名字
 
 在Spring管理的事务中，意识到物理事务和逻辑事务上的不同，以及传播模式的配置是如何区分这种不同的。
 
+> `PROPAGATION_REQUIRED` enforces a physical transaction, either locally for the current scope if no transaction exists yet or participating in an existing 'outer' transaction defined for a larger scope. This is a fine default in common call stack arrangements within the same thread (for example, a service facade that delegates to several repository methods where all the underlying resources have to participate in the service-level transaction).
+
 PROPAGATION_REQUIRED 强制执行了一种物理事务，
+
+
+
