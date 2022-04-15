@@ -78,15 +78,15 @@ Spring继续革新、发展。在Spring框架之外，还有很多[其他项目]
 
 
 
-##6. Web Reactive
+##6. Web Reactive 响应式
 
 
 
+##7. Integration 整合第三方
 
 
 
-
-
+##8. 其他语言的支持
 
 
 
