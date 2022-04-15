@@ -7,3 +7,5 @@
 > The standard `javax.transaction.Transactional` annotation is also supported as a drop-in replacement to Spring’s own annotation. Please refer to JTA 1.2 documentation for more details.
 
 标准库中的注解，javax.transaction.Transactional 也可以被支持作为一种对Spring自己的注解的替代。
+
+> The ease-of-use afforded by the use of the `@Transactional` annotation is best illustrated with an example, which is explained in the text that follows. Consider the following class definition:
