@@ -5,3 +5,5 @@
 除了基于XML的事务配置，你也可以使用基于注解的方式。Java源代码中的事务语义与代码耦合太高，这里并没有过度联系的危险，因为被事务管理的代码可以以任何方式部署。
 
 > The standard `javax.transaction.Transactional` annotation is also supported as a drop-in replacement to Spring’s own annotation. Please refer to JTA 1.2 documentation for more details.
+
+标准库中的注解，javax.transaction.Transactional 也可以被支持作为一种对Spring自己的注解的替代。
