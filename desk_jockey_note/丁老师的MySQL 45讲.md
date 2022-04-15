@@ -343,6 +343,8 @@ ALTER TABLE tbl_name WAIT N add column ...
 
 3. 行锁
    * 行锁概念，是在引擎层实现的。具体并不是所有引擎都支持行锁，比如MyISAM没有行锁概念，InnoDB支持行锁概念。锁的使用主要是应对并发场景问题。
+   * InnoDB里的行锁
+     * 两阶段锁概念
 
 
 
