@@ -57,4 +57,4 @@ public @interface OrderTx {}//定义了自定义注解的名字
 
 在Spring管理的事务中，意识到物理事务和逻辑事务上的不同，以及传播模式的配置是如何区分这种不同的。
 
-PROPAGATION_REQUIRED 执行了一种物理事务，
+PROPAGATION_REQUIRED 强制执行了一种物理事务，
