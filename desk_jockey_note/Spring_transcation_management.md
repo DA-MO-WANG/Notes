@@ -27,5 +27,6 @@
 * 传播模式propagation
 * 隔离level
 * 事务类型
+* 超时时间timeout
 * 
 
