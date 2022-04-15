@@ -43,5 +43,15 @@
 
 （什么场景下使用用户自定义注解）如果你发现你在很多不同方法上，重复使用相同配置的@Transactional，你可以使用Spring 元注解支持的自定义注解。
 
+```java
+//封装思想的体现，一次配置，下次使用时就可以少敲很多键盘
+@Target({ElementType.METHOD,ElementType.TYPE})//ElementType枚举类，指定具体的注解作用的范围，这里是方法、类上
+@Retention(RetentionPolicy.RUNTIME)//保留阶段配置，这里是在运行时保留
+@Transactional(配置)//本次自定义封装的核心
+public @interface OrderTx {}//定义了自定义注解的名字
+```
+
+
+
 
 
