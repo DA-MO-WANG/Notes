@@ -342,7 +342,7 @@ ALTER TABLE tbl_name WAIT N add column ...
 ```
 
 3. 行锁
-   1. 
+   * 行锁概念，是在引擎层实现的。具体并不是所有引擎
 
 
 
