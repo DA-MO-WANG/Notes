@@ -24,7 +24,7 @@
 
 @Transactional 注解是元数据，明确接口、类、方法必须拥有事务语义。配置如下：kv
 
-* value
+* value 指定使用的事务管理器；也可用transactionManager
 * 传播模式propagation
 * 隔离level
 * 事务类型
