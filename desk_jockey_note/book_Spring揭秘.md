@@ -26,4 +26,3 @@ EJB只是一种特定场景下的解决方案之一，没有一种解决方案�
 
 全名Inversion of Control ，这里的control意思就是指bean层面的东西，在inversion之前是用户要什么自己new, 反转之后是容器基于POJO准备好各种bean服务，需要什么给你准备什么。类似好莱坞原则“Don't call us, we will call you”
 
-在实际场景中，
