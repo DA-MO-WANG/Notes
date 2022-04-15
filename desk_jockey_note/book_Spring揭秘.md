@@ -19,3 +19,9 @@ EJB只是一种特定场景下的解决方案之一，没有一种解决方案�
 > 正像Donald J. Trump在How To Get Rich一书中所说 的那样：“Before the dream lifts you into the clouds, make sure look hard at the facts on the ground.”
 >
 > //cloud->很美好的感觉；ground->hard-》cloud是建立在groud之上的，cloud是groud的一部分
+
+
+
+# IoC的基本概念
+
+全名Inversion of Control ，这里的control意思就是指bean的管理
