@@ -372,7 +372,7 @@ ALTER TABLE tbl_name WAIT N add column ...
 
              ```sql
              innodb_deadlock_detect=on
-             #死锁检测本身是需要消耗资源的，如果并发线程数量超过一定数量，每个线程都要检测的链越来越长，整个成本是n方，导致CPU利用率很高
+             #死锁检测本身是需要消耗CPU资源的，如果并发线程数量超过一定数量，每个线程都要检测的链越来越长，整个成本是n方，导致CPU利用率很高
              ```
 
              
