@@ -22,11 +22,14 @@
 
 #### 	事务配置
 
-@Transactional 注解是元数据，明确接口、类、方法必须拥有事务语义。配置如下：
+@Transactional 注解是元数据，明确接口、类、方法必须拥有事务语义。配置如下：kv
 
+* value
 * 传播模式propagation
 * 隔离level
 * 事务类型
 * 超时时间timeout
 * 触发回滚的异常
+
+
 
