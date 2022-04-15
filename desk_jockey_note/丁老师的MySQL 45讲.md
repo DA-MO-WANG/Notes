@@ -385,7 +385,12 @@ ALTER TABLE tbl_name WAIT N add column ...
 4. 实战问题
 
    * 当备库用–single-transaction做逻辑备份的时候，如果从主库的binlog传来一个DDL语句会怎么样？（看不懂）
-   * 
+   * 如果你要删除一个表里面的前10000行数据，有以下三种方法可以做到：你会选择哪一种方法呢？为什么呢？
+     - 第一种，直接执行delete from T limit 10000;
+     - 第二种，在一个连接中循环执行20次 delete from T limit 500;
+     - 第三种，在20个连接中同时执行delete from T limit 500。
+
+
 
 评论很多都看不懂，现在顶多看懂一些作者讲的一些东西的一点，下次再说吧，一点一点来
 
