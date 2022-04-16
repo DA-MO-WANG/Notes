@@ -392,6 +392,8 @@ ALTER TABLE tbl_name WAIT N add column ...
 
 
 
+
+
 评论很多都看不懂，现在顶多看懂一些作者讲的一些东西的一点，下次再说吧，一点一点来
 
 
