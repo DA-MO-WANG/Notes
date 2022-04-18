@@ -396,7 +396,7 @@ ALTER TABLE tbl_name WAIT N add column ...
 
    一行数据都维护着一条版本状态链，每个状态之间依赖回滚日志undo log来变换，状态是按照事务id的顺序来维系的。
 
-   
+   每个事务有一个唯一的事务ID，
 
 
 
