@@ -398,6 +398,8 @@ ALTER TABLE tbl_name WAIT N add column ...
 
    每个事务有一个唯一的事务ID：transaction id, 按照事务产生的顺序分配的。每行数据维护的版本链上的单个节点版本的生成是当有事务来更新数据时产生的。这个版本会根据这个字段记录事务ID-row_trx_id
 
+   可重复读的结论：我这个事务能看到，这条数据版本链上我这个事务id之前的
+
 
 
 ```sql
