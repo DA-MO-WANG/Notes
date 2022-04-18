@@ -390,6 +390,8 @@ ALTER TABLE tbl_name WAIT N add column ...
      - 第二种，在一个连接中循环执行20次 delete from T limit 500;
      - 第三种，在20个连接中同时执行delete from T limit 500。
 
+#### 第八课
+
 
 
 
