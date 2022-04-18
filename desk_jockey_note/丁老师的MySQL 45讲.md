@@ -399,7 +399,7 @@ ALTER TABLE tbl_name WAIT N add column ...
 ```sql
 -- 小技巧
 -- begin/commit并非事务真正启动的语句
--- 事务真正启动
+-- 事务真正启动:开启事务伴随一致性读
 start transaction with consistent snapshot
 ```
 
