@@ -409,7 +409,7 @@ ALTER TABLE tbl_name WAIT N add column ...
     更新操作和只读操作效果不太一样。如果是只读会按照视图逻辑操作，但更新操作是先读后写，这个读是读到的是当前值。读最新的值，版本链上最新的值
 
    ```sql
-   -- 只读语句如果加锁，也能跨越视图逻辑
+   -- 相当于给只读语句加锁，也能跨越视图逻辑
    普通的select语句 + lock in share mode;
    普通的select语句 + for update
    ```
