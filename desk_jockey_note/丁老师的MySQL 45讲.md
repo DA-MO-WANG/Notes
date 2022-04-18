@@ -396,6 +396,17 @@ ALTER TABLE tbl_name WAIT N add column ...
 
 
 
+```sql
+-- 小技巧
+-- begin/commit并非事务真正启动的语句
+-- 事务真正启动
+start transaction with consistent snapshot
+```
+
+
+
+
+
 评论很多都看不懂，现在顶多看懂一些作者讲的一些东西的一点，下次再说吧，一点一点来
 
 
