@@ -414,7 +414,9 @@ ALTER TABLE tbl_name WAIT N add column ...
    普通的select语句 + for update
    ```
 
-   
+   一致性读、当前读、行锁
+
+   事务是否提交，影响的是行锁得没得到释放
 
 
 
