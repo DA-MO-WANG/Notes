@@ -452,7 +452,7 @@ start transaction with consistent snapshot
 
      * change buffer 机制：一种性能优化技巧，更新时值写入IO磁盘不一定同步执行，改为异步。如果要更新的记录所在的数据页在内存中，那没啥好说的，直接在内存更新就行；但万一要更新的数据页没有在内存，也不必立即从磁盘读入数据页，而是把更新操作先记在change buffer中。等待有查询需要时，再把数据页读入内存，然后merge change buffer 和这个数据页相关的东西
 
-       * change buffer也有持久化功能，有一部分会写到磁盘上
+       * change buffer也有持久化功能，有一部分会写到磁盘上（写在系统表空间ibdata）
 
        * merge 过程除了访问数据页会触发，后台线程也会定期merge, 数据库正常关闭也会执行merge
 
