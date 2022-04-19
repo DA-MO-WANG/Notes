@@ -53,7 +53,9 @@ EJB只是一种特定场景下的解决方案之一，没有一种解决方案�
 
 1. IoC容器和IoC service provider 的关系
 
-   IoC容器包含IoC service provider的功能，
+   IoC容器包含IoC service provider的功能，但不仅限于IoC service provider。它还包括支持各种支持比如AOP
+
+   
 
 
 
