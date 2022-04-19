@@ -56,7 +56,11 @@ EJB只是一种特定场景下的解决方案之一，没有一种解决方案�
    IoC容器包含IoC service provider的功能，但不仅限于IoC service provider。它还包括支持各种支持比如AOP
 
 2. Spring IoC容器的类型
-   * BeanFactory
+
+   * BeanFactory：基础原生的情况，只提供基础的IoC服务支持，所以启动速度较快
+
+     
+
    * ApplicationContext
 
 
