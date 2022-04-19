@@ -470,7 +470,7 @@ start transaction with consistent snapshot
 
        * redo log 和  change buffer的区分
 
-         * change_buffer
+         * change_buffer是内存上的东西，更新时只在change buffer记录更新操作就行，查询时需要把旧数据页提到内存，然后更新成新的状态，然后返回到前段；至于磁盘的更新交给redo log；change buffer负责的是在内存层次上对前端的交互；redo log负责的是同一记录的东西对磁盘的更新，面向磁盘的
 
 评论很多都看不懂，现在顶多看懂一些作者讲的一些东西的一点，下次再说吧，一点一点来
 
