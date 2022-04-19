@@ -447,7 +447,7 @@ start transaction with consistent snapshot
        * change buffer也有持久化功能，有一部分会写到磁盘上
        * merge 过程除了访问数据页会触发，后台线程也会定期merge, 数据库正常关闭也会执行merge
        * 什么条件下可以使用change buffer？
-         * 唯一索引会有一次判断，是否违反唯一约束，这个过程必须需要有数据页。所以内存中一定会存在数据页，所以change buffer 变得没必要
+         * 唯一索引会有一次判断，是否违反唯一约束，这个过程必须需要有数据页。所以内存中一定会存在数据页，所以change buffer 变得没必要==》普通索引可以使用 change buffer
          * 
 
 评论很多都看不懂，现在顶多看懂一些作者讲的一些东西的一点，下次再说吧，一点一点来
