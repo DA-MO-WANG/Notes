@@ -59,6 +59,8 @@ EJB只是一种特定场景下的解决方案之一，没有一种解决方案�
 
    * BeanFactory：基础原生的情况，只提供基础的IoC服务支持，所以启动速度较快
 
+     * 默认lazy-load：延迟初始化策略，只有要用到容器中某个受管对象
+
      
 
    * ApplicationContext
