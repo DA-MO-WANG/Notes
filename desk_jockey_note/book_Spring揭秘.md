@@ -41,5 +41,5 @@ EJB只是一种特定场景下的解决方案之一，没有一种解决方案�
 ## IoC Service Provider
 
 1. 几个角色
-   * 业务对象、客户端对象、IoC service provider、被注入对象
+   * 业务对象、客户端对象、IoC service provider、被注入对象、依赖对象
 
