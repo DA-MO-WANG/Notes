@@ -63,7 +63,9 @@ EJB只是一种特定场景下的解决方案之一，没有一种解决方案�
 
      
 
-   * ApplicationContext
+   * ApplicationContext：除了有BeanFactory提供的支持外，还有其他高级特性，而且要求全部初始化并绑定完成，需要更多系统资源，所以启动时间很长
+
+     * 在BeanFactory基础上构建
 
 
 
