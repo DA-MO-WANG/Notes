@@ -466,7 +466,7 @@ start transaction with consistent snapshot
            innodb_change_buffer_max_size 动态设置，为百分比
            ```
 
-         * change buffer 最大的作用就是减少随机磁盘访问，而随机io访问是数据库成本最高的操作之一，多利用change buffer 越能提高性能
+         * change buffer 最大的作用就是减少随机磁盘访问，而随机io访问是数据库成本最高的操作之一，多利用change buffer 越能提高性能==》多用普通索引；写多读少的业务，比如账单日志就可以；而写完之后立即查询的业务就不太适合change buffer模式
 
 评论很多都看不懂，现在顶多看懂一些作者讲的一些东西的一点，下次再说吧，一点一点来
 
