@@ -516,12 +516,9 @@ start transaction with consistent snapshot
 
      * 人工矫正，利用 force index 指定自己选择更高效的索引（缺陷：后续维护成本高）
      * 通过不影响效果的语义，引导mysql 往自己想要的索引上选择： order by b limit 1 与 order by b,a limit 1
+     * 新建一个更合适的索引，或者删掉误用索引
      * 
      * 
-     * 
-     * 
-     * 
-     * 评论很多都看不懂，现在顶多看懂一些作者讲的一些东西的一点，下次再说吧，一点一点来
 
 
 
