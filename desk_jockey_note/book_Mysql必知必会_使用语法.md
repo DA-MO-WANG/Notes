@@ -5,6 +5,8 @@
      use 数据库名;
      -- 显示表的情况
      show tables;
+     -- 展示表的表结构
+     show columns from 具体表;
      ```
 
    * 
