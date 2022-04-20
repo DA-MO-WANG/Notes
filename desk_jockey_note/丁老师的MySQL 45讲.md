@@ -476,7 +476,7 @@ start transaction with consistent snapshot
 
 #### 第10课
 
-1. session A 开启事务后，session B执行 delete 表操作，然后再重新插入10万行数据， 此时explain 查询语句会发现实际执行中使用的索引发生了变化
+1. session A 开启事务后，session B执行 delete 表操作，然后再重新插入10万行数据， 此时explain 查询语句会发现实际执行中使用的索引发生了变化==》场景模型：不断删除历史数据又新增数据，会诱导mysql选错索引
 
    * 选择索引，在实际执行流程中属于优化器阶段==》优化器是如何选择索引的？
 
