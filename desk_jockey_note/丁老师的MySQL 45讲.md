@@ -481,7 +481,14 @@ start transaction with consistent snapshot
    * 选择索引，在实际执行流程中属于优化器阶段==》优化器是如何选择索引的？
 
      * ```sql
-       -- 如何统计慢查询
+       -- 如何统计慢查询语句 ； 如何统计单条sql的执行时间
+       -- 配置慢查询的日志记录的时间阈值参数
+       set long_query_time=0 -- 每条语句都会被记录
+       
+       -- 指定强制索引的语法
+       select * from 表  force index(索引名) where 条件
+       
+       
        ```
 
      * 
