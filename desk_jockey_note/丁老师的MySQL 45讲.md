@@ -517,8 +517,10 @@ start transaction with consistent snapshot
      * 人工矫正，利用 force index 指定自己选择更高效的索引（缺陷：后续维护成本高）
      * 通过不影响效果的语义，引导mysql 往自己想要的索引上选择： order by b limit 1 与 order by b,a limit 1
      * 新建一个更合适的索引，或者删掉误用索引
-     * 
-     * 
+
+   2. 为什么大表新增索引很慢，删除索引很快？
+
+      因为删除的时候是标记删除，而建索引需要扫描数据，生成索引树
 
 
 
