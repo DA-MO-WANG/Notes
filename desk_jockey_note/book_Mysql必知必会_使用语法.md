@@ -22,5 +22,6 @@
        * order by 与 limit 组合会产生top函数的效果
    * 筛选语句
      * 等值查询
+       * NULL的特殊性：不等查询时，不包括null
      * 范围查询
        * 字段名  between 值1  and 值2
