@@ -76,5 +76,8 @@ EJB只是一种特定场景下的解决方案之一，没有一种解决方案�
 * 
   * 硬编码方式
     * BeanFactory 是总管理bean的总容器。DefaultListableBeanFactory是具体实现类；BeanDefinitionRegistry是抽象出来的管理注册与依赖的逻辑接口；BeanDefinition是保存被注入对象的各种信息
+    * 注册逻辑就是设置kv对，k是bean的名字，v是beandefinition类
+  * 外部xml配置方式
+    * 
 
 ​	
