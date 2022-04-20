@@ -477,7 +477,7 @@ start transaction with consistent snapshot
 #### 第10课
 
 1. session A 开启事务后，session B执行 delete 表操作，然后再重新插入10万行数据， 此时explain 查询语句会发现实际执行中使用的索引发生了变化
-   * 
+   * 选择索引，在实际执行流程中属于优化器阶段
 
 评论很多都看不懂，现在顶多看懂一些作者讲的一些东西的一点，下次再说吧，一点一点来
 
