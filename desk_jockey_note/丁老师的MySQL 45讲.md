@@ -560,7 +560,7 @@ start transaction with consistent snapshot
              -- 预先设定一个可以接受的损失比r%, 选取结果的策略也可以是>= 不重复总量* （1 - r）
              ```
 
-           * 
+         * 劣势2：对覆盖索引的影响
 
 
 
