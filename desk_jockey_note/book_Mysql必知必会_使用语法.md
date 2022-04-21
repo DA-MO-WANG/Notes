@@ -45,5 +45,5 @@
      * Date()、Time()、Year()
      * 数值函数
    * 汇总函数
-     * avg()
-     * 
+     * avg()：忽略null
+     * count()：如果是*，包含null; count(具体字段) 不包含null
