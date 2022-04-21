@@ -530,14 +530,18 @@ start transaction with consistent snapshot
 
    * email字段不加索引：走全表扫描，从一个数据页到另一个数据页
 
-   * email 全字段索引
-
    * email 前缀索引：拿email字段的一部分作为索引树节点的key
 
      * ```sql
+       -- 不指定长度
+       alter table 表名  add index 索引名(索引字段);
+       -- 指定长度的前缀索引
+       alter table 表名  add index 索引名(索引字段(长度值));
        ```
 
-     * 
+     * email 全字段索引 与 前缀索引，在查询过程中有什么不同？
+
+       * 
 
 
 
