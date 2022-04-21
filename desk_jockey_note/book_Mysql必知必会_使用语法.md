@@ -47,3 +47,5 @@
    * 汇总函数
      * avg()：忽略null
      * count()：如果是*，包含null; count(具体字段) 不包含null
+     * max()、min()
+     * sum()
