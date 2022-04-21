@@ -564,7 +564,8 @@ start transaction with consistent snapshot
 
    * 结构区分度不够好的业务字段：比如身份证号场景，此时不再合适用前缀索引，此时关于索引建立，有什么思路？
 
-     * 
+     * 倒序存储，避开区分度不够好的部分
+     * 使用hash字段
 
 
 
