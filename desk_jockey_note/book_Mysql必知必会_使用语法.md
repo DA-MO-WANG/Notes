@@ -80,4 +80,7 @@
      关键2:联结的条件是什么
      ```
 
-   * 外部联结：outer join 指定
+   * 外部联结：outer join 指定联结的方向
+
+     * left join  从左边的表的每一行开始，去匹配
+     * right join
