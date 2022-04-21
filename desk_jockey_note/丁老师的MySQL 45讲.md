@@ -524,3 +524,12 @@ start transaction with consistent snapshot
 
 
 
+#### 第10课 给字符串字段加索引
+
+1. 邮箱登录场景的表，如何给email字段加索引？有什么思路？
+   * email字段不加索引：走全表扫描，从一个数据页到另一个数据页
+   * email 全字段索引
+   * email 前缀索引
+
+
+
