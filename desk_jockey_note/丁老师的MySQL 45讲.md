@@ -557,7 +557,7 @@ start transaction with consistent snapshot
              	count(distinct left(email,x3)) as y3,
              	count(distinct left(email,x4)) as y4
              from 表;
-             -- 预先设定一个可以接受的sun shi
+             -- 预先设定一个可以接受的损失比r%, 选取结果的策略也可以是>= 不重复总量* （1 - r）
              ```
 
            * 
