@@ -42,4 +42,5 @@
    * 文本处理函数
      * Upper()
      * soundex()：发音比较，只要相似就认为匹配
-     * Date()
+     * Date()、Time()、Year()
+     * 数值函数
