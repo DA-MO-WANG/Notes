@@ -542,9 +542,25 @@ start transaction with consistent snapshot
      * email 全字段索引 与 前缀索引，在查询过程中有什么不同？
 
        * 前缀的索引的优劣
+
          * 优势：节省空间：因为只取前几个字节，所以占用空间会更小
+
          * 劣势：因为缩小了查询条件，放大了检索范围，会增加额外记录扫描次数
-           * 问题：使用前缀索引，挑战在如何定义合适的长度？在空间成本和额外查询次数之间做好平衡==》思路：统计不同长度下不同值
+
+           * 问题：使用前缀索引，挑战在如何定义合适的长度？在空间成本和额外查询次数之间做好平衡==》思路：统计不同长度下不同值的变化情况，找到变化开始平缓的点
+
+           * ```sql
+             -- 不断调整被窃取的长度作为变量x，返回值作为结果y,y变化趋于平滑时的x就是要查找的长度
+             select 
+             	count(distinct left(email,x1)) as y1,
+             	count(distinct left(email,x2)) as y2,
+             	count(distinct left(email,x3)) as y3,
+             	count(distinct left(email,x4)) as y4
+             from 表;
+             -- 预先设定一个可以接受的sun shi
+             ```
+
+           * 
 
 
 
