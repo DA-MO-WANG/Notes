@@ -99,6 +99,7 @@ EJB只是一种特定场景下的解决方案之一，没有一种解决方案�
 
 ​		![image-20220421160605379](book_Spring揭秘.assets/image-20220421160605379.png)
 
-*  容器启动阶段：对象管理信息的收集
+*  容器启动阶段：根据图纸装配生产线
   * 加载对象生产设计图，比如xml图纸，容器利用BedefinitionReader工具类加载xml图纸，解析，把解析后的信息封装到 用来保留对象信息的BeanDefinition类中，最后把其注册到管理对象注册的BeanDefinitionRegistry上。
+* Bean实例化阶段:
 
