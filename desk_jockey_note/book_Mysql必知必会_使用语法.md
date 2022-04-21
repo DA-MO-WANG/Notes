@@ -49,3 +49,6 @@
      * count()：如果是*，包含null; count(具体字段) 不包含null
      * max()、min()
      * sum()
+   * 组合用途
+     * avg(distinct columin)
+     * 
