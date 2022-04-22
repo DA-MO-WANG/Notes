@@ -581,5 +581,9 @@ start transaction with consistent snapshot
 
    都针对的是内存页，当内存中数据页与磁盘中的不一致，就称这时的内存页为脏页；反正，就是干净页
 
+2. 刷脏页flush过程
+
+   * 
+
 
 
