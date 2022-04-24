@@ -583,9 +583,12 @@ start transaction with consistent snapshot
 
 2. 刷脏页flush过程
 
-   * 什么样的条件会触发flush？
+   * 什么样的条件会触发flush？分析每种情况对业务性能的影响
      * 情况一：redo 日志没有空间了，满了，这个时候为了响应更新操作，就得把一部分日志flush到磁盘，腾出一部分空间：checkpoint往前推进，此时[write-pos,checkpoint] 就是待写的空间
      * 情况二：系统内存开始不足，就得清理下一部分空间来为新请求腾出地方
+       * 这种情况涉及
+     * 情况三：Mysql认为系统空闲时，会更新账本
+     * 情况四：Mysql正常关闭前，会把内存脏页flush到磁盘上。
 
 
 
