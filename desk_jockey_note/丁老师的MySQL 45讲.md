@@ -599,7 +599,7 @@ start transaction with consistent snapshot
            fio -filename=$filename -direct=1 -iodepth 1 -thread -rw=randrw -ioengine=psync -bs=16k -size=500M -numjobs=10 -runtime=10 -group_reporting -name=mytest 
            ```
 
-           
+         * 
 
      * 情况三：Mysql认为系统空闲时，会更新账本
 
