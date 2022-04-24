@@ -584,12 +584,25 @@ start transaction with consistent snapshot
 2. 刷脏页flush过程
 
    * 什么样的条件会触发flush？分析每种情况对业务性能的影响
+
      * 情况一：redo 日志没有空间了，满了，这个时候为了响应更新操作，就得把一部分日志flush到磁盘，腾出一部分空间：checkpoint往前推进，此时[write-pos,checkpoint] 就是待写的空间
+
      * 情况二：系统内存开始不足，就得清理下一部分空间来为新请求腾出地方
+
        * 这种情况涉及InnoDB缓冲池机制，如果查询涉及淘汰脏页过多，脏页刷磁盘占用时间就会长，对查询响应时间有很大影响，所以要控制脏页比例
+
        * 控制脏页的策略：
-         * 先告诉I
+
+         * 先告诉InnoDB 磁盘的IO能力，也就是innodb_io_capacity参数的值；而磁盘的io能力可以从fio工具测得
+
+           ```sql
+           fio -filename=$filename -direct=1 -iodepth 1 -thread -rw=randrw -ioengine=psync -bs=16k -size=500M -numjobs=10 -runtime=10 -group_reporting -name=mytest 
+           ```
+
+           
+
      * 情况三：Mysql认为系统空闲时，会更新账本
+
      * 情况四：Mysql正常关闭前，会把内存脏页flush到磁盘上。
 
 
