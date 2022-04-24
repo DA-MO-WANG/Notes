@@ -585,7 +585,7 @@ start transaction with consistent snapshot
 
    * 什么样的条件会触发flush？
      * 情况一：redo 日志没有空间了，满了，这个时候为了响应更新操作，就得把一部分日志flush到磁盘，腾出一部分空间：checkpoint往前推进，此时[write-pos,checkpoint] 就是待写的空间
-     * 情况二：
+     * 情况二：系统内存开始不足，就得清理下一部分空间来为新请求腾出地方
 
 
 
