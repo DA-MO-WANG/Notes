@@ -607,7 +607,7 @@ start transaction with consistent snapshot
            select @a/@b;
            ```
 
-           
+         * 脏页连坐机制：BSD机械硬盘时代，这种机制可以减少很多随机IO, 但SSD时代本身IOPS不再是瓶颈，所以
 
      * 情况三：Mysql认为系统空闲时，会更新账本
 
