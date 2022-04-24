@@ -599,9 +599,12 @@ start transaction with consistent snapshot
            fio -filename=$filename -direct=1 -iodepth 1 -thread -rw=randrw -ioengine=psync -bs=16k -size=500M -numjobs=10 -runtime=10 -group_reporting -name=mytest 
            ```
 
-         * 多关注脏页比例
+         * 多关注脏页比例Innodb_buffer_pool_pages_dirty/Innodb_buffer_pool_pages_total，不要经常接近75%
 
            ```sql
+           mysql> select VARIABLE_VALUE into @a from global_status where VARIABLE_NAME = 'Innodb_buffer_pool_pages_dirty';
+           select VARIABLE_VALUE into @b from global_status where VARIABLE_NAME = 'Innodb_buffer_pool_pages_total';
+           select @a/@b;
            ```
 
            
