@@ -312,9 +312,9 @@ rdt2.0 可能看起来起作用，但是不幸的是它有一个致命的错误�
 * 另一种可能性是增加足够的checksum 位串来让发送者不仅能侦查，还能从bit error中恢复。这个方式解决了channel的紧急问题，也就是可以篡改packets，但不能丢失他们。
 * 第三种方式是当收到一个混淆的ACK/NAK packet时，sender 只能重发当前的data。这种方式在sender-receiver channel中引入了重复的packet. 重复包的根本问题是 receiver 根本不知道它上一次发送的ACK/NAK是否是正确的。因此，它不可能区分一个到来的packet到底是new data 还是重发的data。
 
-对这个新问题的一个简单解决方式就是增加一个新字段，通过使用sequence number 来给da ta packet编号。接收者只需要检查 sequence number 来决定收到的packet到底是不是重发的。对于stop-and-wait协议，1 bit的sequence number 就足够了来区分。
+对这个新问题的一个简单解决方式就是增加一个新字段，通过使用sequence number 来给da ta packet编号。接收者只需要检查 sequence number 来决定收到的packet到底是不是重发的。对于stop-and-wait协议，1 bit的sequence number 就足够了来区分到底发的是new data 还是重发data。
 
-
+图3.11 、3.12 展示了基于2.1的FSM。
 
 
 
