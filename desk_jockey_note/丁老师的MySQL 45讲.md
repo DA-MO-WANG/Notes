@@ -644,9 +644,11 @@ start transaction with consistent snapshot
       gh-ost工具来做，针对大表的安全操作
       ```
 
-* online 和 inplace的区别
+* online 和 inplace的区别（！！！不懂）
 
-* 
+
+
+#### 第15课 cont(*)
 
 
 
