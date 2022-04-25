@@ -639,6 +639,9 @@ start transaction with consistent snapshot
     * ```sql
       -- 重建表
       alter table A engine=InnoDB
+      
+      -- online ddl
+      gh-ost工具来做，针对大表的安全操作
       ```
 
     * 
