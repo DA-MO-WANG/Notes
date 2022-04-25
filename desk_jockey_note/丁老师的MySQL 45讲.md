@@ -632,7 +632,16 @@ start transaction with consistent snapshot
 
 * ”空洞“理论
 
-  * 这些可以被复用的空间，但没有用到被称为空洞。
+  * 这些可以被复用的空间，但没有用到被称为空洞。删除和插入都会可能造成空洞
+
+  * 去掉空洞，压缩表空间的思路？
+
+    * ```sql
+      -- 重建表
+      alter table A engine=InnoDB
+      ```
+
+    * 
 
 
 
