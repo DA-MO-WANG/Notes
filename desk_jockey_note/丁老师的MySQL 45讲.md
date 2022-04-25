@@ -632,7 +632,7 @@ start transaction with consistent snapshot
 
 * ”空洞“理论
 
-  * 
+  * 这些可以被复用的空间，但没有用到被称为空洞。
 
 
 
