@@ -310,7 +310,9 @@ rdt2.0 可能看起来起作用，但是不幸的是它有一个致命的错误�
 
 * 第一种可能性：考虑人在一个口授场景中可能会做什么。如果一个说话人无法理解接收者的“ok“或者“请重复一下“，speaker可能会问“你刚说了什么?“接收者可能会重复这个回复。但是当speaker 说的"你刚才说什么？"也被篡改了呢？接收者根本不知道这是不是混淆的，当然这个回复也让变得歪曲。显而易见，我们陷入了一个艰难的路径。
 * 另一种可能性是增加足够的checksum 位串来让发送者不仅能侦查，还能从bit error中恢复。这个方式解决了channel的紧急问题，也就是可以篡改packets，但不能丢失他们。
-* 第三种方式是当收到一个混淆的ACK/NAK packet时，sender 只能重发当前的data。这种方式在sender-receiver channel中引入了重复的packet. 重复包的根本问题是 receiver 根本不知道
+* 第三种方式是当收到一个混淆的ACK/NAK packet时，sender 只能重发当前的data。这种方式在sender-receiver channel中引入了重复的packet. 重复包的根本问题是 receiver 根本不知道它上一次发送的ACK/NAK是否是正确的。因此，它不可能区分一个到来的packet到底是new data 还是重发的data。
+
+对这个新问题的一个简单解决方式就是增加一个新字段，通过使用sequence number 来给da ta packet编号。
 
 
 
