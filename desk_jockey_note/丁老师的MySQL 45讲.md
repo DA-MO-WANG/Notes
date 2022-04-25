@@ -629,6 +629,9 @@ start transaction with consistent snapshot
 
   * 记录的delete，就是把这个记录标记为删除，然后位置可以被复用（有相对位置限制）
   * 数据页的delete，数据页本身也可以被复用，任何需要新页的时候都可以被复用（没有相对位置限制）
+
+* ”空洞“理论
+
   * 
 
 
