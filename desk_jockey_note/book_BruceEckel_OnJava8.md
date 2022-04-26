@@ -26,4 +26,4 @@ Exceptions 能减轻错误处理代码的复杂度。不用exceptions, 你就必
 
 #### Basic Exceptions
 
-一个例外的情况就是这样的问题，阻止当前方法或者作用域往下走。区分exceptional problem 和 normal problem 很重要
+一个例外的情况就是这样的问题，阻止当前方法或者作用域往下走。区分exceptional problem 和 normal problem 很重要。normal problem 就是你在当前上下文环境中有足够的信息来处理问题；exceptional problem 就是你在当前上下文中，没有解决这个问题所需要的足够的信息。你能做的就是跳出当前环境，把这个问题提交到更高cen c
