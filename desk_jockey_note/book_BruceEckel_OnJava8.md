@@ -26,3 +26,4 @@ Exceptions 能减轻错误处理代码的复杂度。不用exceptions, 你就必
 
 #### Basic Exceptions
 
+一个例外的情况就是这样的问题，阻止当前方法或者作用域往下走。区分exceptional problem 和 normal problem 很重要
