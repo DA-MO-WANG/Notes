@@ -43,6 +43,11 @@ else express3 end
 case when 条件1 then express1
 		 when 条件2 then express2
 else express3 
+
+-- join操作
+inner join 只展示两个表的交集部分，也就是匹配条件成立的部分
+left join 以左边每行记录为准，去找右边匹配的部分，找不到的用null代替
+right join 以右边每行记录为准，同理
 ```
 
 
