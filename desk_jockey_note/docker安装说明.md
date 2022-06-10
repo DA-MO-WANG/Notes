@@ -368,7 +368,10 @@ mysql -h localhost -u 用户名2 -p
 ```sql
 #如何在docker内开启一个mysql
 docker pull mysql:指定版本号
-docker run 
+docker run --name mysql容器别名 -e MYSQL_ROOT_PASSWORD=密码 -p 3307:3306 -d mysql:镜像对应版本号
+docker exec -it 容器名 /bin/sh
+mysql -u root -p
+(输入密码)
 ```
 
 
