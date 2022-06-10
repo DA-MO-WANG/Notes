@@ -365,6 +365,12 @@ CMD与ENTRYPOINT
 mysql -h localhost -u 用户名2 -p
 ```
 
+```sql
+#如何在docker内开启一个mysql
+docker pull mysql:指定版本号
+docker run 
+```
+
 
 
 
