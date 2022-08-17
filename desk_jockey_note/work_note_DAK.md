@@ -77,6 +77,6 @@ logger.info(用占位符{},逗号，参数来构建)
   //切换到指定的本地开发分支
   git checkout XXX
 //拉取远程最新分支代码
-  git 
+  git fetch origin XXX
 ```
 
