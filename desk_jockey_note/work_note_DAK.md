@@ -70,13 +70,24 @@ logger.info(用占位符{},逗号，参数来构建)
 
 ```java
 //git开发流程多场景
-//一个新需求
+//1.一个新需求
 //先确定是不是本地分支
 	//本地分支列表
 	git branch 
   //切换到指定的本地开发分支
   git checkout XXX
-//拉取远程最新分支代码
+	//拉取远程最新分支代码
   git fetch origin XXX
+  //手动处理冲突
+  //推送到远程上(默认推到同名分支上)
+  git push origin 
+//2.如何回滚到上次提交
+   //拿到想要回滚到的目标状态 commit id
+   //本地切换到指定的本地分支
+   //把本地分支回滚到指定的commit状态
+    git reset --hard commit_id
+   //推送到远程
+    git push origin 
+  
 ```
 
