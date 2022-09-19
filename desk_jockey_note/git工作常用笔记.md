@@ -155,3 +155,10 @@ git shortlog -sn #查看所有人的commit数
 git branch -r #查看远程分支列表
 ```
 
+
+
+```sql
+#修改分支名称：本地、远程
+git 
+```
+
