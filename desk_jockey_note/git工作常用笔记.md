@@ -159,7 +159,7 @@ git branch -r #查看远程分支列表
 
 ```sql
 #修改分支名称：本地、远程
-git checkout ? #先切换到要修改的本地分支
+git checkout old_branch_name #先切换到要修改的本地分支
 git branch -m new_branch_name #改变本地分支名称
 git push origin:old_reomote_branch_name new_branch_name #把本地更新过后的分支推到远程
 git push origin -u new_branch_name #把更新新的上游分支
