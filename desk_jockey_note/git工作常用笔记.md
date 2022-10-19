@@ -165,3 +165,10 @@ git push origin:old_reomote_branch_name new_branch_name #把本地更新过后�
 git push origin -u new_branch_name #把更新新的上游分支
 ```
 
+```sql
+#开发新需求
+拉取develope 分支代码 #基于develope 开新分支 
+git checkout -b 新分支名 #基于当前分支创建新分支，并切换到新分支
+git push -u origin 新分支名 #把当前分支推送到
+```
+
